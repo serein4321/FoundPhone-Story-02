@@ -1,699 +1,628 @@
 {
   "scriptVersion": 1,
-  "id": "ui-test-phone-v2",
-  "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 2,
+  "id": "mayday-after-we-meet",
+  "title": "後會友期：我們沒有好好告別",
+  "description": "【平行世界虛構故事】陳信宏與溫尚翊自高中相戀，後因人生選擇及婚姻而分開，仍是彼此最熟悉的人。在十八天的舊友旅行裡，一支遺失的手機留下了他們未說出口的話。本作非真實人物私生活記錄，亦非節目官方作品。第一章試玩版。",
+  "revision": 3,
   "phone": {
-    "owner": "机主",
-    "date": "2026-10-25",
-    "time": "09:41",
-    "battery": 94,
+    "owner": "陳信宏",
+    "date": "2026-11-02",
+    "time": "22:19",
+    "battery": 76,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "wallpaper": "sage",
+    "theme": "light",
+    "notifications": true
   },
   "installedApps": [
-    "appstore",
     {
-      "id": "wechat",
-      "name": "微信",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
-    {
-      "id": "douyin",
-      "name": "抖音",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
-    "phone",
-    "messages",
-    "contacts",
-    "photos",
-    {
-      "id": "camera",
-      "name": "相机",
+      "id": "phone",
+      "name": "電話",
       "installed": true,
       "visible": true,
       "dock": true,
       "folder": "",
       "icon": ""
     },
-    "safari",
+    {
+      "id": "kakao",
+      "name": "KakaoTalk",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "wechat",
+      "name": "微信",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "camera",
+      "name": "相機",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    "photos",
     "notes",
     "calendar",
     "mail",
-    "clock",
-    "reminders",
+    "contacts",
     "files",
+    "reminders",
+    "messages",
     "music",
-    "maps",
-    "weather",
-    "wallet",
-    "health",
-    "find",
-    "calculator",
+    "safari",
     "settings",
-    "qq",
-    "weibo",
-    "redbook",
-    "bilibili",
-    "alipay",
-    "taobao",
-    "netease",
-    "delivery",
-    "forum",
-    "whatsapp",
-    "instagram",
-    "tiktok",
-    "twitter",
-    "telegram",
-    "discord",
-    "youtube",
-    "line",
-    "snapchat",
-    "facebook",
-    "messenger",
-    "reddit",
-    "spotify",
-    "netflix",
-    "pinterest",
-    "threads",
-    "kakao"
+    "appstore"
   ],
   "contacts": [
     {
-      "id": "test-contact",
-      "name": "测试联系人",
+      "id": "ayi",
+      "name": "阿翊",
       "phone": "",
-      "bio": "这是一条测试内容。"
+      "avatar": "",
+      "bio": "溫尚翊。從高中到現在，最熟悉也最難開口的人。"
+    },
+    {
+      "id": "masa",
+      "name": "瑪莎",
+      "phone": "",
+      "avatar": "",
+      "bio": "五月天團員。嘴上吐槽，實際上總是看得最透。"
+    },
+    {
+      "id": "stone",
+      "name": "石頭",
+      "phone": "",
+      "avatar": "",
+      "bio": "五月天團員。溫柔又善於觀察。"
+    },
+    {
+      "id": "guanyou",
+      "name": "冠佑",
+      "phone": "",
+      "avatar": "",
+      "bio": "五月天團員。一直努力維持大家的平衡。"
+    },
+    {
+      "id": "producer",
+      "name": "節目組｜小周",
+      "phone": "",
+      "avatar": "",
+      "bio": "《後會友期》架空節目企劃聯絡人。"
     }
   ],
   "chats": [
     {
-      "id": "test-chat-messages",
-      "app": "messages",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-wechat",
-      "app": "wechat",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-wechat",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-qq",
-      "app": "qq",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-qq",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-whatsapp",
-      "app": "whatsapp",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-whatsapp",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-telegram",
-      "app": "telegram",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-telegram",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-discord",
-      "app": "discord",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-discord",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-line",
-      "app": "line",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-line",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-messenger",
-      "app": "messenger",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messenger",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-kakao",
+      "id": "chat-ayi-kkt",
       "app": "kakao",
-      "title": "测试会话",
+      "title": "阿翊",
       "participants": [
         "owner",
-        "test-contact"
+        "ayi"
       ],
       "messages": [
         {
-          "id": "test-message-kakao",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
+          "id": "ayi-001",
+          "body": "你真的有答應去錄那個節目喔？",
+          "senderId": "ayi",
+          "time": "2026-11-02 18:31"
         },
         {
-          "id": "test-reply-kakao",
-          "body": "这是一条测试回复。",
-          "senderId": "owner"
+          "id": "ayi-002",
+          "body": "我們不是每天都見面嗎",
+          "senderId": "ayi",
+          "time": "2026-11-02 18:32"
+        },
+        {
+          "id": "ayi-003",
+          "body": "每天見面，跟有沒有好好說話，是兩回事吧。",
+          "senderId": "owner",
+          "time": "2026-11-02 18:34"
+        },
+        {
+          "id": "ayi-004",
+          "body": "……",
+          "senderId": "ayi",
+          "time": "2026-11-02 18:37"
+        },
+        {
+          "id": "ayi-005",
+          "body": "你又沒吃晚餐？今天彩排就看你在喝咖啡。",
+          "senderId": "ayi",
+          "time": "2026-11-02 21:48"
+        },
+        {
+          "id": "ayi-006",
+          "body": "怪獸哥，節目還沒開始你就要管我喔 😗",
+          "senderId": "owner",
+          "time": "2026-11-02 21:50"
+        },
+        {
+          "id": "ayi-007",
+          "body": "我只是怕你胃痛。明天車站見。",
+          "senderId": "ayi",
+          "time": "2026-11-02 21:52"
+        },
+        {
+          "id": "ayi-008",
+          "body": "嗯。明天見，阿翊。",
+          "senderId": "owner",
+          "time": "2026-11-02 21:54"
+        }
+      ]
+    },
+    {
+      "id": "chat-band-wx",
+      "app": "wechat",
+      "title": "五月天｜不准再熬夜",
+      "participants": [
+        "owner",
+        "ayi",
+        "masa",
+        "stone",
+        "guanyou"
+      ],
+      "messages": [
+        {
+          "id": "band-001",
+          "body": "聽說你們明天要去旅行了？誰會先想回家啊",
+          "senderId": "masa",
+          "time": "2026-11-02 19:03"
+        },
+        {
+          "id": "band-002",
+          "body": "我猜是怪獸。",
+          "senderId": "guanyou",
+          "time": "2026-11-02 19:05"
+        },
+        {
+          "id": "band-003",
+          "body": "你們不要一直虧啦。",
+          "senderId": "ayi",
+          "time": "2026-11-02 19:06"
+        },
+        {
+          "id": "band-004",
+          "body": "阿信記得帶外套，聽說那邊很冷。",
+          "senderId": "stone",
+          "time": "2026-11-02 19:09"
+        },
+        {
+          "id": "band-005",
+          "body": "收到收到～大家都比節目組還像節目組 😂",
+          "senderId": "owner",
+          "time": "2026-11-02 19:11"
+        },
+        {
+          "id": "band-006",
+          "body": "認真說，這次不用急著把話講漂亮。",
+          "senderId": "masa",
+          "time": "2026-11-02 19:13"
+        },
+        {
+          "id": "band-007",
+          "body": "嗯，我知道。",
+          "senderId": "owner",
+          "time": "2026-11-02 19:16"
+        }
+      ]
+    },
+    {
+      "id": "chat-producer-wx",
+      "app": "wechat",
+      "title": "節目組｜小周",
+      "participants": [
+        "owner",
+        "producer"
+      ],
+      "messages": [
+        {
+          "id": "prod-001",
+          "body": "信宏老師您好，提醒您明天 07:30 集合。第一天的任務卡已寄至信箱。",
+          "senderId": "producer",
+          "time": "2026-11-02 17:14"
+        },
+        {
+          "id": "prod-002",
+          "body": "這次旅程不要求任何一組一定和好；願意重新理解對方，或好好告別，都可以。",
+          "senderId": "producer",
+          "time": "2026-11-02 17:16"
+        },
+        {
+          "id": "prod-003",
+          "body": "謝謝，我會準時到。",
+          "senderId": "owner",
+          "time": "2026-11-02 17:18"
+        }
+      ]
+    },
+    {
+      "id": "chat-band-kkt",
+      "app": "kakao",
+      "title": "瑪莎",
+      "participants": [
+        "owner",
+        "masa"
+      ],
+      "messages": [
+        {
+          "id": "masa-001",
+          "body": "欸，真的要去喔。",
+          "senderId": "masa",
+          "time": "2026-11-02 22:02"
+        },
+        {
+          "id": "masa-002",
+          "body": "你們兩個不是不知道怎麼說話，是太知道要怎麼假裝沒事了。",
+          "senderId": "masa",
+          "time": "2026-11-02 22:03"
+        },
+        {
+          "id": "masa-003",
+          "body": "蔡昇晏你今天很會講欸。",
+          "senderId": "owner",
+          "time": "2026-11-02 22:05"
+        },
+        {
+          "id": "masa-004",
+          "body": "少來。去把那封信讀完啦。",
+          "senderId": "masa",
+          "time": "2026-11-02 22:06"
         }
       ]
     }
   ],
   "content": {
-    "phone": [
+    "mail": [
       {
-        "id": "test-item-phone",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "contacts": [
-      {
-        "id": "test-item-contacts",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "photos": [
-      {
-        "id": "test-item-photos",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "camera": [
-      {
-        "id": "test-item-camera",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "safari": [
-      {
-        "id": "test-item-safari",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "invite-letter",
+        "title": "《後會友期》｜出發邀請函",
+        "body": "陳信宏先生您好：\n\n請帶上一位明明還在身邊，卻已經很久沒有好好交談的人。你們將與另外三組舊友一起展開 18 天的旅行。\n\n本季設定：和解不等於恢復從前；達成共識可以提前下車，也可以選擇走完全程、重新建立距離，或好好告別。若有組別下車，將由新旅伴補位。\n\n請回答：如果要和一個人重新認識，你第一個想到誰？\n\n您在報名表裡寫下的是：溫尚翊。\n\n（架空節目組信件，非真實邀約。）",
+        "time": "2026-11-02 15:30",
+        "sender": "節目組｜小周"
       }
     ],
     "notes": [
       {
-        "id": "test-item-notes",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "note-day1",
+        "title": "DAY 01｜出發前的規則",
+        "body": "11月3日 07:30 集合\n四組舊友，18天旅程。\n今日任務：各寫一封介紹信，不准談工作，寫出你真正記得的對方。\n\n可以提前下車；和好、道歉、拒絕和解或告別都不是輸贏。\n\n阿翊的名字寫得太順了。比我自己的名字還順。\n\n提示：看完這份規則，請再去看看相簿。",
+        "time": "2026-11-02 20:10",
+        "folder": "節目記錄",
+        "hidden": true
+      },
+      {
+        "id": "note-draft",
+        "title": "沒有寄出去的話",
+        "body": "阿翊：\n\n我知道你現在有自己的生活，也知道有些話不應該再用從前的身份說。\n\n可是每次你提醒我吃飯，我還是會想起高中那個陪我走回家的人。\n\n我沒有在等你回頭。我只是一直不知道，該怎麼好好跟那個時候的我們說再見。\n\n這趟旅程，我想試著說一次實話。",
+        "time": "2026-11-02 22:17",
+        "folder": "私人",
+        "hidden": true
+      },
+      {
+        "id": "note-bag",
+        "title": "行李清單",
+        "body": "保暖衣物、耳機、護唇膏、手帳、小藥盒。\n別把工作帶上車。\n\n阿翊不喜歡太甜的飲料，我卻總是忘了自己不愛喝熱水。",
+        "time": "2026-11-02 16:40",
+        "folder": "日常"
+      },
+      {
+        "id": "note-world",
+        "title": "故事說明｜平行世界",
+        "body": "這是一部架空的互動手機小說，包含虛構的戀愛、婚姻與節目旅程，並非真實人物的聊天紀錄或私人生活。\n\n第一章可探索節目邀請函、KakaoTalk、微信、備忘錄與照片記錄。完成第一章的選擇後，後續 17 天劇情將逐步加入。",
+        "time": "2026-11-02 09:00",
+        "folder": "說明"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-old",
+        "title": "高中時的兩個人｜相簿記錄",
+        "body": "【圖片待補】一本舊手帳裡夾著的高中合照：兩個還不知道未來會走到哪裡的少年，站得很近。\n\n照片背面是一行字：『放學一起走。』\n\n手機目前僅使用文字佔位，不含未經授權的真實人物照片。",
+        "time": "2026-11-02 21:20",
+        "folder": "以前",
+        "hidden": true
+      },
+      {
+        "id": "photo-platform",
+        "title": "車站月台｜行前照片記錄",
+        "body": "【圖片待補】列車外一排排靠窗的座位。節目組還沒有公布座位表；陳信宏卻知道溫尚翊會選哪一邊。",
+        "time": "2026-11-02 19:12",
+        "folder": "旅程"
       }
     ],
     "calendar": [
       {
-        "id": "test-item-calendar",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "mail": [
+        "id": "cal-depart",
+        "title": "《後會友期》DAY 01｜集合",
+        "body": "2026年11月3日 07:30｜集合、交介紹信、登車。備註：不討論工作，只談彼此。",
+        "time": "2026-11-03 07:30"
+      },
       {
-        "id": "test-item-mail",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "clock": [
-      {
-        "id": "test-item-clock",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reminders": [
-      {
-        "id": "test-item-reminders",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "cal-trip",
+        "title": "18天旅程｜DAY 01–18",
+        "body": "11月3日－11月20日。四組舊友同行；如雙方達成共識，可按節目設定申請提前下車。",
+        "time": "2026-11-03 08:00"
       }
     ],
     "files": [
       {
-        "id": "test-item-files",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "music": [
-      {
-        "id": "test-item-music",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "maps": [
-      {
-        "id": "test-item-maps",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weather": [
-      {
-        "id": "test-item-weather",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "wallet": [
-      {
-        "id": "test-item-wallet",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "health": [
-      {
-        "id": "test-item-health",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "find": [
-      {
-        "id": "test-item-find",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calculator": [
-      {
-        "id": "test-item-calculator",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "settings": [
-      {
-        "id": "test-item-settings",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weibo": [
-      {
-        "id": "test-item-weibo",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "redbook": [
-      {
-        "id": "test-item-redbook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "douyin": [
-      {
-        "id": "test-item-douyin",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "bilibili": [
-      {
-        "id": "test-item-bilibili",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "alipay": [
-      {
-        "id": "test-item-alipay",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "taobao": [
-      {
-        "id": "test-item-taobao",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netease": [
-      {
-        "id": "test-item-netease",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "delivery": [
-      {
-        "id": "test-item-delivery",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "forum": [
-      {
-        "id": "test-item-forum",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "instagram": [
-      {
-        "id": "test-item-instagram",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "tiktok": [
-      {
-        "id": "test-item-tiktok",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "twitter": [
-      {
-        "id": "test-item-twitter",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "youtube": [
-      {
-        "id": "test-item-youtube",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "snapchat": [
-      {
-        "id": "test-item-snapchat",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "facebook": [
-      {
-        "id": "test-item-facebook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reddit": [
-      {
-        "id": "test-item-reddit",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "spotify": [
-      {
-        "id": "test-item-spotify",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netflix": [
-      {
-        "id": "test-item-netflix",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "pinterest": [
-      {
-        "id": "test-item-pinterest",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "threads": [
-      {
-        "id": "test-item-threads",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "file-task-01",
+        "title": "第一天任務卡：介紹對方",
+        "body": "寫下三件你了解對方的事；再寫下一件你其實不再確定的事。不可向其他團員求答案。\n\n—— 節目原創改編任務（遊戲設定）",
+        "time": "2026-11-02 20:00",
+        "folder": "節目任務"
       },
       {
-        "id": "test-threads-message-1",
-        "title": "测试会话1",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人1",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-1",
-        "title": "测试动态1",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户1",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-2",
-        "title": "测试会话2",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人2",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-2",
-        "title": "测试动态2",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户2",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-3",
-        "title": "测试会话3",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人3",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-3",
-        "title": "测试动态3",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户3",
-        "meta": {
-          "activityType": "reply"
-        }
+        "id": "file-timeline",
+        "title": "18天章節規劃｜待解鎖",
+        "body": "DAY 01–04：我們真的走散了嗎？\nDAY 05–09：原來你還記得\nDAY 10–14：你結婚的那一天\nDAY 15–18：後會有期\n\n目前僅製作第一章開篇；此清單為後續故事大綱，不代表所有章節已可遊玩。",
+        "time": "2026-11-02 18:00",
+        "folder": "節目任務"
       }
     ],
-    "appstore": [
+    "phone": [
       {
-        "id": "test-appstore",
-        "title": "测试内容",
-        "body": "这是一条测试内容。"
+        "id": "call-history-ayi",
+        "title": "阿翊",
+        "body": "最近通話紀錄 · 未接來電",
+        "time": "2026-11-02 21:05",
+        "kind": "call"
+      }
+    ],
+    "messages": [
+      {
+        "id": "msg-sms-producer",
+        "title": "節目組提醒",
+        "body": "明早集合，記得查看信箱裡的邀請函與行前規則。",
+        "time": "2026-11-02 16:17"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "rem-read-letter",
+        "title": "讀完介紹信",
+        "body": "看完節目組的邀請函與規則，再決定明天究竟想對阿翊說什麼。",
+        "time": "2026-11-02 22:00"
       }
     ]
   },
-  "variables": {},
-  "events": [],
-  "tests": []
+  "variables": {
+    "chapter": 1,
+    "truthSpoken": false,
+    "relationshipRepaired": false
+  },
+  "events": [
+    {
+      "id": "start-welcome",
+      "label": "拾獲手機",
+      "type": "start",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "節目組：請查看信箱中的《後會友期》邀請函。"
+        }
+      ]
+    },
+    {
+      "id": "read-invitation",
+      "label": "讀取邀請函",
+      "type": "event",
+      "event": "read",
+      "target": "invite-letter",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "note-day1",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "備忘錄：DAY 01｜出發前的規則已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "read-rules",
+      "label": "閱讀出發規則",
+      "type": "event",
+      "event": "read",
+      "target": "note-day1",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "photo-old",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "note-draft",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "照片與私人備忘錄裡，還有未看完的往事。"
+        }
+      ]
+    },
+    {
+      "id": "read-photo",
+      "label": "看見舊照片",
+      "type": "event",
+      "event": "read",
+      "target": "photo-old",
+      "actions": [
+        {
+          "type": "clue",
+          "key": "highschool-photo",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "read-private-note",
+      "label": "讀完未寄出的話",
+      "type": "event",
+      "event": "read",
+      "target": "note-draft",
+      "next": [
+        "incoming-call-delay"
+      ]
+    },
+    {
+      "id": "incoming-call-delay",
+      "label": "稍後阿翊來電",
+      "type": "delay",
+      "delayMs": 1500,
+      "actions": [
+        {
+          "type": "call",
+          "key": "call-ayi",
+          "value": "阿翊"
+        }
+      ]
+    },
+    {
+      "id": "answer-call",
+      "label": "接聽電話",
+      "type": "event",
+      "event": "callAnswered",
+      "target": "call-ayi",
+      "next": [
+        "choice-day1"
+      ]
+    },
+    {
+      "id": "decline-call",
+      "label": "拒接電話",
+      "type": "event",
+      "event": "callDeclined",
+      "target": "call-ayi",
+      "next": [
+        "choice-day1"
+      ]
+    },
+    {
+      "id": "choice-day1",
+      "label": "明天要怎麼面對阿翊？",
+      "type": "choice",
+      "next": [
+        "ending-talk",
+        "ending-space"
+      ]
+    },
+    {
+      "id": "ending-talk",
+      "label": "試著說實話",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "truthSpoken",
+          "value": true
+        },
+        {
+          "type": "ending",
+          "key": "",
+          "value": "第一章完成：決定在旅途中好好說話（待續）"
+        }
+      ]
+    },
+    {
+      "id": "ending-space",
+      "label": "先保留距離",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "第一章完成：決定先保留沉默（待續）"
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "name": "chapter-one-talk",
+      "steps": [
+        {
+          "event": "read",
+          "target": "invite-letter"
+        },
+        {
+          "event": "read",
+          "target": "note-day1"
+        },
+        {
+          "event": "read",
+          "target": "photo-old"
+        },
+        {
+          "event": "read",
+          "target": "note-draft"
+        },
+        {
+          "advanceMs": 1500
+        },
+        {
+          "event": "callAnswered",
+          "target": "call-ayi"
+        },
+        {
+          "choose": "ending-talk"
+        }
+      ],
+      "ending": "第一章完成：決定在旅途中好好說話（待續）",
+      "expectUnlocked": [
+        "note-day1",
+        "photo-old",
+        "note-draft"
+      ]
+    },
+    {
+      "name": "chapter-one-space",
+      "steps": [
+        {
+          "event": "read",
+          "target": "invite-letter"
+        },
+        {
+          "event": "read",
+          "target": "note-day1"
+        },
+        {
+          "event": "read",
+          "target": "note-draft"
+        },
+        {
+          "advanceMs": 1500
+        },
+        {
+          "event": "callDeclined",
+          "target": "call-ayi"
+        },
+        {
+          "choose": "ending-space"
+        }
+      ],
+      "ending": "第一章完成：決定先保留沉默（待續）",
+      "expectUnlocked": [
+        "note-day1",
+        "note-draft"
+      ]
+    }
+  ]
 }
