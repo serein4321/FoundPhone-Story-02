@@ -1,9 +1,9 @@
 {
   "scriptVersion": 1,
   "id": "mayday-after-we-meet",
-  "title": "後會友期：我們沒有好好告別",
-  "description": "【平行世界虛構故事】陳信宏與溫尚翊自高中相戀，後因人生選擇及婚姻而分開，仍是彼此最熟悉的人。在十八天的舊友旅行裡，一支遺失的手機留下了他們未說出口的話。本作非真實人物私生活記錄，亦非節目官方作品。第一章試玩版。",
-  "revision": 4,
+  "title": "後會友期：我們沒有好好告別｜18天完整劇情",
+  "description": "【虛構平行世界・非官方改編】陳信宏與溫尚翊在高中相遇相戀，後來溫尚翊走入婚姻，兩人的舊戀情沒有被正式告別。在一趟四組舊友共同參與的十八天旅行裡，翻閱陳信宏的手機，讀取每日任務、KakaoTalk、微信、照片文字、備忘錄與隱藏回憶，選擇 DAY 16 提早下車或走完 DAY 18，觸發四種結局。不代表真實私人聊天、婚姻或節目錄製。",
+  "revision": 5,
   "phone": {
     "owner": "陳信宏",
     "date": "2026-11-02",
@@ -100,6 +100,62 @@
       "phone": "",
       "avatar": "",
       "bio": "《後會友期》架空節目企劃聯絡人。"
+    },
+    {
+      "id": "xiahe",
+      "name": "夏禾",
+      "phone": "",
+      "avatar": "",
+      "bio": "第七日補位的虛構嘉賓；與程遠是多年沒見的舊友。"
+    },
+    {
+      "id": "chengyuan",
+      "name": "程遠",
+      "phone": "",
+      "avatar": "",
+      "bio": "第七日補位的虛構嘉賓；學習正面表達。"
+    },
+    {
+      "id": "lijing",
+      "name": "陸景",
+      "phone": "",
+      "avatar": "",
+      "bio": "虛構嘉賓；第六日與舊友楊楠提前下車。"
+    },
+    {
+      "id": "yangnan",
+      "name": "楊楠",
+      "phone": "",
+      "avatar": "",
+      "bio": "虛構嘉賓；與陸景達成共識，不強制恢復往日親密。"
+    },
+    {
+      "id": "xucheng",
+      "name": "許澄",
+      "phone": "",
+      "avatar": "",
+      "bio": "虛構嘉賓；與林川因生活觀念疏遠。"
+    },
+    {
+      "id": "linchuan",
+      "name": "林川",
+      "phone": "",
+      "avatar": "",
+      "bio": "虛構嘉賓；與許澄一起走完整段旅程。"
+    },
+    {
+      "id": "zhouke",
+      "name": "周可",
+      "phone": "",
+      "avatar": "",
+      "bio": "虛構嘉賓；曾與羅予一起創業。"
+    },
+    {
+      "id": "luoyu",
+      "name": "羅予",
+      "phone": "",
+      "avatar": "",
+      "bio": "虛構嘉賓；曾與周可因信任問題疏遠。"
     }
   ],
   "chats": [
@@ -159,6 +215,762 @@
           "body": "嗯。明天見，阿翊。",
           "senderId": "owner",
           "time": "2026-11-02 21:54"
+        },
+        {
+          "id": "day01-ayi-01",
+          "body": "行李不要放在那邊，會滑。",
+          "senderId": "ayi",
+          "time": "2026-11-03 20:10",
+          "hidden": true
+        },
+        {
+          "id": "day01-ayi-02",
+          "body": "溫同學，你是來旅行還是來當糾察隊？",
+          "senderId": "owner",
+          "time": "2026-11-03 20:18",
+          "hidden": true
+        },
+        {
+          "id": "day01-ayi-03",
+          "body": "我從高中就知道你不會聽。",
+          "senderId": "ayi",
+          "time": "2026-11-03 20:26",
+          "hidden": true
+        },
+        {
+          "id": "day01-ayi-04",
+          "body": "那你還是很會管馁。",
+          "senderId": "owner",
+          "time": "2026-11-03 21:10",
+          "hidden": true
+        },
+        {
+          "id": "day01-ayi-05",
+          "body": "保溫杯在我這裡。",
+          "senderId": "ayi",
+          "time": "2026-11-03 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day01-ayi-06",
+          "body": "知道啦，謝謝你。",
+          "senderId": "owner",
+          "time": "2026-11-03 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day02-ayi-01",
+          "body": "我有買熱的給你。",
+          "senderId": "ayi",
+          "time": "2026-11-04 20:10",
+          "hidden": true
+        },
+        {
+          "id": "day02-ayi-02",
+          "body": "你怎麼都不用問？",
+          "senderId": "owner",
+          "time": "2026-11-04 20:18",
+          "hidden": true
+        },
+        {
+          "id": "day02-ayi-03",
+          "body": "這個我記得。",
+          "senderId": "ayi",
+          "time": "2026-11-04 20:26",
+          "hidden": true
+        },
+        {
+          "id": "day02-ayi-04",
+          "body": "那你最近最想做什麼？",
+          "senderId": "owner",
+          "time": "2026-11-04 21:10",
+          "hidden": true
+        },
+        {
+          "id": "day02-ayi-05",
+          "body": "先睡一個好覺吧。",
+          "senderId": "ayi",
+          "time": "2026-11-04 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day02-ayi-06",
+          "body": "那我今晚不傳工作給你。",
+          "senderId": "owner",
+          "time": "2026-11-04 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day03-ayi-01",
+          "body": "你以前最愛拿我的筆。",
+          "senderId": "ayi",
+          "time": "2026-11-05 20:10",
+          "hidden": true
+        },
+        {
+          "id": "day03-ayi-02",
+          "body": "你這種事都記得喔。",
+          "senderId": "owner",
+          "time": "2026-11-05 20:18",
+          "hidden": true
+        },
+        {
+          "id": "day03-ayi-03",
+          "body": "怎麼可能忘。",
+          "senderId": "ayi",
+          "time": "2026-11-05 20:26",
+          "hidden": true
+        },
+        {
+          "id": "day03-ayi-04",
+          "body": "那有沒有現在的你，是我不知道的？",
+          "senderId": "owner",
+          "time": "2026-11-05 21:10",
+          "hidden": true
+        },
+        {
+          "id": "day03-ayi-05",
+          "body": "有啊。很多。",
+          "senderId": "ayi",
+          "time": "2026-11-05 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day03-ayi-06",
+          "body": "那有天你想說的時候，記得告訴我。",
+          "senderId": "owner",
+          "time": "2026-11-05 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day04-ayi-01",
+          "body": "最後那題你怎麼沒答？",
+          "senderId": "ayi",
+          "time": "2026-11-06 20:10",
+          "hidden": true
+        },
+        {
+          "id": "day04-ayi-02",
+          "body": "你不也一樣。",
+          "senderId": "owner",
+          "time": "2026-11-06 20:18",
+          "hidden": true
+        },
+        {
+          "id": "day04-ayi-03",
+          "body": "我怕說出來讓你覺得我很自私。",
+          "senderId": "ayi",
+          "time": "2026-11-06 20:26",
+          "hidden": true
+        },
+        {
+          "id": "day04-ayi-04",
+          "body": "你可以先說一點點啊。",
+          "senderId": "owner",
+          "time": "2026-11-06 21:10",
+          "hidden": true
+        },
+        {
+          "id": "day04-ayi-05",
+          "body": "我怕你一直以為我什麼都沒感覺。",
+          "senderId": "ayi",
+          "time": "2026-11-06 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day04-ayi-06",
+          "body": "我沒有那樣想，只是我也沒問。",
+          "senderId": "owner",
+          "time": "2026-11-06 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day05-ayi-01",
+          "body": "那張票你還留著？",
+          "senderId": "ayi",
+          "time": "2026-11-07 20:10",
+          "hidden": true
+        },
+        {
+          "id": "day05-ayi-02",
+          "body": "我以為早就不見了欸。",
+          "senderId": "owner",
+          "time": "2026-11-07 20:18",
+          "hidden": true
+        },
+        {
+          "id": "day05-ayi-03",
+          "body": "放吉他盒裡，忘了拿出來。",
+          "senderId": "ayi",
+          "time": "2026-11-07 20:26",
+          "hidden": true
+        },
+        {
+          "id": "day05-ayi-04",
+          "body": "你真的很奇怪，有些東西偏偏不丟。",
+          "senderId": "owner",
+          "time": "2026-11-07 21:10",
+          "hidden": true
+        },
+        {
+          "id": "day05-ayi-05",
+          "body": "那時候我很喜歡跟你一起等車。",
+          "senderId": "ayi",
+          "time": "2026-11-07 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day05-ayi-06",
+          "body": "我也是。",
+          "senderId": "owner",
+          "time": "2026-11-07 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day06-ayi-01",
+          "body": "他們真的下車了。",
+          "senderId": "ayi",
+          "time": "2026-11-08 20:10",
+          "hidden": true
+        },
+        {
+          "id": "day06-ayi-02",
+          "body": "看起來好輕鬆喔。",
+          "senderId": "owner",
+          "time": "2026-11-08 20:18",
+          "hidden": true
+        },
+        {
+          "id": "day06-ayi-03",
+          "body": "我們是不是也可以早點走？",
+          "senderId": "ayi",
+          "time": "2026-11-08 20:26",
+          "hidden": true
+        },
+        {
+          "id": "day06-ayi-04",
+          "body": "你想走嗎，還是你怕我累？",
+          "senderId": "owner",
+          "time": "2026-11-08 21:10",
+          "hidden": true
+        },
+        {
+          "id": "day06-ayi-05",
+          "body": "我不知道我們到底在修補什麼。",
+          "senderId": "ayi",
+          "time": "2026-11-08 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day06-ayi-06",
+          "body": "那就先不要替彼此決定。",
+          "senderId": "owner",
+          "time": "2026-11-08 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day07-ayi-01",
+          "body": "新來的兩個人好會說話喔。",
+          "senderId": "ayi",
+          "time": "2026-11-09 20:10",
+          "hidden": true
+        },
+        {
+          "id": "day07-ayi-02",
+          "body": "至少他們不會把話講到一半就收回去。",
+          "senderId": "owner",
+          "time": "2026-11-09 20:18",
+          "hidden": true
+        },
+        {
+          "id": "day07-ayi-03",
+          "body": "怪獸哥是在暗示誰？",
+          "senderId": "ayi",
+          "time": "2026-11-09 20:26",
+          "hidden": true
+        },
+        {
+          "id": "day07-ayi-04",
+          "body": "我在說我自己。",
+          "senderId": "owner",
+          "time": "2026-11-09 21:10",
+          "hidden": true
+        },
+        {
+          "id": "day07-ayi-05",
+          "body": "……喔。",
+          "senderId": "ayi",
+          "time": "2026-11-09 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day07-ayi-06",
+          "body": "你那張匿名卡，如果你願意，我想讀。",
+          "senderId": "owner",
+          "time": "2026-11-09 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day08-ayi-01",
+          "body": "你信寫好了嗎？",
+          "senderId": "ayi",
+          "time": "2026-11-10 20:10",
+          "hidden": true
+        },
+        {
+          "id": "day08-ayi-02",
+          "body": "快了。你呢？",
+          "senderId": "owner",
+          "time": "2026-11-10 20:18",
+          "hidden": true
+        },
+        {
+          "id": "day08-ayi-03",
+          "body": "寫不下去。",
+          "senderId": "ayi",
+          "time": "2026-11-10 20:26",
+          "hidden": true
+        },
+        {
+          "id": "day08-ayi-04",
+          "body": "是因為字太多？",
+          "senderId": "owner",
+          "time": "2026-11-10 21:10",
+          "hidden": true
+        },
+        {
+          "id": "day08-ayi-05",
+          "body": "因為不知道怎麼跟那時候的自己解釋。",
+          "senderId": "ayi",
+          "time": "2026-11-10 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day08-ayi-06",
+          "body": "那先不要解釋，你只要告訴他你有認真愛過。",
+          "senderId": "owner",
+          "time": "2026-11-10 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day09-ayi-01",
+          "body": "我可以問你一個問題嗎？",
+          "senderId": "ayi",
+          "time": "2026-11-11 20:10",
+          "hidden": true
+        },
+        {
+          "id": "day09-ayi-02",
+          "body": "嗯，你問。",
+          "senderId": "owner",
+          "time": "2026-11-11 20:18",
+          "hidden": true
+        },
+        {
+          "id": "day09-ayi-03",
+          "body": "你是不是一直以為我早就沒事了？",
+          "senderId": "ayi",
+          "time": "2026-11-11 20:26",
+          "hidden": true
+        },
+        {
+          "id": "day09-ayi-04",
+          "body": "我在大家面前看起來都很正常。",
+          "senderId": "owner",
+          "time": "2026-11-11 21:10",
+          "hidden": true
+        },
+        {
+          "id": "day09-ayi-05",
+          "body": "正常不等於不難過。",
+          "senderId": "ayi",
+          "time": "2026-11-11 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day09-ayi-06",
+          "body": "對不起，我不應該靠猜的。",
+          "senderId": "owner",
+          "time": "2026-11-11 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day10-ayi-01",
+          "body": "今天那個題目，你會不會不舒服？",
+          "senderId": "ayi",
+          "time": "2026-11-12 20:10",
+          "hidden": true
+        },
+        {
+          "id": "day10-ayi-02",
+          "body": "不會，我們總得面對。",
+          "senderId": "owner",
+          "time": "2026-11-12 20:18",
+          "hidden": true
+        },
+        {
+          "id": "day10-ayi-03",
+          "body": "你如果不想講，我可以跟小周說。",
+          "senderId": "ayi",
+          "time": "2026-11-12 20:26",
+          "hidden": true
+        },
+        {
+          "id": "day10-ayi-04",
+          "body": "阿翊，我不想再讓你替我擋掉所有話。",
+          "senderId": "owner",
+          "time": "2026-11-12 21:10",
+          "hidden": true
+        },
+        {
+          "id": "day10-ayi-05",
+          "body": "我只是怕你難過。",
+          "senderId": "ayi",
+          "time": "2026-11-12 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day10-ayi-06",
+          "body": "我那時候確實難過。現在可以說了。",
+          "senderId": "owner",
+          "time": "2026-11-12 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day11-ayi-01",
+          "body": "你那時候跟我說恭喜。",
+          "senderId": "ayi",
+          "time": "2026-11-13 20:10",
+          "hidden": true
+        },
+        {
+          "id": "day11-ayi-02",
+          "body": "我是真心的。",
+          "senderId": "owner",
+          "time": "2026-11-13 20:18",
+          "hidden": true
+        },
+        {
+          "id": "day11-ayi-03",
+          "body": "我以為你已經不需要我了。",
+          "senderId": "ayi",
+          "time": "2026-11-13 20:26",
+          "hidden": true
+        },
+        {
+          "id": "day11-ayi-04",
+          "body": "你怎麼會那樣想？",
+          "senderId": "owner",
+          "time": "2026-11-13 21:10",
+          "hidden": true
+        },
+        {
+          "id": "day11-ayi-05",
+          "body": "因為你從沒問能不能別走。",
+          "senderId": "ayi",
+          "time": "2026-11-13 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day11-ayi-06",
+          "body": "我不想讓你為難，可是我也很難過。",
+          "senderId": "owner",
+          "time": "2026-11-13 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day12-ayi-01",
+          "body": "對不起，阿信。",
+          "senderId": "ayi",
+          "time": "2026-11-14 20:10",
+          "hidden": true
+        },
+        {
+          "id": "day12-ayi-02",
+          "body": "你是為了什麼道歉？",
+          "senderId": "owner",
+          "time": "2026-11-14 20:18",
+          "hidden": true
+        },
+        {
+          "id": "day12-ayi-03",
+          "body": "因為我只問你吃了沒，沒有問你過得好不好。",
+          "senderId": "ayi",
+          "time": "2026-11-14 20:26",
+          "hidden": true
+        },
+        {
+          "id": "day12-ayi-04",
+          "body": "我也有錯，我一直拿笑話帶過。",
+          "senderId": "owner",
+          "time": "2026-11-14 21:10",
+          "hidden": true
+        },
+        {
+          "id": "day12-ayi-05",
+          "body": "我們今天先不要急著說沒關係。",
+          "senderId": "ayi",
+          "time": "2026-11-14 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day12-ayi-06",
+          "body": "好。我們先把話聽完。",
+          "senderId": "owner",
+          "time": "2026-11-14 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day13-ayi-01",
+          "body": "我寫了兩句字，還沒有曲。",
+          "senderId": "ayi",
+          "time": "2026-11-15 20:10",
+          "hidden": true
+        },
+        {
+          "id": "day13-ayi-02",
+          "body": "可以給我看嗎？",
+          "senderId": "owner",
+          "time": "2026-11-15 20:18",
+          "hidden": true
+        },
+        {
+          "id": "day13-ayi-03",
+          "body": "有些人不能再用從前的方式迎接。",
+          "senderId": "ayi",
+          "time": "2026-11-15 20:26",
+          "hidden": true
+        },
+        {
+          "id": "day13-ayi-04",
+          "body": "……我聽懂了。",
+          "senderId": "owner",
+          "time": "2026-11-15 21:10",
+          "hidden": true
+        },
+        {
+          "id": "day13-ayi-05",
+          "body": "你能不能彈一小段給我？",
+          "senderId": "ayi",
+          "time": "2026-11-15 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day13-ayi-06",
+          "body": "好。不是演出用的，就留在這裡。",
+          "senderId": "owner",
+          "time": "2026-11-15 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day14-ayi-01",
+          "body": "我那封信，你現在想看嗎？",
+          "senderId": "ayi",
+          "time": "2026-11-16 20:10",
+          "hidden": true
+        },
+        {
+          "id": "day14-ayi-02",
+          "body": "你真的準備好了？",
+          "senderId": "owner",
+          "time": "2026-11-16 20:18",
+          "hidden": true
+        },
+        {
+          "id": "day14-ayi-03",
+          "body": "嗯，裡面沒有要你等我。",
+          "senderId": "ayi",
+          "time": "2026-11-16 20:26",
+          "hidden": true
+        },
+        {
+          "id": "day14-ayi-04",
+          "body": "我也不打算要你改變現在的生活。",
+          "senderId": "owner",
+          "time": "2026-11-16 21:10",
+          "hidden": true
+        },
+        {
+          "id": "day14-ayi-05",
+          "body": "我知道，所以才想給你。",
+          "senderId": "ayi",
+          "time": "2026-11-16 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day14-ayi-06",
+          "body": "謝謝你願意讓我看。",
+          "senderId": "owner",
+          "time": "2026-11-16 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day15-ayi-01",
+          "body": "如果以後不舒服，我就說。",
+          "senderId": "ayi",
+          "time": "2026-11-17 20:10",
+          "hidden": true
+        },
+        {
+          "id": "day15-ayi-02",
+          "body": "我也是。",
+          "senderId": "owner",
+          "time": "2026-11-17 20:18",
+          "hidden": true
+        },
+        {
+          "id": "day15-ayi-03",
+          "body": "你現在的責任不是我的考題。",
+          "senderId": "ayi",
+          "time": "2026-11-17 20:26",
+          "hidden": true
+        },
+        {
+          "id": "day15-ayi-04",
+          "body": "我知道，我會自己負責。",
+          "senderId": "owner",
+          "time": "2026-11-17 21:10",
+          "hidden": true
+        },
+        {
+          "id": "day15-ayi-05",
+          "body": "我們也不要用做不到的承諾換安心。",
+          "senderId": "ayi",
+          "time": "2026-11-17 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day15-ayi-06",
+          "body": "好，只答應做得到的事。",
+          "senderId": "owner",
+          "time": "2026-11-17 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day16-ayi-01",
+          "body": "我們可以現在下車。",
+          "senderId": "ayi",
+          "time": "2026-11-18 20:10",
+          "hidden": true
+        },
+        {
+          "id": "day16-ayi-02",
+          "body": "你想走嗎，還是怕我累？",
+          "senderId": "owner",
+          "time": "2026-11-18 20:18",
+          "hidden": true
+        },
+        {
+          "id": "day16-ayi-03",
+          "body": "都有。",
+          "senderId": "ayi",
+          "time": "2026-11-18 20:26",
+          "hidden": true
+        },
+        {
+          "id": "day16-ayi-04",
+          "body": "那你先不要替我回答。",
+          "senderId": "owner",
+          "time": "2026-11-18 21:10",
+          "hidden": true
+        },
+        {
+          "id": "day16-ayi-05",
+          "body": "好，你自己想，我也自己想。",
+          "senderId": "ayi",
+          "time": "2026-11-18 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day16-ayi-06",
+          "body": "不管選哪張，這次我們都自己簽名。",
+          "senderId": "owner",
+          "time": "2026-11-18 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day17-ayi-01",
+          "body": "想喝熱的還是常溫？",
+          "senderId": "ayi",
+          "time": "2026-11-19 20:10",
+          "hidden": true
+        },
+        {
+          "id": "day17-ayi-02",
+          "body": "常溫。你居然會先問喔。",
+          "senderId": "owner",
+          "time": "2026-11-19 20:18",
+          "hidden": true
+        },
+        {
+          "id": "day17-ayi-03",
+          "body": "在練習啦。",
+          "senderId": "ayi",
+          "time": "2026-11-19 20:26",
+          "hidden": true
+        },
+        {
+          "id": "day17-ayi-04",
+          "body": "那我也問你，今天心情好嗎？",
+          "senderId": "owner",
+          "time": "2026-11-19 21:10",
+          "hidden": true
+        },
+        {
+          "id": "day17-ayi-05",
+          "body": "還好，只有一點捨不得。",
+          "senderId": "ayi",
+          "time": "2026-11-19 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day17-ayi-06",
+          "body": "我也是。但我不覺得這是壞事。",
+          "senderId": "owner",
+          "time": "2026-11-19 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day18-ayi-01",
+          "body": "到站了。",
+          "senderId": "ayi",
+          "time": "2026-11-20 20:10",
+          "hidden": true
+        },
+        {
+          "id": "day18-ayi-02",
+          "body": "真的，十八天這麼快。",
+          "senderId": "owner",
+          "time": "2026-11-20 20:18",
+          "hidden": true
+        },
+        {
+          "id": "day18-ayi-03",
+          "body": "你有覺得比較好一點嗎？",
+          "senderId": "ayi",
+          "time": "2026-11-20 20:26",
+          "hidden": true
+        },
+        {
+          "id": "day18-ayi-04",
+          "body": "有，終於不用假裝沒發生。",
+          "senderId": "owner",
+          "time": "2026-11-20 21:10",
+          "hidden": true
+        },
+        {
+          "id": "day18-ayi-05",
+          "body": "我也是。",
+          "senderId": "ayi",
+          "time": "2026-11-20 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day18-ayi-06",
+          "body": "那以後我們各自好好生活，也好好說話。",
+          "senderId": "owner",
+          "time": "2026-11-20 21:26",
+          "hidden": true
         }
       ]
     },
@@ -215,6 +1027,258 @@
           "body": "嗯，我知道。",
           "senderId": "owner",
           "time": "2026-11-02 19:16"
+        },
+        {
+          "id": "day01-band-1",
+          "body": "今天如果不知道怎麼答，就先聽。不要急著講好聽的。",
+          "senderId": "masa",
+          "time": "2026-11-03 22:25",
+          "hidden": true
+        },
+        {
+          "id": "day01-band-2",
+          "body": "蔡昇晏你越來越像節目組了啦。",
+          "senderId": "owner",
+          "time": "2026-11-03 22:28",
+          "hidden": true
+        },
+        {
+          "id": "day02-band-1",
+          "body": "記得保暖，也記得讓彼此有自己的空間。",
+          "senderId": "stone",
+          "time": "2026-11-04 22:25",
+          "hidden": true
+        },
+        {
+          "id": "day02-band-2",
+          "body": "有啦，放心。",
+          "senderId": "ayi",
+          "time": "2026-11-04 22:28",
+          "hidden": true
+        },
+        {
+          "id": "day03-band-1",
+          "body": "今天還好嗎？不用急著回訊息。",
+          "senderId": "guanyou",
+          "time": "2026-11-05 22:25",
+          "hidden": true
+        },
+        {
+          "id": "day03-band-2",
+          "body": "還好喔。你們也早點休息。",
+          "senderId": "owner",
+          "time": "2026-11-05 22:28",
+          "hidden": true
+        },
+        {
+          "id": "day04-band-1",
+          "body": "今天如果不知道怎麼答，就先聽。不要急著講好聽的。",
+          "senderId": "masa",
+          "time": "2026-11-06 22:25",
+          "hidden": true
+        },
+        {
+          "id": "day04-band-2",
+          "body": "蔡昇晏你越來越像節目組了啦。",
+          "senderId": "owner",
+          "time": "2026-11-06 22:28",
+          "hidden": true
+        },
+        {
+          "id": "day05-band-1",
+          "body": "記得保暖，也記得讓彼此有自己的空間。",
+          "senderId": "stone",
+          "time": "2026-11-07 22:25",
+          "hidden": true
+        },
+        {
+          "id": "day05-band-2",
+          "body": "有啦，放心。",
+          "senderId": "ayi",
+          "time": "2026-11-07 22:28",
+          "hidden": true
+        },
+        {
+          "id": "day06-band-1",
+          "body": "今天還好嗎？不用急著回訊息。",
+          "senderId": "guanyou",
+          "time": "2026-11-08 22:25",
+          "hidden": true
+        },
+        {
+          "id": "day06-band-2",
+          "body": "還好喔。你們也早點休息。",
+          "senderId": "owner",
+          "time": "2026-11-08 22:28",
+          "hidden": true
+        },
+        {
+          "id": "day07-band-1",
+          "body": "今天如果不知道怎麼答，就先聽。不要急著講好聽的。",
+          "senderId": "masa",
+          "time": "2026-11-09 22:25",
+          "hidden": true
+        },
+        {
+          "id": "day07-band-2",
+          "body": "蔡昇晏你越來越像節目組了啦。",
+          "senderId": "owner",
+          "time": "2026-11-09 22:28",
+          "hidden": true
+        },
+        {
+          "id": "day08-band-1",
+          "body": "記得保暖，也記得讓彼此有自己的空間。",
+          "senderId": "stone",
+          "time": "2026-11-10 22:25",
+          "hidden": true
+        },
+        {
+          "id": "day08-band-2",
+          "body": "有啦，放心。",
+          "senderId": "ayi",
+          "time": "2026-11-10 22:28",
+          "hidden": true
+        },
+        {
+          "id": "day09-band-1",
+          "body": "今天還好嗎？不用急著回訊息。",
+          "senderId": "guanyou",
+          "time": "2026-11-11 22:25",
+          "hidden": true
+        },
+        {
+          "id": "day09-band-2",
+          "body": "還好喔。你們也早點休息。",
+          "senderId": "owner",
+          "time": "2026-11-11 22:28",
+          "hidden": true
+        },
+        {
+          "id": "day10-band-1",
+          "body": "今天如果不知道怎麼答，就先聽。不要急著講好聽的。",
+          "senderId": "masa",
+          "time": "2026-11-12 22:25",
+          "hidden": true
+        },
+        {
+          "id": "day10-band-2",
+          "body": "蔡昇晏你越來越像節目組了啦。",
+          "senderId": "owner",
+          "time": "2026-11-12 22:28",
+          "hidden": true
+        },
+        {
+          "id": "day11-band-1",
+          "body": "記得保暖，也記得讓彼此有自己的空間。",
+          "senderId": "stone",
+          "time": "2026-11-13 22:25",
+          "hidden": true
+        },
+        {
+          "id": "day11-band-2",
+          "body": "有啦，放心。",
+          "senderId": "ayi",
+          "time": "2026-11-13 22:28",
+          "hidden": true
+        },
+        {
+          "id": "day12-band-1",
+          "body": "今天還好嗎？不用急著回訊息。",
+          "senderId": "guanyou",
+          "time": "2026-11-14 22:25",
+          "hidden": true
+        },
+        {
+          "id": "day12-band-2",
+          "body": "還好喔。你們也早點休息。",
+          "senderId": "owner",
+          "time": "2026-11-14 22:28",
+          "hidden": true
+        },
+        {
+          "id": "day13-band-1",
+          "body": "今天如果不知道怎麼答，就先聽。不要急著講好聽的。",
+          "senderId": "masa",
+          "time": "2026-11-15 22:25",
+          "hidden": true
+        },
+        {
+          "id": "day13-band-2",
+          "body": "蔡昇晏你越來越像節目組了啦。",
+          "senderId": "owner",
+          "time": "2026-11-15 22:28",
+          "hidden": true
+        },
+        {
+          "id": "day14-band-1",
+          "body": "記得保暖，也記得讓彼此有自己的空間。",
+          "senderId": "stone",
+          "time": "2026-11-16 22:25",
+          "hidden": true
+        },
+        {
+          "id": "day14-band-2",
+          "body": "有啦，放心。",
+          "senderId": "ayi",
+          "time": "2026-11-16 22:28",
+          "hidden": true
+        },
+        {
+          "id": "day15-band-1",
+          "body": "今天還好嗎？不用急著回訊息。",
+          "senderId": "guanyou",
+          "time": "2026-11-17 22:25",
+          "hidden": true
+        },
+        {
+          "id": "day15-band-2",
+          "body": "還好喔。你們也早點休息。",
+          "senderId": "owner",
+          "time": "2026-11-17 22:28",
+          "hidden": true
+        },
+        {
+          "id": "day16-band-1",
+          "body": "今天如果不知道怎麼答，就先聽。不要急著講好聽的。",
+          "senderId": "masa",
+          "time": "2026-11-18 22:25",
+          "hidden": true
+        },
+        {
+          "id": "day16-band-2",
+          "body": "蔡昇晏你越來越像節目組了啦。",
+          "senderId": "owner",
+          "time": "2026-11-18 22:28",
+          "hidden": true
+        },
+        {
+          "id": "day17-band-1",
+          "body": "記得保暖，也記得讓彼此有自己的空間。",
+          "senderId": "stone",
+          "time": "2026-11-19 22:25",
+          "hidden": true
+        },
+        {
+          "id": "day17-band-2",
+          "body": "有啦，放心。",
+          "senderId": "ayi",
+          "time": "2026-11-19 22:28",
+          "hidden": true
+        },
+        {
+          "id": "day18-band-1",
+          "body": "今天還好嗎？不用急著回訊息。",
+          "senderId": "guanyou",
+          "time": "2026-11-20 22:25",
+          "hidden": true
+        },
+        {
+          "id": "day18-band-2",
+          "body": "還好喔。你們也早點休息。",
+          "senderId": "owner",
+          "time": "2026-11-20 22:28",
+          "hidden": true
         }
       ]
     },
@@ -244,6 +1308,258 @@
           "body": "謝謝，我會準時到。",
           "senderId": "owner",
           "time": "2026-11-02 17:18"
+        },
+        {
+          "id": "day01-prod-1",
+          "body": "DAY 01 的任務是「重新見面」。請先照顧彼此的感受。",
+          "senderId": "producer",
+          "time": "2026-11-03 08:08",
+          "hidden": true
+        },
+        {
+          "id": "day01-prod-2",
+          "body": "收到，會按照自己的步調進行。",
+          "senderId": "owner",
+          "time": "2026-11-03 08:12",
+          "hidden": true
+        },
+        {
+          "id": "day02-prod-1",
+          "body": "DAY 02 的任務是「比陌生人還熟悉」。請先照顧彼此的感受。",
+          "senderId": "producer",
+          "time": "2026-11-04 08:08",
+          "hidden": true
+        },
+        {
+          "id": "day02-prod-2",
+          "body": "收到，會按照自己的步調進行。",
+          "senderId": "owner",
+          "time": "2026-11-04 08:12",
+          "hidden": true
+        },
+        {
+          "id": "day03-prod-1",
+          "body": "DAY 03 的任務是「不能說的習慣」。請先照顧彼此的感受。",
+          "senderId": "producer",
+          "time": "2026-11-05 08:08",
+          "hidden": true
+        },
+        {
+          "id": "day03-prod-2",
+          "body": "收到，會按照自己的步調進行。",
+          "senderId": "owner",
+          "time": "2026-11-05 08:12",
+          "hidden": true
+        },
+        {
+          "id": "day04-prod-1",
+          "body": "DAY 04 的任務是「你現在最怕什麼」。請先照顧彼此的感受。",
+          "senderId": "producer",
+          "time": "2026-11-06 08:08",
+          "hidden": true
+        },
+        {
+          "id": "day04-prod-2",
+          "body": "收到，會按照自己的步調進行。",
+          "senderId": "owner",
+          "time": "2026-11-06 08:12",
+          "hidden": true
+        },
+        {
+          "id": "day05-prod-1",
+          "body": "DAY 05 的任務是「放學一起走」。請先照顧彼此的感受。",
+          "senderId": "producer",
+          "time": "2026-11-07 08:08",
+          "hidden": true
+        },
+        {
+          "id": "day05-prod-2",
+          "body": "收到，會按照自己的步調進行。",
+          "senderId": "owner",
+          "time": "2026-11-07 08:12",
+          "hidden": true
+        },
+        {
+          "id": "day06-prod-1",
+          "body": "DAY 06 的任務是「第一組提前下車」。請先照顧彼此的感受。",
+          "senderId": "producer",
+          "time": "2026-11-08 08:08",
+          "hidden": true
+        },
+        {
+          "id": "day06-prod-2",
+          "body": "收到，會按照自己的步調進行。",
+          "senderId": "owner",
+          "time": "2026-11-08 08:12",
+          "hidden": true
+        },
+        {
+          "id": "day07-prod-1",
+          "body": "DAY 07 的任務是「新旅伴上車」。請先照顧彼此的感受。",
+          "senderId": "producer",
+          "time": "2026-11-09 08:08",
+          "hidden": true
+        },
+        {
+          "id": "day07-prod-2",
+          "body": "收到，會按照自己的步調進行。",
+          "senderId": "owner",
+          "time": "2026-11-09 08:12",
+          "hidden": true
+        },
+        {
+          "id": "day08-prod-1",
+          "body": "DAY 08 的任務是「寫給高中的我們」。請先照顧彼此的感受。",
+          "senderId": "producer",
+          "time": "2026-11-10 08:08",
+          "hidden": true
+        },
+        {
+          "id": "day08-prod-2",
+          "body": "收到，會按照自己的步調進行。",
+          "senderId": "owner",
+          "time": "2026-11-10 08:12",
+          "hidden": true
+        },
+        {
+          "id": "day09-prod-1",
+          "body": "DAY 09 的任務是「沒問出口的問題」。請先照顧彼此的感受。",
+          "senderId": "producer",
+          "time": "2026-11-11 08:08",
+          "hidden": true
+        },
+        {
+          "id": "day09-prod-2",
+          "body": "收到，會按照自己的步調進行。",
+          "senderId": "owner",
+          "time": "2026-11-11 08:12",
+          "hidden": true
+        },
+        {
+          "id": "day10-prod-1",
+          "body": "DAY 10 的任務是「喜帖背面的字」。請先照顧彼此的感受。",
+          "senderId": "producer",
+          "time": "2026-11-12 08:08",
+          "hidden": true
+        },
+        {
+          "id": "day10-prod-2",
+          "body": "收到，會按照自己的步調進行。",
+          "senderId": "owner",
+          "time": "2026-11-12 08:12",
+          "hidden": true
+        },
+        {
+          "id": "day11-prod-1",
+          "body": "DAY 11 的任務是「同一天的兩個版本」。請先照顧彼此的感受。",
+          "senderId": "producer",
+          "time": "2026-11-13 08:08",
+          "hidden": true
+        },
+        {
+          "id": "day11-prod-2",
+          "body": "收到，會按照自己的步調進行。",
+          "senderId": "owner",
+          "time": "2026-11-13 08:12",
+          "hidden": true
+        },
+        {
+          "id": "day12-prod-1",
+          "body": "DAY 12 的任務是「歉意不等於答案」。請先照顧彼此的感受。",
+          "senderId": "producer",
+          "time": "2026-11-14 08:08",
+          "hidden": true
+        },
+        {
+          "id": "day12-prod-2",
+          "body": "收到，會按照自己的步調進行。",
+          "senderId": "owner",
+          "time": "2026-11-14 08:12",
+          "hidden": true
+        },
+        {
+          "id": "day13-prod-1",
+          "body": "DAY 13 的任務是「只有我們聽懂的旋律」。請先照顧彼此的感受。",
+          "senderId": "producer",
+          "time": "2026-11-15 08:08",
+          "hidden": true
+        },
+        {
+          "id": "day13-prod-2",
+          "body": "收到，會按照自己的步調進行。",
+          "senderId": "owner",
+          "time": "2026-11-15 08:12",
+          "hidden": true
+        },
+        {
+          "id": "day14-prod-1",
+          "body": "DAY 14 的任務是「沒有寫完的那封信」。請先照顧彼此的感受。",
+          "senderId": "producer",
+          "time": "2026-11-16 08:08",
+          "hidden": true
+        },
+        {
+          "id": "day14-prod-2",
+          "body": "收到，會按照自己的步調進行。",
+          "senderId": "owner",
+          "time": "2026-11-16 08:12",
+          "hidden": true
+        },
+        {
+          "id": "day15-prod-1",
+          "body": "DAY 15 的任務是「界線不是遺忘」。請先照顧彼此的感受。",
+          "senderId": "producer",
+          "time": "2026-11-17 08:08",
+          "hidden": true
+        },
+        {
+          "id": "day15-prod-2",
+          "body": "收到，會按照自己的步調進行。",
+          "senderId": "owner",
+          "time": "2026-11-17 08:12",
+          "hidden": true
+        },
+        {
+          "id": "day16-prod-1",
+          "body": "DAY 16 的任務是「提前下車的申請」。請先照顧彼此的感受。",
+          "senderId": "producer",
+          "time": "2026-11-18 08:08",
+          "hidden": true
+        },
+        {
+          "id": "day16-prod-2",
+          "body": "收到，會按照自己的步調進行。",
+          "senderId": "owner",
+          "time": "2026-11-18 08:12",
+          "hidden": true
+        },
+        {
+          "id": "day17-prod-1",
+          "body": "DAY 17 的任務是「重新學會問候」。請先照顧彼此的感受。",
+          "senderId": "producer",
+          "time": "2026-11-19 08:08",
+          "hidden": true
+        },
+        {
+          "id": "day17-prod-2",
+          "body": "收到，會按照自己的步調進行。",
+          "senderId": "owner",
+          "time": "2026-11-19 08:12",
+          "hidden": true
+        },
+        {
+          "id": "day18-prod-1",
+          "body": "DAY 18 的任務是「後會有期」。請先照顧彼此的感受。",
+          "senderId": "producer",
+          "time": "2026-11-20 08:08",
+          "hidden": true
+        },
+        {
+          "id": "day18-prod-2",
+          "body": "收到，會按照自己的步調進行。",
+          "senderId": "owner",
+          "time": "2026-11-20 08:12",
+          "hidden": true
         }
       ]
     },
@@ -279,6 +1595,439 @@
           "body": "少來。去把那封信讀完啦。",
           "senderId": "masa",
           "time": "2026-11-02 22:06"
+        },
+        {
+          "id": "day04-masa-note",
+          "body": "有些話不說不是體貼，是讓兩個人一直猜。",
+          "senderId": "masa",
+          "time": "2026-11-06 23:01",
+          "hidden": true
+        },
+        {
+          "id": "day08-masa-note",
+          "body": "有些話不說不是體貼，是讓兩個人一直猜。",
+          "senderId": "masa",
+          "time": "2026-11-10 23:01",
+          "hidden": true
+        },
+        {
+          "id": "day11-masa-note",
+          "body": "你們不是不愛，是把體面當成了不難過。",
+          "senderId": "masa",
+          "time": "2026-11-13 23:01",
+          "hidden": true
+        },
+        {
+          "id": "day14-masa-note",
+          "body": "有些話不說不是體貼，是讓兩個人一直猜。",
+          "senderId": "masa",
+          "time": "2026-11-16 23:01",
+          "hidden": true
+        },
+        {
+          "id": "day18-masa-note",
+          "body": "不要急著替彼此寫結局。就算沒有在一起，也要好好生活。",
+          "senderId": "masa",
+          "time": "2026-11-20 23:01",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": "chat-travel-group",
+      "app": "wechat",
+      "title": "後會友期｜四組旅伴",
+      "participants": [
+        "owner",
+        "ayi",
+        "producer",
+        "xiahe",
+        "chengyuan",
+        "lijing",
+        "yangnan",
+        "xucheng",
+        "linchuan",
+        "zhouke",
+        "luoyu"
+      ],
+      "messages": [
+        {
+          "id": "day01-group-1",
+          "body": "DAY 01「重新見面」結束啦，大家辛苦了。",
+          "senderId": "owner",
+          "time": "2026-11-03 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day01-group-2",
+          "body": "不用每一題都答得漂亮，我們慢慢來。",
+          "senderId": "zhouke",
+          "time": "2026-11-03 21:22",
+          "hidden": true
+        },
+        {
+          "id": "day01-group-3",
+          "body": "大家早點休息，明天繼續。",
+          "senderId": "ayi",
+          "time": "2026-11-03 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day02-group-1",
+          "body": "DAY 02「比陌生人還熟悉」結束啦，大家辛苦了。",
+          "senderId": "owner",
+          "time": "2026-11-04 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day02-group-2",
+          "body": "不用每一題都答得漂亮，我們慢慢來。",
+          "senderId": "zhouke",
+          "time": "2026-11-04 21:22",
+          "hidden": true
+        },
+        {
+          "id": "day02-group-3",
+          "body": "大家早點休息，明天繼續。",
+          "senderId": "ayi",
+          "time": "2026-11-04 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day03-group-1",
+          "body": "DAY 03「不能說的習慣」結束啦，大家辛苦了。",
+          "senderId": "owner",
+          "time": "2026-11-05 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day03-group-2",
+          "body": "不用每一題都答得漂亮，我們慢慢來。",
+          "senderId": "zhouke",
+          "time": "2026-11-05 21:22",
+          "hidden": true
+        },
+        {
+          "id": "day03-group-3",
+          "body": "大家早點休息，明天繼續。",
+          "senderId": "ayi",
+          "time": "2026-11-05 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day04-group-1",
+          "body": "DAY 04「你現在最怕什麼」結束啦，大家辛苦了。",
+          "senderId": "owner",
+          "time": "2026-11-06 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day04-group-2",
+          "body": "不用每一題都答得漂亮，我們慢慢來。",
+          "senderId": "zhouke",
+          "time": "2026-11-06 21:22",
+          "hidden": true
+        },
+        {
+          "id": "day04-group-3",
+          "body": "大家早點休息，明天繼續。",
+          "senderId": "ayi",
+          "time": "2026-11-06 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day05-group-1",
+          "body": "DAY 05「放學一起走」結束啦，大家辛苦了。",
+          "senderId": "owner",
+          "time": "2026-11-07 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day05-group-2",
+          "body": "不用每一題都答得漂亮，我們慢慢來。",
+          "senderId": "zhouke",
+          "time": "2026-11-07 21:22",
+          "hidden": true
+        },
+        {
+          "id": "day05-group-3",
+          "body": "大家早點休息，明天繼續。",
+          "senderId": "ayi",
+          "time": "2026-11-07 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day06-group-1",
+          "body": "DAY 06「第一組提前下車」結束啦，大家辛苦了。",
+          "senderId": "owner",
+          "time": "2026-11-08 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day06-group-2",
+          "body": "謝謝大家，我們決定提前下車，不是誰輸了。",
+          "senderId": "yangnan",
+          "time": "2026-11-08 21:22",
+          "hidden": true
+        },
+        {
+          "id": "day06-group-3",
+          "body": "大家早點休息，明天繼續。",
+          "senderId": "ayi",
+          "time": "2026-11-08 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day07-group-1",
+          "body": "DAY 07「新旅伴上車」結束啦，大家辛苦了。",
+          "senderId": "owner",
+          "time": "2026-11-09 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day07-group-2",
+          "body": "以前不敢講的話，今天終於說了一點。",
+          "senderId": "xiahe",
+          "time": "2026-11-09 21:22",
+          "hidden": true
+        },
+        {
+          "id": "day07-group-3",
+          "body": "大家早點休息，明天繼續。",
+          "senderId": "ayi",
+          "time": "2026-11-09 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day08-group-1",
+          "body": "DAY 08「寫給高中的我們」結束啦，大家辛苦了。",
+          "senderId": "owner",
+          "time": "2026-11-10 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day08-group-2",
+          "body": "以前不敢講的話，今天終於說了一點。",
+          "senderId": "xiahe",
+          "time": "2026-11-10 21:22",
+          "hidden": true
+        },
+        {
+          "id": "day08-group-3",
+          "body": "大家早點休息，明天繼續。",
+          "senderId": "ayi",
+          "time": "2026-11-10 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day09-group-1",
+          "body": "DAY 09「沒問出口的問題」結束啦，大家辛苦了。",
+          "senderId": "owner",
+          "time": "2026-11-11 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day09-group-2",
+          "body": "以前不敢講的話，今天終於說了一點。",
+          "senderId": "xiahe",
+          "time": "2026-11-11 21:22",
+          "hidden": true
+        },
+        {
+          "id": "day09-group-3",
+          "body": "大家早點休息，明天繼續。",
+          "senderId": "ayi",
+          "time": "2026-11-11 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day10-group-1",
+          "body": "DAY 10「喜帖背面的字」結束啦，大家辛苦了。",
+          "senderId": "owner",
+          "time": "2026-11-12 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day10-group-2",
+          "body": "以前不敢講的話，今天終於說了一點。",
+          "senderId": "xiahe",
+          "time": "2026-11-12 21:22",
+          "hidden": true
+        },
+        {
+          "id": "day10-group-3",
+          "body": "大家早點休息，明天繼續。",
+          "senderId": "ayi",
+          "time": "2026-11-12 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day11-group-1",
+          "body": "DAY 11「同一天的兩個版本」結束啦，大家辛苦了。",
+          "senderId": "owner",
+          "time": "2026-11-13 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day11-group-2",
+          "body": "以前不敢講的話，今天終於說了一點。",
+          "senderId": "xiahe",
+          "time": "2026-11-13 21:22",
+          "hidden": true
+        },
+        {
+          "id": "day11-group-3",
+          "body": "大家早點休息，明天繼續。",
+          "senderId": "ayi",
+          "time": "2026-11-13 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day12-group-1",
+          "body": "DAY 12「歉意不等於答案」結束啦，大家辛苦了。",
+          "senderId": "owner",
+          "time": "2026-11-14 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day12-group-2",
+          "body": "以前不敢講的話，今天終於說了一點。",
+          "senderId": "xiahe",
+          "time": "2026-11-14 21:22",
+          "hidden": true
+        },
+        {
+          "id": "day12-group-3",
+          "body": "大家早點休息，明天繼續。",
+          "senderId": "ayi",
+          "time": "2026-11-14 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day13-group-1",
+          "body": "DAY 13「只有我們聽懂的旋律」結束啦，大家辛苦了。",
+          "senderId": "owner",
+          "time": "2026-11-15 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day13-group-2",
+          "body": "以前不敢講的話，今天終於說了一點。",
+          "senderId": "xiahe",
+          "time": "2026-11-15 21:22",
+          "hidden": true
+        },
+        {
+          "id": "day13-group-3",
+          "body": "大家早點休息，明天繼續。",
+          "senderId": "ayi",
+          "time": "2026-11-15 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day14-group-1",
+          "body": "DAY 14「沒有寫完的那封信」結束啦，大家辛苦了。",
+          "senderId": "owner",
+          "time": "2026-11-16 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day14-group-2",
+          "body": "以前不敢講的話，今天終於說了一點。",
+          "senderId": "xiahe",
+          "time": "2026-11-16 21:22",
+          "hidden": true
+        },
+        {
+          "id": "day14-group-3",
+          "body": "大家早點休息，明天繼續。",
+          "senderId": "ayi",
+          "time": "2026-11-16 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day15-group-1",
+          "body": "DAY 15「界線不是遺忘」結束啦，大家辛苦了。",
+          "senderId": "owner",
+          "time": "2026-11-17 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day15-group-2",
+          "body": "以前不敢講的話，今天終於說了一點。",
+          "senderId": "xiahe",
+          "time": "2026-11-17 21:22",
+          "hidden": true
+        },
+        {
+          "id": "day15-group-3",
+          "body": "大家早點休息，明天繼續。",
+          "senderId": "ayi",
+          "time": "2026-11-17 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day16-group-1",
+          "body": "DAY 16「提前下車的申請」結束啦，大家辛苦了。",
+          "senderId": "owner",
+          "time": "2026-11-18 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day16-group-2",
+          "body": "以前不敢講的話，今天終於說了一點。",
+          "senderId": "xiahe",
+          "time": "2026-11-18 21:22",
+          "hidden": true
+        },
+        {
+          "id": "day16-group-3",
+          "body": "大家早點休息，明天繼續。",
+          "senderId": "ayi",
+          "time": "2026-11-18 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day17-group-1",
+          "body": "DAY 17「重新學會問候」結束啦，大家辛苦了。",
+          "senderId": "owner",
+          "time": "2026-11-19 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day17-group-2",
+          "body": "以前不敢講的話，今天終於說了一點。",
+          "senderId": "xiahe",
+          "time": "2026-11-19 21:22",
+          "hidden": true
+        },
+        {
+          "id": "day17-group-3",
+          "body": "大家早點休息，明天繼續。",
+          "senderId": "ayi",
+          "time": "2026-11-19 21:26",
+          "hidden": true
+        },
+        {
+          "id": "day18-group-1",
+          "body": "DAY 18「後會有期」結束啦，大家辛苦了。",
+          "senderId": "owner",
+          "time": "2026-11-20 21:18",
+          "hidden": true
+        },
+        {
+          "id": "day18-group-2",
+          "body": "以前不敢講的話，今天終於說了一點。",
+          "senderId": "xiahe",
+          "time": "2026-11-20 21:22",
+          "hidden": true
+        },
+        {
+          "id": "day18-group-3",
+          "body": "到站了。後會有期。",
+          "senderId": "ayi",
+          "time": "2026-11-20 21:26",
+          "hidden": true
         }
       ]
     }
@@ -291,6 +2040,168 @@
         "body": "陳信宏先生您好：\n\n請帶上一位明明還在身邊，卻已經很久沒有好好交談的人。你們將與另外三組舊友一起展開 18 天的旅行。\n\n本季設定：和解不等於恢復從前；達成共識可以提前下車，也可以選擇走完全程、重新建立距離，或好好告別。若有組別下車，將由新旅伴補位。\n\n請回答：如果要和一個人重新認識，你第一個想到誰？\n\n您在報名表裡寫下的是：溫尚翊。\n\n（架空節目組信件，非真實邀約。）",
         "time": "2026-11-02 15:30",
         "sender": "節目組｜小周"
+      },
+      {
+        "id": "mail-d01",
+        "title": "節目組通知｜DAY 01 重新見面",
+        "body": "陳信宏先生您好：\n\n今日安排：四組舊友上車。用不提工作與頭銜的方式，為彼此寫介紹信。\n\n請注意：可以道歉、和解、繼續同行、提前下車，也可以不和好。節目不要求各位公開婚姻或家人的私人事務。\n\n祝旅程平安。\n節目組｜小周（虛構）",
+        "sender": "節目組｜小周",
+        "folder": "節目來信",
+        "time": "2026-11-03 07:02",
+        "hidden": true
+      },
+      {
+        "id": "mail-d02",
+        "title": "節目組通知｜DAY 02 比陌生人還熟悉",
+        "body": "陳信宏先生您好：\n\n今日安排：交換一日生活表；替彼此安排一小時不談工作、不看手機的時間。\n\n請注意：可以道歉、和解、繼續同行、提前下車，也可以不和好。節目不要求各位公開婚姻或家人的私人事務。\n\n祝旅程平安。\n節目組｜小周（虛構）",
+        "sender": "節目組｜小周",
+        "folder": "節目來信",
+        "time": "2026-11-04 07:02",
+        "hidden": true
+      },
+      {
+        "id": "mail-d03",
+        "title": "節目組通知｜DAY 03 不能說的習慣",
+        "body": "陳信宏先生您好：\n\n今日安排：各說一個對方延續至今的習慣，再說一個不再確定的習慣。\n\n請注意：可以道歉、和解、繼續同行、提前下車，也可以不和好。節目不要求各位公開婚姻或家人的私人事務。\n\n祝旅程平安。\n節目組｜小周（虛構）",
+        "sender": "節目組｜小周",
+        "folder": "節目來信",
+        "time": "2026-11-05 07:02",
+        "hidden": true
+      },
+      {
+        "id": "mail-d04",
+        "title": "節目組通知｜DAY 04 你現在最怕什麼",
+        "body": "陳信宏先生您好：\n\n今日安排：默契問答十題，最後一題不設標準答案：你知道他現在最害怕什麼嗎？\n\n請注意：可以道歉、和解、繼續同行、提前下車，也可以不和好。節目不要求各位公開婚姻或家人的私人事務。\n\n祝旅程平安。\n節目組｜小周（虛構）",
+        "sender": "節目組｜小周",
+        "folder": "節目來信",
+        "time": "2026-11-06 07:02",
+        "hidden": true
+      },
+      {
+        "id": "mail-d05",
+        "title": "節目組通知｜DAY 05 放學一起走",
+        "body": "陳信宏先生您好：\n\n今日安排：兩人各帶一件與對方有關的舊物，只講一個故事，不必交代結局。\n\n請注意：可以道歉、和解、繼續同行、提前下車，也可以不和好。節目不要求各位公開婚姻或家人的私人事務。\n\n祝旅程平安。\n節目組｜小周（虛構）",
+        "sender": "節目組｜小周",
+        "folder": "節目來信",
+        "time": "2026-11-07 07:02",
+        "hidden": true
+      },
+      {
+        "id": "mail-d06",
+        "title": "節目組通知｜DAY 06 第一組提前下車",
+        "body": "陳信宏先生您好：\n\n今日安排：陸景與楊楠達成共識，提前下車；剩下的人寫下對『和解』的理解。\n\n請注意：可以道歉、和解、繼續同行、提前下車，也可以不和好。節目不要求各位公開婚姻或家人的私人事務。\n\n祝旅程平安。\n節目組｜小周（虛構）",
+        "sender": "節目組｜小周",
+        "folder": "節目來信",
+        "time": "2026-11-08 07:02",
+        "hidden": true
+      },
+      {
+        "id": "mail-d07",
+        "title": "節目組通知｜DAY 07 新旅伴上車",
+        "body": "陳信宏先生您好：\n\n今日安排：夏禾與程遠補位；匿名寫下最怕被對方誤解的一件事。\n\n請注意：可以道歉、和解、繼續同行、提前下車，也可以不和好。節目不要求各位公開婚姻或家人的私人事務。\n\n祝旅程平安。\n節目組｜小周（虛構）",
+        "sender": "節目組｜小周",
+        "folder": "節目來信",
+        "time": "2026-11-09 07:02",
+        "hidden": true
+      },
+      {
+        "id": "mail-d08",
+        "title": "節目組通知｜DAY 08 寫給高中的我們",
+        "body": "陳信宏先生您好：\n\n今日安排：寫給剛認識對方時的自己一封信，不許寫『如果早知道』。\n\n請注意：可以道歉、和解、繼續同行、提前下車，也可以不和好。節目不要求各位公開婚姻或家人的私人事務。\n\n祝旅程平安。\n節目組｜小周（虛構）",
+        "sender": "節目組｜小周",
+        "folder": "節目來信",
+        "time": "2026-11-10 07:02",
+        "hidden": true
+      },
+      {
+        "id": "mail-d09",
+        "title": "節目組通知｜DAY 09 沒問出口的問題",
+        "body": "陳信宏先生您好：\n\n今日安排：只問一個埋藏多年的問題；對方可以回答『我還沒準備好』。\n\n請注意：可以道歉、和解、繼續同行、提前下車，也可以不和好。節目不要求各位公開婚姻或家人的私人事務。\n\n祝旅程平安。\n節目組｜小周（虛構）",
+        "sender": "節目組｜小周",
+        "folder": "節目來信",
+        "time": "2026-11-11 07:02",
+        "hidden": true
+      },
+      {
+        "id": "mail-d10",
+        "title": "節目組通知｜DAY 10 喜帖背面的字",
+        "body": "陳信宏先生您好：\n\n今日安排：回顧一個改變關係的人生決定，不公開家人的私事，也不要求誰背負歉意。\n\n請注意：可以道歉、和解、繼續同行、提前下車，也可以不和好。節目不要求各位公開婚姻或家人的私人事務。\n\n祝旅程平安。\n節目組｜小周（虛構）",
+        "sender": "節目組｜小周",
+        "folder": "節目來信",
+        "time": "2026-11-12 07:02",
+        "hidden": true
+      },
+      {
+        "id": "mail-d11",
+        "title": "節目組通知｜DAY 11 同一天的兩個版本",
+        "body": "陳信宏先生您好：\n\n今日安排：各自寫下當年那一天的記憶，不急著替對方更正。\n\n請注意：可以道歉、和解、繼續同行、提前下車，也可以不和好。節目不要求各位公開婚姻或家人的私人事務。\n\n祝旅程平安。\n節目組｜小周（虛構）",
+        "sender": "節目組｜小周",
+        "folder": "節目來信",
+        "time": "2026-11-13 07:02",
+        "hidden": true
+      },
+      {
+        "id": "mail-d12",
+        "title": "節目組通知｜DAY 12 歉意不等於答案",
+        "body": "陳信宏先生您好：\n\n今日安排：各說一件需要道歉的事，再各說一件道歉也無法恢復的事。\n\n請注意：可以道歉、和解、繼續同行、提前下車，也可以不和好。節目不要求各位公開婚姻或家人的私人事務。\n\n祝旅程平安。\n節目組｜小周（虛構）",
+        "sender": "節目組｜小周",
+        "folder": "節目來信",
+        "time": "2026-11-14 07:02",
+        "hidden": true
+      },
+      {
+        "id": "mail-d13",
+        "title": "節目組通知｜DAY 13 只有我們聽懂的旋律",
+        "body": "陳信宏先生您好：\n\n今日安排：寫一句完全原創的短句，交換一段不作公開演出的聲音紀錄。\n\n請注意：可以道歉、和解、繼續同行、提前下車，也可以不和好。節目不要求各位公開婚姻或家人的私人事務。\n\n祝旅程平安。\n節目組｜小周（虛構）",
+        "sender": "節目組｜小周",
+        "folder": "節目來信",
+        "time": "2026-11-15 07:02",
+        "hidden": true
+      },
+      {
+        "id": "mail-d14",
+        "title": "節目組通知｜DAY 14 沒有寫完的那封信",
+        "body": "陳信宏先生您好：\n\n今日安排：把從前沒寄出的信讀給對方聽，允許停頓與拒絕。\n\n請注意：可以道歉、和解、繼續同行、提前下車，也可以不和好。節目不要求各位公開婚姻或家人的私人事務。\n\n祝旅程平安。\n節目組｜小周（虛構）",
+        "sender": "節目組｜小周",
+        "folder": "節目來信",
+        "time": "2026-11-16 07:02",
+        "hidden": true
+      },
+      {
+        "id": "mail-d15",
+        "title": "節目組通知｜DAY 15 界線不是遺忘",
+        "body": "陳信宏先生您好：\n\n今日安排：一起寫下三條可以真正做到、不傷害其他人的相處界線。\n\n請注意：可以道歉、和解、繼續同行、提前下車，也可以不和好。節目不要求各位公開婚姻或家人的私人事務。\n\n祝旅程平安。\n節目組｜小周（虛構）",
+        "sender": "節目組｜小周",
+        "folder": "節目來信",
+        "time": "2026-11-17 07:02",
+        "hidden": true
+      },
+      {
+        "id": "mail-d16",
+        "title": "節目組通知｜DAY 16 提前下車的申請",
+        "body": "陳信宏先生您好：\n\n今日安排：節目組提供兩張申請：達成共識可提前離開，或繼續走完18天。\n\n請注意：可以道歉、和解、繼續同行、提前下車，也可以不和好。節目不要求各位公開婚姻或家人的私人事務。\n\n祝旅程平安。\n節目組｜小周（虛構）",
+        "sender": "節目組｜小周",
+        "folder": "節目來信",
+        "time": "2026-11-18 07:02",
+        "hidden": true
+      },
+      {
+        "id": "mail-d17",
+        "title": "節目組通知｜DAY 17 重新學會問候",
+        "body": "陳信宏先生您好：\n\n今日安排：決定留下的人練習直接提問，不再靠過去的默契猜測當下的答案。\n\n請注意：可以道歉、和解、繼續同行、提前下車，也可以不和好。節目不要求各位公開婚姻或家人的私人事務。\n\n祝旅程平安。\n節目組｜小周（虛構）",
+        "sender": "節目組｜小周",
+        "folder": "節目來信",
+        "time": "2026-11-19 07:02",
+        "hidden": true
+      },
+      {
+        "id": "mail-d18",
+        "title": "節目組通知｜DAY 18 後會有期",
+        "body": "陳信宏先生您好：\n\n今日安排：最後回答：希望對方以什麼方式繼續出現在自己的人生裡？\n\n請注意：可以道歉、和解、繼續同行、提前下車，也可以不和好。節目不要求各位公開婚姻或家人的私人事務。\n\n祝旅程平安。\n節目組｜小周（虛構）",
+        "sender": "節目組｜小周",
+        "folder": "節目來信",
+        "time": "2026-11-20 07:02",
+        "hidden": true
       }
     ],
     "notes": [
@@ -323,6 +2234,182 @@
         "body": "這是一部架空的互動手機小說，包含虛構的戀愛、婚姻與節目旅程，並非真實人物的聊天紀錄或私人生活。\n\n第一章可探索節目邀請函、KakaoTalk、微信、備忘錄與照片記錄。完成第一章的選擇後，後續 17 天劇情將逐步加入。",
         "time": "2026-11-02 09:00",
         "folder": "說明"
+      },
+      {
+        "id": "diary-d01",
+        "title": "DAY 01｜錄製日記：重新見面",
+        "body": "2026-11-03\n\n車子開動前，阿翊把保溫杯遞給我，像高中那樣叫我少喝咖啡。其他人問認識多久，他說『從高中』，語氣平常得像在講天氣。可是我們並不只是認識很久。我在介紹信最後寫：『我最不知道的是，他究竟怎麼看待我們現在的關係。』很想問，卻怕打碎這麼多年辛苦維持的平靜。\n\n【節目結束後整理的私人文字；屬於虛構作品】\n\n讀完此篇，才會進入下一天的旅程。",
+        "folder": "18天日記",
+        "time": "2026-11-03 22:19",
+        "hidden": true
+      },
+      {
+        "id": "diary-d02",
+        "title": "DAY 02｜錄製日記：比陌生人還熟悉",
+        "body": "2026-11-04\n\n他記得我不能喝冰的，也記得我一累就把吃飯當成不重要的事。可是節目組要我們寫『對方現在最想做的事』，他的答案是我多年以前的夢，我的答案卻是希望他最近睡得好。原來我們都太擅長記得從前的彼此，卻很少問現在的彼此。最熟的人，也可能各自停在不同的時間裡。\n\n【節目結束後整理的私人文字；屬於虛構作品】\n\n讀完此篇，才會進入下一天的旅程。",
+        "folder": "18天日記",
+        "time": "2026-11-04 22:19",
+        "hidden": true
+      },
+      {
+        "id": "diary-d03",
+        "title": "DAY 03｜錄製日記：不能說的習慣",
+        "body": "2026-11-05\n\n嘉賓說這一組肯定滿分。我答得出阿翊以前寫譜會用什麼筆，他也知道我逞強時笑起來是什麼樣子。可我不知道他心煩的時候現在會去哪裡，他也不知道我早就學會了一個人消化失落。原來『我知道你』不等於『我還有認真認識你』。我決定今天不再用笑話跳過問題。\n\n【節目結束後整理的私人文字；屬於虛構作品】\n\n讀完此篇，才會進入下一天的旅程。",
+        "folder": "18天日記",
+        "time": "2026-11-05 22:19",
+        "hidden": true
+      },
+      {
+        "id": "diary-d04",
+        "title": "DAY 04｜錄製日記：你現在最怕什麼",
+        "body": "2026-11-06\n\n我們前面九題幾乎全對。最後一題，兩個人一起停筆。阿翊說他怕說出來很自私，我也不確定自己想不想被知道。我們都習慣替對方留一條退路，結果那條路漸漸變成彼此之間的距離。那天晚上我打了很多字又刪掉，最後只發：『你今天還好嗎？』\n\n【節目結束後整理的私人文字；屬於虛構作品】\n\n讀完此篇，才會進入下一天的旅程。",
+        "folder": "18天日記",
+        "time": "2026-11-06 22:19",
+        "hidden": true
+      },
+      {
+        "id": "diary-d05",
+        "title": "DAY 05｜錄製日記：放學一起走",
+        "body": "2026-11-07\n\n阿翊帶來一張以前的公車票。我一直以為他早丟了。那段等車的時間很漫長，長到足以讓兩個少年把一天的心事說完。那時候喜歡一個人，只要放學一起走就好，不用想婚姻、責任與未來會怎麼轉彎。我想讓他知道，後來的事並沒有把那段路變成假的。\n\n【節目結束後整理的私人文字；屬於虛構作品】\n\n讀完此篇，才會進入下一天的旅程。",
+        "folder": "18天日記",
+        "time": "2026-11-07 22:19",
+        "hidden": true
+      },
+      {
+        "id": "diary-d06",
+        "title": "DAY 06｜錄製日記：第一組提前下車",
+        "body": "2026-11-08\n\n陸景與楊楠離開前說，和解不是以後還要每天見，而是終於不用比較誰受的傷比較重。車上空了兩個位置。小周問我們是不是也想離開，阿翊說：『可我們有吵架嗎？』我差點回答沒有。其實我們最擅長的就是沒有吵架，沒有告別，沒有任何結束的聲音，關係卻真的停了。\n\n【節目結束後整理的私人文字；屬於虛構作品】\n\n讀完此篇，才會進入下一天的旅程。",
+        "folder": "18天日記",
+        "time": "2026-11-08 22:19",
+        "hidden": true
+      },
+      {
+        "id": "diary-d07",
+        "title": "DAY 07｜錄製日記：新旅伴上車",
+        "body": "2026-11-09\n\n新來的夏禾說，她有很長一段時間不敢傳訊息給舊友，怕自己變成打擾。我想起阿翊結婚之後，自己連問一句『你今天有空嗎』都猶豫。不是因為他不肯回答，而是我再也不知道這句話代表什麼。匿名卡上我寫：『不要以為我笑著，就代表什麼都不會痛。』他沒有立刻來找我，我反而感到安心。\n\n【節目結束後整理的私人文字；屬於虛構作品】\n\n讀完此篇，才會進入下一天的旅程。",
+        "folder": "18天日記",
+        "time": "2026-11-09 22:19",
+        "hidden": true
+      },
+      {
+        "id": "diary-d08",
+        "title": "DAY 08｜錄製日記：寫給高中的我們",
+        "body": "2026-11-10\n\n我想寫給高中時候的自己：你會和一個喜歡彈吉他的男生走很長很長的路，陪彼此長大。可是有一天你們會不能再牽手。這不等於從前不夠真，也不等於往後每個人都犯了錯。我希望那個還在校門口等人的自己不要害怕，因為愛過的時間不是被某個結局一下子抹掉的。阿翊寫到一半就摺起了信。\n\n【節目結束後整理的私人文字；屬於虛構作品】\n\n讀完此篇，才會進入下一天的旅程。",
+        "folder": "18天日記",
+        "time": "2026-11-10 22:19",
+        "hidden": true
+      },
+      {
+        "id": "diary-d09",
+        "title": "DAY 09｜錄製日記：沒問出口的問題",
+        "body": "2026-11-11\n\n他問我是不是覺得，他選擇結婚就否定了以前的我們。我說沒有。我真的祝福他有自己的生活，也真的難過；這是兩件能同時成立的事。他卻一直以為我的祝福等於我早已放下。那天夜裡我們第一次沒有急著替對方整理情緒。原來被理解不一定是被人回答，而是終於被允許把問題說完。\n\n【節目結束後整理的私人文字；屬於虛構作品】\n\n讀完此篇，才會進入下一天的旅程。",
+        "folder": "18天日記",
+        "time": "2026-11-11 22:19",
+        "hidden": true
+      },
+      {
+        "id": "diary-d10",
+        "title": "DAY 10｜錄製日記：喜帖背面的字",
+        "body": "2026-11-12\n\n整理舊紙張時看見喜帖。那時候我在背面寫『祝你幸福』，是真心的。阿翊的妻子不是誰的障礙，她是一個值得被尊重的人，也是阿翊現在生活與責任的一部分。我最難過的不是那段婚姻存在，而是我們似乎忘記了要為從前的戀愛說一句再見。我不想責怪任何人；我只希望自己能坦然承認，那天我很捨不得。\n\n【節目結束後整理的私人文字；屬於虛構作品】\n\n讀完此篇，才會進入下一天的旅程。",
+        "folder": "18天日記",
+        "time": "2026-11-12 22:19",
+        "hidden": true
+      },
+      {
+        "id": "diary-d11",
+        "title": "DAY 11｜錄製日記：同一天的兩個版本",
+        "body": "2026-11-13\n\n我記得自己很體面地說恭喜，他卻記得我沒有挽留。我那句祝福是真的，心痛也是真的；他當時的選擇是真的，對我的牽掛也是真的。我們沒有誰撒謊，只是一直看到對方想讓自己看的那一面。當阿翊說『我以為你不再需要我』，我第一次不想用玩笑回答。我說：『我不想成為你為難的理由，但我也不是沒有難過。』\n\n【節目結束後整理的私人文字；屬於虛構作品】\n\n讀完此篇，才會進入下一天的旅程。",
+        "folder": "18天日記",
+        "time": "2026-11-13 22:19",
+        "hidden": true
+      },
+      {
+        "id": "diary-d12",
+        "title": "DAY 12｜錄製日記：歉意不等於答案",
+        "body": "2026-11-14\n\n他說對不起，對不起在那麼長的時間裡只關心我有沒有吃飯，卻沒問過我真正開不開心。我也說對不起，對不起一直用俏皮話把別人拉開。可這些對不起不能讓我們回到高中，也不能消除現在的承諾。比道歉更重要的是往後如何相處，才不會讓同樣的沉默再發生一次。\n\n【節目結束後整理的私人文字；屬於虛構作品】\n\n讀完此篇，才會進入下一天的旅程。",
+        "folder": "18天日記",
+        "time": "2026-11-14 22:19",
+        "hidden": true
+      },
+      {
+        "id": "diary-d13",
+        "title": "DAY 13｜錄製日記：只有我們聽懂的旋律",
+        "body": "2026-11-15\n\n我寫：『有些人不能再用從前的方式迎接，卻仍值得被好好記得。』阿翊在房間裡彈了一段沒有名字的旋律給我聽。不是以前的歌，也沒有要送給誰；我們只是一起聽完，然後很久沒有說話。這次的安靜和以前不同：它不是躲避，也不是假裝，而是知道不需要再拿任何一句漂亮話來證明曾經相愛。\n\n【節目結束後整理的私人文字；屬於虛構作品】\n\n讀完此篇，才會進入下一天的旅程。",
+        "folder": "18天日記",
+        "time": "2026-11-15 22:19",
+        "hidden": true
+      },
+      {
+        "id": "diary-d14",
+        "title": "DAY 14｜錄製日記：沒有寫完的那封信",
+        "body": "2026-11-16\n\n阿翊終於把寫給高中自己的信打開。裡面寫，他會遇到一個愛笑的人，會很想陪對方長大，也會在後來做出另一個人生決定。他沒有要求我等，也沒有要我替他原諒自己。我說我從來不想把他的現在推翻，只是偶爾還是會很想念從前的我們。說出來的時候，我沒有哭；他也沒有打斷我。\n\n【節目結束後整理的私人文字；屬於虛構作品】\n\n讀完此篇，才會進入下一天的旅程。",
+        "folder": "18天日記",
+        "time": "2026-11-16 22:19",
+        "hidden": true
+      },
+      {
+        "id": "diary-d15",
+        "title": "DAY 15｜錄製日記：界線不是遺忘",
+        "body": "2026-11-17\n\n我們寫了：不以過去要求今天；不替對方決定；不拿沉默假裝體貼。阿翊說自己的婚姻和家庭責任必須自己負責，不能用對我還有感情作藉口。我說我也不會把等待當成證明愛過的方式。這樣寫下來有點像學校的約定，但奇怪的是，我反而第一次覺得以後真的還能好好見面。\n\n【節目結束後整理的私人文字；屬於虛構作品】\n\n讀完此篇，才會進入下一天的旅程。",
+        "folder": "18天日記",
+        "time": "2026-11-17 22:19",
+        "hidden": true
+      },
+      {
+        "id": "diary-d16",
+        "title": "DAY 16｜錄製日記：提前下車的申請",
+        "body": "2026-11-18\n\n桌上有兩張表。提前下車不是復合的證明，繼續旅行也不是還沒和解的證據。阿翊問我想不想先走，我反問他是不是只怕我累。他笑了，說我們真的太會猜彼此的答案了。這次不一樣。我們要各自寫下自己的理由，再決定要不要一起簽字。無論如何，我希望這是我們第一次真正共同做出的決定。\n\n【節目結束後整理的私人文字；屬於虛構作品】\n\n讀完此篇，才會進入下一天的旅程。",
+        "folder": "18天日記",
+        "time": "2026-11-18 22:19",
+        "hidden": true
+      },
+      {
+        "id": "diary-d17",
+        "title": "DAY 17｜錄製日記：重新學會問候",
+        "body": "2026-11-19\n\n我們決定留下來走完最後兩天。今天阿翊沒有像以前一樣直接買熱飲給我，而是問我想喝常溫還是熱的。我答常溫，又問他是不是累了。他說有一點，也有一點捨不得。我第一次可以平靜地說我也是。原來重新認識不是忘了過去，而是願意接受對方已經有了新的答案。\n\n【節目結束後整理的私人文字；屬於虛構作品】\n\n讀完此篇，才會進入下一天的旅程。",
+        "folder": "18天日記",
+        "time": "2026-11-19 22:19",
+        "hidden": true
+      },
+      {
+        "id": "diary-d18",
+        "title": "DAY 18｜錄製日記：後會有期",
+        "body": "2026-11-20\n\n到站了。我終於能說出來，從前的愛是真的，現在的距離也是真的。我不用因為還愛阿翊，就要求他替我重來；他也不必因為覺得虧欠，就用模糊的承諾安慰我。或許我們仍會一起工作，仍會在台上看見對方，又或許各自需要更長的時間。這十八天沒有讓往事消失，但讓我們學會不再替彼此搶答。最後他遞來外套，我說謝謝，阿翊。\n\n【節目結束後整理的私人文字；屬於虛構作品】\n\n讀完此篇，才會進入下一天的旅程。",
+        "folder": "18天日記",
+        "time": "2026-11-20 22:19",
+        "hidden": true
+      },
+      {
+        "id": "memo-wedding",
+        "title": "兩份對同一天的回憶",
+        "body": "陳信宏：『那時候我是真心說恭喜，後來回到房間卻一個人坐了很久。』\n\n溫尚翊：『他的笑讓我以為他早就放下，直到這趟旅程才知道，我一直在猜他的答案。』\n\n兩份記憶都是真實感受，卻都不是唯一的角度。",
+        "time": "2026-11-13 23:09",
+        "folder": "隱藏檔案",
+        "hidden": true
+      },
+      {
+        "id": "memo-boundary",
+        "title": "寫給往後的相處約定",
+        "body": "1. 不以過去要求今天。\n2. 不替對方決定。\n3. 不以愛為名傷害家人與婚姻中的其他人。\n4. 不拿沉默當體貼。\n5. 若未來人生有改變，必須先獨立處理原有承諾，而不是用模糊的承諾交換陪伴。",
+        "time": "2026-11-17 23:19",
+        "folder": "隱藏檔案",
+        "hidden": true
+      },
+      {
+        "id": "memo-finale",
+        "title": "未寄出的最後一封信",
+        "body": "阿翊：\n\n我終於知道，真正懂一個人，不是從來不用問，而是能讓他把新的答案說完。\n\n以前放學的路是真的，現在不能隨意牽手也是真的。我不想用等待作證，也不想用遺忘否定我們。\n\n謝謝你陪我走到這一站，後會有期。\n\n—— 阿信（未發送）",
+        "time": "2026-11-20 23:13",
+        "folder": "隱藏檔案",
+        "hidden": true
+      },
+      {
+        "id": "memo-four-pairs",
+        "title": "節目組整理｜四組舊友",
+        "body": "第一組：陳信宏與溫尚翊（高中相識，多年共同工作，曾是戀人）。\n第二組：陸景與楊楠（曾經是好朋友，DAY 06 提早下車）。\n第三組：許澄與林川（因生活節奏不同疏遠，選擇走完全程）。\n第四組：周可與羅予（曾經創業，為信任產生裂痕）。\nDAY 07 補位：夏禾與程遠（多年未聯繫）。\n\n以上嘉賓關係及本節目劇情均為虛構。",
+        "time": "2026-11-03 16:05",
+        "folder": "隱藏檔案",
+        "hidden": true
       }
     ],
     "photos": [
@@ -340,6 +2427,150 @@
         "body": "【圖片待補】列車外一排排靠窗的座位。節目組還沒有公布座位表；陳信宏卻知道溫尚翊會選哪一邊。",
         "time": "2026-11-02 19:12",
         "folder": "旅程"
+      },
+      {
+        "id": "photo-d01",
+        "title": "DAY 01｜照片記錄：重新見面",
+        "body": "【待加入使用者授權的真實照片；目前僅為劇情文字占位】\n\n候車室長椅間隔著一只行李箱，溫尚翊把箱子移到腳邊，騰出一個位置。\n\n此為平行世界的虛構手機內容。",
+        "folder": "後會友期｜18天",
+        "time": "2026-11-03 18:03",
+        "hidden": true
+      },
+      {
+        "id": "photo-d02",
+        "title": "DAY 02｜照片記錄：比陌生人還熟悉",
+        "body": "【待加入使用者授權的真實照片；目前僅為劇情文字占位】\n\n兩杯飲料並排放在桌上，收據備註『無冰、少糖』，是很舊的習慣。\n\n此為平行世界的虛構手機內容。",
+        "folder": "後會友期｜18天",
+        "time": "2026-11-04 18:03",
+        "hidden": true
+      },
+      {
+        "id": "photo-d03",
+        "title": "DAY 03｜照片記錄：不能說的習慣",
+        "body": "【待加入使用者授權的真實照片；目前僅為劇情文字占位】\n\n舊節目單後面有張褪色便利貼，寫著『別忘了吃飯』。\n\n此為平行世界的虛構手機內容。",
+        "folder": "後會友期｜18天",
+        "time": "2026-11-05 18:03",
+        "hidden": true
+      },
+      {
+        "id": "photo-d04",
+        "title": "DAY 04｜照片記錄：你現在最怕什麼",
+        "body": "【待加入使用者授權的真實照片；目前僅為劇情文字占位】\n\n問答記分板的前九格滿分，最後一格沒有答案也沒有分數。\n\n此為平行世界的虛構手機內容。",
+        "folder": "後會友期｜18天",
+        "time": "2026-11-06 18:03",
+        "hidden": true
+      },
+      {
+        "id": "photo-d05",
+        "title": "DAY 05｜照片記錄：放學一起走",
+        "body": "【待加入使用者授權的真實照片；目前僅為劇情文字占位】\n\n照片背面有一行淡掉的筆跡：『放學一起走。』旁邊壓著泛黃的車票。\n\n此為平行世界的虛構手機內容。",
+        "folder": "後會友期｜18天",
+        "time": "2026-11-07 18:03",
+        "hidden": true
+      },
+      {
+        "id": "photo-d06",
+        "title": "DAY 06｜照片記錄：第一組提前下車",
+        "body": "【待加入使用者授權的真實照片；目前僅為劇情文字占位】\n\n空著的兩張座位上，還留著方才被收走的姓名卡印痕。\n\n此為平行世界的虛構手機內容。",
+        "folder": "後會友期｜18天",
+        "time": "2026-11-08 18:03",
+        "hidden": true
+      },
+      {
+        "id": "photo-d07",
+        "title": "DAY 07｜照片記錄：新旅伴上車",
+        "body": "【待加入使用者授權的真實照片；目前僅為劇情文字占位】\n\n共用桌上貼著新旅伴留下的明信片：『我們不是來贏一場辯論。』\n\n此為平行世界的虛構手機內容。",
+        "folder": "後會友期｜18天",
+        "time": "2026-11-09 18:03",
+        "hidden": true
+      },
+      {
+        "id": "photo-d08",
+        "title": "DAY 08｜照片記錄：寫給高中的我們",
+        "body": "【待加入使用者授權的真實照片；目前僅為劇情文字占位】\n\n老課表影本夾著一封沒封口的信，信封寫『給以前的我們』。\n\n此為平行世界的虛構手機內容。",
+        "folder": "後會友期｜18天",
+        "time": "2026-11-10 18:03",
+        "hidden": true
+      },
+      {
+        "id": "photo-d09",
+        "title": "DAY 09｜照片記錄：沒問出口的問題",
+        "body": "【待加入使用者授權的真實照片；目前僅為劇情文字占位】\n\n兩張沒有署名的卡片：『你有後悔嗎？』與『你以為我不在乎嗎？』\n\n此為平行世界的虛構手機內容。",
+        "folder": "後會友期｜18天",
+        "time": "2026-11-11 18:03",
+        "hidden": true
+      },
+      {
+        "id": "photo-d10",
+        "title": "DAY 10｜照片記錄：喜帖背面的字",
+        "body": "【待加入使用者授權的真實照片；目前僅為劇情文字占位】\n\n舊信封露出紅色紙邊，背後有一行字：『祝你幸福，是真心的。』\n\n此為平行世界的虛構手機內容。",
+        "folder": "後會友期｜18天",
+        "time": "2026-11-12 18:03",
+        "hidden": true
+      },
+      {
+        "id": "photo-d11",
+        "title": "DAY 11｜照片記錄：同一天的兩個版本",
+        "body": "【待加入使用者授權的真實照片；目前僅為劇情文字占位】\n\n兩份回顧並排：『我祝福他』與『他沒有挽留』，沒有一句完全說盡那一天。\n\n此為平行世界的虛構手機內容。",
+        "folder": "後會友期｜18天",
+        "time": "2026-11-13 18:03",
+        "hidden": true
+      },
+      {
+        "id": "photo-d12",
+        "title": "DAY 12｜照片記錄：歉意不等於答案",
+        "body": "【待加入使用者授權的真實照片；目前僅為劇情文字占位】\n\n紙巾背面原本寫『沒關係』，後來劃掉，換成『我知道了』。\n\n此為平行世界的虛構手機內容。",
+        "folder": "後會友期｜18天",
+        "time": "2026-11-14 18:03",
+        "hidden": true
+      },
+      {
+        "id": "photo-d13",
+        "title": "DAY 13｜照片記錄：只有我們聽懂的旋律",
+        "body": "【待加入使用者授權的真實照片；目前僅為劇情文字占位】\n\n一段沒有命名的原創吉他旋律備忘錄，尾端有人輕輕笑了一聲。\n\n此為平行世界的虛構手機內容。",
+        "folder": "後會友期｜18天",
+        "time": "2026-11-15 18:03",
+        "hidden": true
+      },
+      {
+        "id": "photo-d14",
+        "title": "DAY 14｜照片記錄：沒有寫完的那封信",
+        "body": "【待加入使用者授權的真實照片；目前僅為劇情文字占位】\n\n一封透明資料袋裡的信，信封上只有『請聽我說完』。\n\n此為平行世界的虛構手機內容。",
+        "folder": "後會友期｜18天",
+        "time": "2026-11-16 18:03",
+        "hidden": true
+      },
+      {
+        "id": "photo-d15",
+        "title": "DAY 15｜照片記錄：界線不是遺忘",
+        "body": "【待加入使用者授權的真實照片；目前僅為劇情文字占位】\n\n桌面白板三行字：『不要求、不代答、不隱瞞』。\n\n此為平行世界的虛構手機內容。",
+        "folder": "後會友期｜18天",
+        "time": "2026-11-17 18:03",
+        "hidden": true
+      },
+      {
+        "id": "photo-d16",
+        "title": "DAY 16｜照片記錄：提前下車的申請",
+        "body": "【待加入使用者授權的真實照片；目前僅為劇情文字占位】\n\n一張『提前下車』與一張『走完全程』的表，並排放在桌上，兩支筆各放一側。\n\n此為平行世界的虛構手機內容。",
+        "folder": "後會友期｜18天",
+        "time": "2026-11-18 18:03",
+        "hidden": true
+      },
+      {
+        "id": "photo-d17",
+        "title": "DAY 17｜照片記錄：重新學會問候",
+        "body": "【待加入使用者授權的真實照片；目前僅為劇情文字占位】\n\n兩杯飲料放在同一桌上，這次杯身各自寫了不同的口味。\n\n此為平行世界的虛構手機內容。",
+        "folder": "後會友期｜18天",
+        "time": "2026-11-19 18:03",
+        "hidden": true
+      },
+      {
+        "id": "photo-d18",
+        "title": "DAY 18｜照片記錄：後會有期",
+        "body": "【待加入使用者授權的真實照片；目前僅為劇情文字占位】\n\n月台廣播最後一站。桌上兩張卡片分別寫『謝謝你』與『以後慢慢說』。\n\n此為平行世界的虛構手機內容。",
+        "folder": "後會友期｜18天",
+        "time": "2026-11-20 18:03",
+        "hidden": true
       }
     ],
     "calendar": [
@@ -354,6 +2585,132 @@
         "title": "18天旅程｜DAY 01–18",
         "body": "11月3日－11月20日。四組舊友同行；如雙方達成共識，可按節目設定申請提前下車。",
         "time": "2026-11-03 08:00"
+      },
+      {
+        "id": "calendar-d01",
+        "title": "DAY 01｜重新見面",
+        "body": "2026-11-03 09:00–20:30\n四組舊友上車。用不提工作與頭銜的方式，為彼此寫介紹信。\n晚間請閱讀今日錄製日記。",
+        "time": "2026-11-03 09:00",
+        "hidden": true
+      },
+      {
+        "id": "calendar-d02",
+        "title": "DAY 02｜比陌生人還熟悉",
+        "body": "2026-11-04 09:00–20:30\n交換一日生活表；替彼此安排一小時不談工作、不看手機的時間。\n晚間請閱讀今日錄製日記。",
+        "time": "2026-11-04 09:00",
+        "hidden": true
+      },
+      {
+        "id": "calendar-d03",
+        "title": "DAY 03｜不能說的習慣",
+        "body": "2026-11-05 09:00–20:30\n各說一個對方延續至今的習慣，再說一個不再確定的習慣。\n晚間請閱讀今日錄製日記。",
+        "time": "2026-11-05 09:00",
+        "hidden": true
+      },
+      {
+        "id": "calendar-d04",
+        "title": "DAY 04｜你現在最怕什麼",
+        "body": "2026-11-06 09:00–20:30\n默契問答十題，最後一題不設標準答案：你知道他現在最害怕什麼嗎？\n晚間請閱讀今日錄製日記。",
+        "time": "2026-11-06 09:00",
+        "hidden": true
+      },
+      {
+        "id": "calendar-d05",
+        "title": "DAY 05｜放學一起走",
+        "body": "2026-11-07 09:00–20:30\n兩人各帶一件與對方有關的舊物，只講一個故事，不必交代結局。\n晚間請閱讀今日錄製日記。",
+        "time": "2026-11-07 09:00",
+        "hidden": true
+      },
+      {
+        "id": "calendar-d06",
+        "title": "DAY 06｜第一組提前下車",
+        "body": "2026-11-08 09:00–20:30\n陸景與楊楠達成共識，提前下車；剩下的人寫下對『和解』的理解。\n晚間請閱讀今日錄製日記。",
+        "time": "2026-11-08 09:00",
+        "hidden": true
+      },
+      {
+        "id": "calendar-d07",
+        "title": "DAY 07｜新旅伴上車",
+        "body": "2026-11-09 09:00–20:30\n夏禾與程遠補位；匿名寫下最怕被對方誤解的一件事。\n晚間請閱讀今日錄製日記。",
+        "time": "2026-11-09 09:00",
+        "hidden": true
+      },
+      {
+        "id": "calendar-d08",
+        "title": "DAY 08｜寫給高中的我們",
+        "body": "2026-11-10 09:00–20:30\n寫給剛認識對方時的自己一封信，不許寫『如果早知道』。\n晚間請閱讀今日錄製日記。",
+        "time": "2026-11-10 09:00",
+        "hidden": true
+      },
+      {
+        "id": "calendar-d09",
+        "title": "DAY 09｜沒問出口的問題",
+        "body": "2026-11-11 09:00–20:30\n只問一個埋藏多年的問題；對方可以回答『我還沒準備好』。\n晚間請閱讀今日錄製日記。",
+        "time": "2026-11-11 09:00",
+        "hidden": true
+      },
+      {
+        "id": "calendar-d10",
+        "title": "DAY 10｜喜帖背面的字",
+        "body": "2026-11-12 09:00–20:30\n回顧一個改變關係的人生決定，不公開家人的私事，也不要求誰背負歉意。\n晚間請閱讀今日錄製日記。",
+        "time": "2026-11-12 09:00",
+        "hidden": true
+      },
+      {
+        "id": "calendar-d11",
+        "title": "DAY 11｜同一天的兩個版本",
+        "body": "2026-11-13 09:00–20:30\n各自寫下當年那一天的記憶，不急著替對方更正。\n晚間請閱讀今日錄製日記。",
+        "time": "2026-11-13 09:00",
+        "hidden": true
+      },
+      {
+        "id": "calendar-d12",
+        "title": "DAY 12｜歉意不等於答案",
+        "body": "2026-11-14 09:00–20:30\n各說一件需要道歉的事，再各說一件道歉也無法恢復的事。\n晚間請閱讀今日錄製日記。",
+        "time": "2026-11-14 09:00",
+        "hidden": true
+      },
+      {
+        "id": "calendar-d13",
+        "title": "DAY 13｜只有我們聽懂的旋律",
+        "body": "2026-11-15 09:00–20:30\n寫一句完全原創的短句，交換一段不作公開演出的聲音紀錄。\n晚間請閱讀今日錄製日記。",
+        "time": "2026-11-15 09:00",
+        "hidden": true
+      },
+      {
+        "id": "calendar-d14",
+        "title": "DAY 14｜沒有寫完的那封信",
+        "body": "2026-11-16 09:00–20:30\n把從前沒寄出的信讀給對方聽，允許停頓與拒絕。\n晚間請閱讀今日錄製日記。",
+        "time": "2026-11-16 09:00",
+        "hidden": true
+      },
+      {
+        "id": "calendar-d15",
+        "title": "DAY 15｜界線不是遺忘",
+        "body": "2026-11-17 09:00–20:30\n一起寫下三條可以真正做到、不傷害其他人的相處界線。\n晚間請閱讀今日錄製日記。",
+        "time": "2026-11-17 09:00",
+        "hidden": true
+      },
+      {
+        "id": "calendar-d16",
+        "title": "DAY 16｜提前下車的申請",
+        "body": "2026-11-18 09:00–20:30\n節目組提供兩張申請：達成共識可提前離開，或繼續走完18天。\n晚間請閱讀今日錄製日記。",
+        "time": "2026-11-18 09:00",
+        "hidden": true
+      },
+      {
+        "id": "calendar-d17",
+        "title": "DAY 17｜重新學會問候",
+        "body": "2026-11-19 09:00–20:30\n決定留下的人練習直接提問，不再靠過去的默契猜測當下的答案。\n晚間請閱讀今日錄製日記。",
+        "time": "2026-11-19 09:00",
+        "hidden": true
+      },
+      {
+        "id": "calendar-d18",
+        "title": "DAY 18｜後會有期",
+        "body": "2026-11-20 09:00–20:30\n最後回答：希望對方以什麼方式繼續出現在自己的人生裡？\n晚間請閱讀今日錄製日記。",
+        "time": "2026-11-20 09:00",
+        "hidden": true
       }
     ],
     "files": [
@@ -370,6 +2727,150 @@
         "body": "DAY 01–04：我們真的走散了嗎？\nDAY 05–09：原來你還記得\nDAY 10–14：你結婚的那一天\nDAY 15–18：後會有期\n\n目前僅製作第一章開篇；此清單為後續故事大綱，不代表所有章節已可遊玩。",
         "time": "2026-11-02 18:00",
         "folder": "節目任務"
+      },
+      {
+        "id": "task-d01",
+        "title": "DAY 01｜任務卡：重新見面",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-03\n\n四組舊友上車。用不提工作與頭銜的方式，為彼此寫介紹信。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 01 的錄製日記，才會開啟下一天。",
+        "folder": "18天任務",
+        "time": "2026-11-03 07:30",
+        "hidden": true
+      },
+      {
+        "id": "task-d02",
+        "title": "DAY 02｜任務卡：比陌生人還熟悉",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-04\n\n交換一日生活表；替彼此安排一小時不談工作、不看手機的時間。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 02 的錄製日記，才會開啟下一天。",
+        "folder": "18天任務",
+        "time": "2026-11-04 07:30",
+        "hidden": true
+      },
+      {
+        "id": "task-d03",
+        "title": "DAY 03｜任務卡：不能說的習慣",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-05\n\n各說一個對方延續至今的習慣，再說一個不再確定的習慣。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 03 的錄製日記，才會開啟下一天。",
+        "folder": "18天任務",
+        "time": "2026-11-05 07:30",
+        "hidden": true
+      },
+      {
+        "id": "task-d04",
+        "title": "DAY 04｜任務卡：你現在最怕什麼",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-06\n\n默契問答十題，最後一題不設標準答案：你知道他現在最害怕什麼嗎？\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 04 的錄製日記，才會開啟下一天。",
+        "folder": "18天任務",
+        "time": "2026-11-06 07:30",
+        "hidden": true
+      },
+      {
+        "id": "task-d05",
+        "title": "DAY 05｜任務卡：放學一起走",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-07\n\n兩人各帶一件與對方有關的舊物，只講一個故事，不必交代結局。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 05 的錄製日記，才會開啟下一天。",
+        "folder": "18天任務",
+        "time": "2026-11-07 07:30",
+        "hidden": true
+      },
+      {
+        "id": "task-d06",
+        "title": "DAY 06｜任務卡：第一組提前下車",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-08\n\n陸景與楊楠達成共識，提前下車；剩下的人寫下對『和解』的理解。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 06 的錄製日記，才會開啟下一天。",
+        "folder": "18天任務",
+        "time": "2026-11-08 07:30",
+        "hidden": true
+      },
+      {
+        "id": "task-d07",
+        "title": "DAY 07｜任務卡：新旅伴上車",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-09\n\n夏禾與程遠補位；匿名寫下最怕被對方誤解的一件事。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 07 的錄製日記，才會開啟下一天。",
+        "folder": "18天任務",
+        "time": "2026-11-09 07:30",
+        "hidden": true
+      },
+      {
+        "id": "task-d08",
+        "title": "DAY 08｜任務卡：寫給高中的我們",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-10\n\n寫給剛認識對方時的自己一封信，不許寫『如果早知道』。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 08 的錄製日記，才會開啟下一天。",
+        "folder": "18天任務",
+        "time": "2026-11-10 07:30",
+        "hidden": true
+      },
+      {
+        "id": "task-d09",
+        "title": "DAY 09｜任務卡：沒問出口的問題",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-11\n\n只問一個埋藏多年的問題；對方可以回答『我還沒準備好』。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 09 的錄製日記，才會開啟下一天。",
+        "folder": "18天任務",
+        "time": "2026-11-11 07:30",
+        "hidden": true
+      },
+      {
+        "id": "task-d10",
+        "title": "DAY 10｜任務卡：喜帖背面的字",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-12\n\n回顧一個改變關係的人生決定，不公開家人的私事，也不要求誰背負歉意。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 10 的錄製日記，才會開啟下一天。",
+        "folder": "18天任務",
+        "time": "2026-11-12 07:30",
+        "hidden": true
+      },
+      {
+        "id": "task-d11",
+        "title": "DAY 11｜任務卡：同一天的兩個版本",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-13\n\n各自寫下當年那一天的記憶，不急著替對方更正。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 11 的錄製日記，才會開啟下一天。",
+        "folder": "18天任務",
+        "time": "2026-11-13 07:30",
+        "hidden": true
+      },
+      {
+        "id": "task-d12",
+        "title": "DAY 12｜任務卡：歉意不等於答案",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-14\n\n各說一件需要道歉的事，再各說一件道歉也無法恢復的事。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 12 的錄製日記，才會開啟下一天。",
+        "folder": "18天任務",
+        "time": "2026-11-14 07:30",
+        "hidden": true
+      },
+      {
+        "id": "task-d13",
+        "title": "DAY 13｜任務卡：只有我們聽懂的旋律",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-15\n\n寫一句完全原創的短句，交換一段不作公開演出的聲音紀錄。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 13 的錄製日記，才會開啟下一天。",
+        "folder": "18天任務",
+        "time": "2026-11-15 07:30",
+        "hidden": true
+      },
+      {
+        "id": "task-d14",
+        "title": "DAY 14｜任務卡：沒有寫完的那封信",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-16\n\n把從前沒寄出的信讀給對方聽，允許停頓與拒絕。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 14 的錄製日記，才會開啟下一天。",
+        "folder": "18天任務",
+        "time": "2026-11-16 07:30",
+        "hidden": true
+      },
+      {
+        "id": "task-d15",
+        "title": "DAY 15｜任務卡：界線不是遺忘",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-17\n\n一起寫下三條可以真正做到、不傷害其他人的相處界線。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 15 的錄製日記，才會開啟下一天。",
+        "folder": "18天任務",
+        "time": "2026-11-17 07:30",
+        "hidden": true
+      },
+      {
+        "id": "task-d16",
+        "title": "DAY 16｜任務卡：提前下車的申請",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-18\n\n節目組提供兩張申請：達成共識可提前離開，或繼續走完18天。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 16 的錄製日記，才會開啟下一天。",
+        "folder": "18天任務",
+        "time": "2026-11-18 07:30",
+        "hidden": true
+      },
+      {
+        "id": "task-d17",
+        "title": "DAY 17｜任務卡：重新學會問候",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-19\n\n決定留下的人練習直接提問，不再靠過去的默契猜測當下的答案。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 17 的錄製日記，才會開啟下一天。",
+        "folder": "18天任務",
+        "time": "2026-11-19 07:30",
+        "hidden": true
+      },
+      {
+        "id": "task-d18",
+        "title": "DAY 18｜任務卡：後會有期",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-20\n\n最後回答：希望對方以什麼方式繼續出現在自己的人生裡？\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 18 的錄製日記，才會開啟下一天。",
+        "folder": "18天任務",
+        "time": "2026-11-20 07:30",
+        "hidden": true
       }
     ],
     "phone": [
@@ -395,34 +2896,165 @@
         "title": "讀完介紹信",
         "body": "看完節目組的邀請函與規則，再決定明天究竟想對阿翊說什麼。",
         "time": "2026-11-02 22:00"
+      },
+      {
+        "id": "reminder-d01",
+        "title": "DAY 01｜看完日記再前往下一站",
+        "body": "今日：重新見面。閱讀備忘錄中的 DAY 01 日記即可完成本日。",
+        "time": "2026-11-03 22:10",
+        "hidden": true
+      },
+      {
+        "id": "reminder-d02",
+        "title": "DAY 02｜看完日記再前往下一站",
+        "body": "今日：比陌生人還熟悉。閱讀備忘錄中的 DAY 02 日記即可完成本日。",
+        "time": "2026-11-04 22:10",
+        "hidden": true
+      },
+      {
+        "id": "reminder-d03",
+        "title": "DAY 03｜看完日記再前往下一站",
+        "body": "今日：不能說的習慣。閱讀備忘錄中的 DAY 03 日記即可完成本日。",
+        "time": "2026-11-05 22:10",
+        "hidden": true
+      },
+      {
+        "id": "reminder-d04",
+        "title": "DAY 04｜看完日記再前往下一站",
+        "body": "今日：你現在最怕什麼。閱讀備忘錄中的 DAY 04 日記即可完成本日。",
+        "time": "2026-11-06 22:10",
+        "hidden": true
+      },
+      {
+        "id": "reminder-d05",
+        "title": "DAY 05｜看完日記再前往下一站",
+        "body": "今日：放學一起走。閱讀備忘錄中的 DAY 05 日記即可完成本日。",
+        "time": "2026-11-07 22:10",
+        "hidden": true
+      },
+      {
+        "id": "reminder-d06",
+        "title": "DAY 06｜看完日記再前往下一站",
+        "body": "今日：第一組提前下車。閱讀備忘錄中的 DAY 06 日記即可完成本日。",
+        "time": "2026-11-08 22:10",
+        "hidden": true
+      },
+      {
+        "id": "reminder-d07",
+        "title": "DAY 07｜看完日記再前往下一站",
+        "body": "今日：新旅伴上車。閱讀備忘錄中的 DAY 07 日記即可完成本日。",
+        "time": "2026-11-09 22:10",
+        "hidden": true
+      },
+      {
+        "id": "reminder-d08",
+        "title": "DAY 08｜看完日記再前往下一站",
+        "body": "今日：寫給高中的我們。閱讀備忘錄中的 DAY 08 日記即可完成本日。",
+        "time": "2026-11-10 22:10",
+        "hidden": true
+      },
+      {
+        "id": "reminder-d09",
+        "title": "DAY 09｜看完日記再前往下一站",
+        "body": "今日：沒問出口的問題。閱讀備忘錄中的 DAY 09 日記即可完成本日。",
+        "time": "2026-11-11 22:10",
+        "hidden": true
+      },
+      {
+        "id": "reminder-d10",
+        "title": "DAY 10｜看完日記再前往下一站",
+        "body": "今日：喜帖背面的字。閱讀備忘錄中的 DAY 10 日記即可完成本日。",
+        "time": "2026-11-12 22:10",
+        "hidden": true
+      },
+      {
+        "id": "reminder-d11",
+        "title": "DAY 11｜看完日記再前往下一站",
+        "body": "今日：同一天的兩個版本。閱讀備忘錄中的 DAY 11 日記即可完成本日。",
+        "time": "2026-11-13 22:10",
+        "hidden": true
+      },
+      {
+        "id": "reminder-d12",
+        "title": "DAY 12｜看完日記再前往下一站",
+        "body": "今日：歉意不等於答案。閱讀備忘錄中的 DAY 12 日記即可完成本日。",
+        "time": "2026-11-14 22:10",
+        "hidden": true
+      },
+      {
+        "id": "reminder-d13",
+        "title": "DAY 13｜看完日記再前往下一站",
+        "body": "今日：只有我們聽懂的旋律。閱讀備忘錄中的 DAY 13 日記即可完成本日。",
+        "time": "2026-11-15 22:10",
+        "hidden": true
+      },
+      {
+        "id": "reminder-d14",
+        "title": "DAY 14｜看完日記再前往下一站",
+        "body": "今日：沒有寫完的那封信。閱讀備忘錄中的 DAY 14 日記即可完成本日。",
+        "time": "2026-11-16 22:10",
+        "hidden": true
+      },
+      {
+        "id": "reminder-d15",
+        "title": "DAY 15｜看完日記再前往下一站",
+        "body": "今日：界線不是遺忘。閱讀備忘錄中的 DAY 15 日記即可完成本日。",
+        "time": "2026-11-17 22:10",
+        "hidden": true
+      },
+      {
+        "id": "reminder-d16",
+        "title": "DAY 16｜看完日記再前往下一站",
+        "body": "今日：提前下車的申請。閱讀備忘錄中的 DAY 16 日記即可完成本日。",
+        "time": "2026-11-18 22:10",
+        "hidden": true
+      },
+      {
+        "id": "reminder-d17",
+        "title": "DAY 17｜看完日記再前往下一站",
+        "body": "今日：重新學會問候。閱讀備忘錄中的 DAY 17 日記即可完成本日。",
+        "time": "2026-11-19 22:10",
+        "hidden": true
+      },
+      {
+        "id": "reminder-d18",
+        "title": "DAY 18｜看完日記再前往下一站",
+        "body": "今日：後會有期。閱讀備忘錄中的 DAY 18 日記即可完成本日。",
+        "time": "2026-11-20 22:10",
+        "hidden": true
       }
     ]
   },
   "variables": {
-    "chapter": 1,
+    "chapter": 0,
     "truthSpoken": false,
     "relationshipRepaired": false
   },
   "events": [
     {
-      "id": "start-welcome",
-      "label": "拾獲手機",
+      "id": "complete-begin",
+      "label": "開始拾到手機",
       "type": "start",
       "actions": [
         {
           "type": "notification",
           "key": "",
-          "value": "節目組：請查看信箱中的《後會友期》邀請函。"
+          "value": "十八天劇情：先打開郵件的節目邀請函，再到檔案 App 看 DAY 01 任務。"
         }
       ]
     },
     {
-      "id": "read-invitation",
-      "label": "讀取邀請函",
+      "id": "complete-invite",
+      "label": "開啟 DAY 01 任務卡",
       "type": "event",
       "event": "read",
       "target": "invite-letter",
       "actions": [
+        {
+          "type": "unlock",
+          "key": "task-d01",
+          "value": true
+        },
         {
           "type": "unlock",
           "key": "note-day1",
@@ -431,13 +3063,13 @@
         {
           "type": "notification",
           "key": "",
-          "value": "備忘錄：DAY 01｜出發前的規則已解鎖。"
+          "value": "DAY 01 已解鎖。請在檔案 App 閱讀當天任務卡。"
         }
       ]
     },
     {
-      "id": "read-rules",
-      "label": "閱讀出發規則",
+      "id": "complete-old-note",
+      "label": "行前規則，開放舊回憶",
       "type": "event",
       "event": "read",
       "target": "note-day1",
@@ -451,113 +3083,2817 @@
           "type": "unlock",
           "key": "note-draft",
           "value": true
-        },
-        {
-          "type": "notification",
-          "key": "",
-          "value": "照片與私人備忘錄裡，還有未看完的往事。"
         }
       ]
     },
     {
-      "id": "read-photo",
-      "label": "看見舊照片",
+      "id": "complete-old-photo",
+      "label": "高中舊照線索",
       "type": "event",
       "event": "read",
       "target": "photo-old",
       "actions": [
         {
           "type": "clue",
-          "key": "highschool-photo",
+          "key": "old-photo",
           "value": true
         }
       ]
     },
     {
-      "id": "read-private-note",
-      "label": "讀完未寄出的話",
+      "id": "complete-old-draft",
+      "label": "舊訊息草稿",
       "type": "event",
       "event": "read",
       "target": "note-draft",
-      "next": [
-        "incoming-call-delay"
-      ]
-    },
-    {
-      "id": "incoming-call-delay",
-      "label": "稍後阿翊來電",
-      "type": "delay",
-      "delayMs": 1500,
       "actions": [
         {
-          "type": "call",
-          "key": "call-ayi",
-          "value": "阿翊"
+          "type": "clue",
+          "key": "draft-kept",
+          "value": true
         }
       ]
     },
     {
-      "id": "answer-call",
-      "label": "接聽電話",
+      "id": "open-task-d01",
+      "label": "DAY 01 任務解鎖內容",
       "type": "event",
-      "event": "callAnswered",
-      "target": "call-ayi",
-      "next": [
-        "choice-day1"
-      ]
-    },
-    {
-      "id": "decline-call",
-      "label": "拒接電話",
-      "type": "event",
-      "event": "callDeclined",
-      "target": "call-ayi",
-      "next": [
-        "choice-day1"
-      ]
-    },
-    {
-      "id": "choice-day1",
-      "label": "明天要怎麼面對阿翊？",
-      "type": "choice",
-      "next": [
-        "ending-talk",
-        "ending-space"
-      ]
-    },
-    {
-      "id": "ending-talk",
-      "label": "試著說實話",
-      "type": "ending",
+      "event": "read",
+      "target": "task-d01",
       "actions": [
         {
-          "type": "variable",
-          "key": "truthSpoken",
+          "type": "date",
+          "key": "",
+          "value": "2026-11-03"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "21:45"
+        },
+        {
+          "type": "unlock",
+          "key": "diary-d01",
           "value": true
         },
         {
-          "type": "ending",
+          "type": "unlock",
+          "key": "photo-d01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mail-d01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "calendar-d01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "reminder-d01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day01-ayi-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day01-ayi-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day01-ayi-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day01-ayi-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day01-ayi-05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day01-ayi-06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day01-prod-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day01-prod-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day01-group-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day01-group-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day01-group-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day01-band-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day01-band-2",
+          "value": true
+        },
+        {
+          "type": "notification",
           "key": "",
-          "value": "第一章完成：決定在旅途中好好說話（待續）"
+          "value": "DAY 01：KKT、微信、郵件、照片、錄製日記已解鎖。"
         }
       ]
     },
     {
-      "id": "ending-space",
-      "label": "先保留距離",
+      "id": "finish-d01",
+      "label": "DAY 01 完成",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d01",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter",
+          "value": 1
+        },
+        {
+          "type": "clue",
+          "key": "day-01-complete",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "task-d02",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 01 完成。DAY 02 任務已開放。"
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "open-task-d02",
+      "label": "DAY 02 任務解鎖內容",
+      "type": "event",
+      "event": "read",
+      "target": "task-d02",
+      "actions": [
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-11-04"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "21:45"
+        },
+        {
+          "type": "unlock",
+          "key": "diary-d02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "photo-d02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mail-d02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "calendar-d02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "reminder-d02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day02-ayi-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day02-ayi-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day02-ayi-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day02-ayi-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day02-ayi-05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day02-ayi-06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day02-prod-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day02-prod-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day02-group-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day02-group-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day02-group-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day02-band-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day02-band-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 02：KKT、微信、郵件、照片、錄製日記已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "finish-d02",
+      "label": "DAY 02 完成",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d02",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter",
+          "value": 2
+        },
+        {
+          "type": "clue",
+          "key": "day-02-complete",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "task-d03",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 02 完成。DAY 03 任務已開放。"
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "open-task-d03",
+      "label": "DAY 03 任務解鎖內容",
+      "type": "event",
+      "event": "read",
+      "target": "task-d03",
+      "actions": [
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-11-05"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "21:45"
+        },
+        {
+          "type": "unlock",
+          "key": "diary-d03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "photo-d03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mail-d03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "calendar-d03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "reminder-d03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day03-ayi-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day03-ayi-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day03-ayi-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day03-ayi-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day03-ayi-05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day03-ayi-06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day03-prod-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day03-prod-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day03-group-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day03-group-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day03-group-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day03-band-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day03-band-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 03：KKT、微信、郵件、照片、錄製日記已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "finish-d03",
+      "label": "DAY 03 完成",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d03",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter",
+          "value": 3
+        },
+        {
+          "type": "clue",
+          "key": "day-03-complete",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "task-d04",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 03 完成。DAY 04 任務已開放。"
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "open-task-d04",
+      "label": "DAY 04 任務解鎖內容",
+      "type": "event",
+      "event": "read",
+      "target": "task-d04",
+      "actions": [
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-11-06"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "21:45"
+        },
+        {
+          "type": "unlock",
+          "key": "diary-d04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "photo-d04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mail-d04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "calendar-d04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "reminder-d04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day04-ayi-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day04-ayi-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day04-ayi-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day04-ayi-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day04-ayi-05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day04-ayi-06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day04-prod-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day04-prod-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day04-group-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day04-group-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day04-group-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day04-band-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day04-band-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day04-masa-note",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 04：KKT、微信、郵件、照片、錄製日記已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "finish-d04",
+      "label": "DAY 04 完成",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d04",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter",
+          "value": 4
+        },
+        {
+          "type": "clue",
+          "key": "day-04-complete",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "task-d05",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 04 完成。DAY 05 任務已開放。"
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "open-task-d05",
+      "label": "DAY 05 任務解鎖內容",
+      "type": "event",
+      "event": "read",
+      "target": "task-d05",
+      "actions": [
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-11-07"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "21:45"
+        },
+        {
+          "type": "unlock",
+          "key": "diary-d05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "photo-d05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mail-d05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "calendar-d05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "reminder-d05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day05-ayi-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day05-ayi-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day05-ayi-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day05-ayi-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day05-ayi-05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day05-ayi-06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day05-prod-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day05-prod-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day05-group-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day05-group-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day05-group-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day05-band-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day05-band-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 05：KKT、微信、郵件、照片、錄製日記已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "finish-d05",
+      "label": "DAY 05 完成",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d05",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter",
+          "value": 5
+        },
+        {
+          "type": "clue",
+          "key": "day-05-complete",
+          "value": true
+        },
+        {
+          "type": "clue",
+          "key": "schoolbus-memory",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "task-d06",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 05 完成。DAY 06 任務已開放。"
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "open-task-d06",
+      "label": "DAY 06 任務解鎖內容",
+      "type": "event",
+      "event": "read",
+      "target": "task-d06",
+      "actions": [
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-11-08"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "21:45"
+        },
+        {
+          "type": "unlock",
+          "key": "diary-d06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "photo-d06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mail-d06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "calendar-d06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "reminder-d06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day06-ayi-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day06-ayi-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day06-ayi-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day06-ayi-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day06-ayi-05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day06-ayi-06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day06-prod-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day06-prod-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day06-group-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day06-group-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day06-group-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day06-band-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day06-band-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 06：KKT、微信、郵件、照片、錄製日記已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "finish-d06",
+      "label": "DAY 06 完成",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d06",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter",
+          "value": 6
+        },
+        {
+          "type": "clue",
+          "key": "day-06-complete",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "task-d07",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 06 完成。DAY 07 任務已開放。"
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "open-task-d07",
+      "label": "DAY 07 任務解鎖內容",
+      "type": "event",
+      "event": "read",
+      "target": "task-d07",
+      "actions": [
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-11-09"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "21:45"
+        },
+        {
+          "type": "unlock",
+          "key": "diary-d07",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "photo-d07",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mail-d07",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "calendar-d07",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "reminder-d07",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day07-ayi-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day07-ayi-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day07-ayi-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day07-ayi-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day07-ayi-05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day07-ayi-06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day07-prod-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day07-prod-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day07-group-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day07-group-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day07-group-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day07-band-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day07-band-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 07：KKT、微信、郵件、照片、錄製日記已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "finish-d07",
+      "label": "DAY 07 完成",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d07",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter",
+          "value": 7
+        },
+        {
+          "type": "clue",
+          "key": "day-07-complete",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "task-d08",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 07 完成。DAY 08 任務已開放。"
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "open-task-d08",
+      "label": "DAY 08 任務解鎖內容",
+      "type": "event",
+      "event": "read",
+      "target": "task-d08",
+      "actions": [
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-11-10"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "21:45"
+        },
+        {
+          "type": "unlock",
+          "key": "diary-d08",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "photo-d08",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mail-d08",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "calendar-d08",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "reminder-d08",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day08-ayi-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day08-ayi-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day08-ayi-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day08-ayi-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day08-ayi-05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day08-ayi-06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day08-prod-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day08-prod-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day08-group-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day08-group-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day08-group-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day08-band-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day08-band-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day08-masa-note",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 08：KKT、微信、郵件、照片、錄製日記已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "finish-d08",
+      "label": "DAY 08 完成",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d08",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter",
+          "value": 8
+        },
+        {
+          "type": "clue",
+          "key": "day-08-complete",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "task-d09",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 08 完成。DAY 09 任務已開放。"
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "open-task-d09",
+      "label": "DAY 09 任務解鎖內容",
+      "type": "event",
+      "event": "read",
+      "target": "task-d09",
+      "actions": [
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-11-11"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "21:45"
+        },
+        {
+          "type": "unlock",
+          "key": "diary-d09",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "photo-d09",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mail-d09",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "calendar-d09",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "reminder-d09",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day09-ayi-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day09-ayi-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day09-ayi-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day09-ayi-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day09-ayi-05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day09-ayi-06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day09-prod-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day09-prod-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day09-group-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day09-group-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day09-group-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day09-band-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day09-band-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 09：KKT、微信、郵件、照片、錄製日記已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "finish-d09",
+      "label": "DAY 09 完成",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d09",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter",
+          "value": 9
+        },
+        {
+          "type": "clue",
+          "key": "day-09-complete",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "task-d10",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 09 完成。DAY 10 任務已開放。"
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "open-task-d10",
+      "label": "DAY 10 任務解鎖內容",
+      "type": "event",
+      "event": "read",
+      "target": "task-d10",
+      "actions": [
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-11-12"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "21:45"
+        },
+        {
+          "type": "unlock",
+          "key": "diary-d10",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "photo-d10",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mail-d10",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "calendar-d10",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "reminder-d10",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day10-ayi-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day10-ayi-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day10-ayi-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day10-ayi-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day10-ayi-05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day10-ayi-06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day10-prod-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day10-prod-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day10-group-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day10-group-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day10-group-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day10-band-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day10-band-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 10：KKT、微信、郵件、照片、錄製日記已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "finish-d10",
+      "label": "DAY 10 完成",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d10",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter",
+          "value": 10
+        },
+        {
+          "type": "clue",
+          "key": "day-10-complete",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "task-d11",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 10 完成。DAY 11 任務已開放。"
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "open-task-d11",
+      "label": "DAY 11 任務解鎖內容",
+      "type": "event",
+      "event": "read",
+      "target": "task-d11",
+      "actions": [
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-11-13"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "21:45"
+        },
+        {
+          "type": "unlock",
+          "key": "diary-d11",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "photo-d11",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mail-d11",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "calendar-d11",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "reminder-d11",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day11-ayi-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day11-ayi-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day11-ayi-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day11-ayi-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day11-ayi-05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day11-ayi-06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day11-prod-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day11-prod-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day11-group-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day11-group-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day11-group-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day11-band-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day11-band-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day11-masa-note",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 11：KKT、微信、郵件、照片、錄製日記已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "finish-d11",
+      "label": "DAY 11 完成",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d11",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter",
+          "value": 11
+        },
+        {
+          "type": "clue",
+          "key": "day-11-complete",
+          "value": true
+        },
+        {
+          "type": "clue",
+          "key": "wedding-understood",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "task-d12",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 11 完成。DAY 12 任務已開放。"
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "open-task-d12",
+      "label": "DAY 12 任務解鎖內容",
+      "type": "event",
+      "event": "read",
+      "target": "task-d12",
+      "actions": [
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-11-14"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "21:45"
+        },
+        {
+          "type": "unlock",
+          "key": "diary-d12",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "photo-d12",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mail-d12",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "calendar-d12",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "reminder-d12",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day12-ayi-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day12-ayi-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day12-ayi-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day12-ayi-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day12-ayi-05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day12-ayi-06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day12-prod-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day12-prod-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day12-group-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day12-group-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day12-group-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day12-band-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day12-band-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 12：KKT、微信、郵件、照片、錄製日記已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "finish-d12",
+      "label": "DAY 12 完成",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d12",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter",
+          "value": 12
+        },
+        {
+          "type": "clue",
+          "key": "day-12-complete",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "task-d13",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 12 完成。DAY 13 任務已開放。"
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "open-task-d13",
+      "label": "DAY 13 任務解鎖內容",
+      "type": "event",
+      "event": "read",
+      "target": "task-d13",
+      "actions": [
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-11-15"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "21:45"
+        },
+        {
+          "type": "unlock",
+          "key": "diary-d13",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "photo-d13",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mail-d13",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "calendar-d13",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "reminder-d13",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day13-ayi-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day13-ayi-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day13-ayi-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day13-ayi-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day13-ayi-05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day13-ayi-06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day13-prod-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day13-prod-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day13-group-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day13-group-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day13-group-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day13-band-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day13-band-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 13：KKT、微信、郵件、照片、錄製日記已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "finish-d13",
+      "label": "DAY 13 完成",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d13",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter",
+          "value": 13
+        },
+        {
+          "type": "clue",
+          "key": "day-13-complete",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "task-d14",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 13 完成。DAY 14 任務已開放。"
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "open-task-d14",
+      "label": "DAY 14 任務解鎖內容",
+      "type": "event",
+      "event": "read",
+      "target": "task-d14",
+      "actions": [
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-11-16"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "21:45"
+        },
+        {
+          "type": "unlock",
+          "key": "diary-d14",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "photo-d14",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mail-d14",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "calendar-d14",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "reminder-d14",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day14-ayi-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day14-ayi-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day14-ayi-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day14-ayi-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day14-ayi-05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day14-ayi-06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day14-prod-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day14-prod-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day14-group-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day14-group-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day14-group-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day14-band-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day14-band-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day14-masa-note",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 14：KKT、微信、郵件、照片、錄製日記已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "finish-d14",
+      "label": "DAY 14 完成",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d14",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter",
+          "value": 14
+        },
+        {
+          "type": "clue",
+          "key": "day-14-complete",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "task-d15",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 14 完成。DAY 15 任務已開放。"
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "open-task-d15",
+      "label": "DAY 15 任務解鎖內容",
+      "type": "event",
+      "event": "read",
+      "target": "task-d15",
+      "actions": [
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-11-17"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "21:45"
+        },
+        {
+          "type": "unlock",
+          "key": "diary-d15",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "photo-d15",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mail-d15",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "calendar-d15",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "reminder-d15",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day15-ayi-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day15-ayi-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day15-ayi-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day15-ayi-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day15-ayi-05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day15-ayi-06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day15-prod-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day15-prod-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day15-group-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day15-group-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day15-group-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day15-band-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day15-band-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 15：KKT、微信、郵件、照片、錄製日記已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "finish-d15",
+      "label": "DAY 15 完成",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d15",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter",
+          "value": 15
+        },
+        {
+          "type": "clue",
+          "key": "day-15-complete",
+          "value": true
+        },
+        {
+          "type": "clue",
+          "key": "boundaries-understood",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "task-d16",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 15 完成。DAY 16 任務已開放。"
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "open-task-d16",
+      "label": "DAY 16 任務解鎖內容",
+      "type": "event",
+      "event": "read",
+      "target": "task-d16",
+      "actions": [
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-11-18"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "21:45"
+        },
+        {
+          "type": "unlock",
+          "key": "diary-d16",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "photo-d16",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mail-d16",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "calendar-d16",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "reminder-d16",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day16-ayi-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day16-ayi-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day16-ayi-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day16-ayi-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day16-ayi-05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day16-ayi-06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day16-prod-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day16-prod-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day16-group-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day16-group-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day16-group-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day16-band-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day16-band-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 16：KKT、微信、郵件、照片、錄製日記已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "finish-d16",
+      "label": "DAY 16 完成",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d16",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter",
+          "value": 16
+        },
+        {
+          "type": "clue",
+          "key": "day-16-complete",
+          "value": true
+        }
+      ],
+      "next": [
+        "choice-early"
+      ]
+    },
+    {
+      "id": "open-task-d17",
+      "label": "DAY 17 任務解鎖內容",
+      "type": "event",
+      "event": "read",
+      "target": "task-d17",
+      "actions": [
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-11-19"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "21:45"
+        },
+        {
+          "type": "unlock",
+          "key": "diary-d17",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "photo-d17",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mail-d17",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "calendar-d17",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "reminder-d17",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day17-ayi-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day17-ayi-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day17-ayi-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day17-ayi-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day17-ayi-05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day17-ayi-06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day17-prod-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day17-prod-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day17-group-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day17-group-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day17-group-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day17-band-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day17-band-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 17：KKT、微信、郵件、照片、錄製日記已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "finish-d17",
+      "label": "DAY 17 完成",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d17",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter",
+          "value": 17
+        },
+        {
+          "type": "clue",
+          "key": "day-17-complete",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "task-d18",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 17 完成。DAY 18 任務已開放。"
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "open-task-d18",
+      "label": "DAY 18 任務解鎖內容",
+      "type": "event",
+      "event": "read",
+      "target": "task-d18",
+      "actions": [
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-11-20"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "21:45"
+        },
+        {
+          "type": "unlock",
+          "key": "diary-d18",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "photo-d18",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mail-d18",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "calendar-d18",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "reminder-d18",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day18-ayi-01",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day18-ayi-02",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day18-ayi-03",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day18-ayi-04",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day18-ayi-05",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day18-ayi-06",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day18-prod-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day18-prod-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day18-group-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day18-group-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day18-group-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day18-band-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day18-band-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "day18-masa-note",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "DAY 18：KKT、微信、郵件、照片、錄製日記已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "finish-d18",
+      "label": "DAY 18 完成",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d18",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "chapter",
+          "value": 18
+        },
+        {
+          "type": "clue",
+          "key": "day-18-complete",
+          "value": true
+        }
+      ],
+      "next": [
+        "choice-final"
+      ]
+    },
+    {
+      "id": "unlock-memo-wedding",
+      "label": "開啟回憶 memo-wedding",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d11",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "memo-wedding",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "備忘錄｜隱藏檔案「兩份對同一天的回憶」已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "unlock-memo-boundary",
+      "label": "開啟回憶 memo-boundary",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d15",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "memo-boundary",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "備忘錄｜隱藏檔案「寫給往後的相處約定」已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "unlock-memo-finale",
+      "label": "開啟回憶 memo-finale",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d18",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "memo-finale",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "備忘錄｜隱藏檔案「未寄出的最後一封信」已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "unlock-memo-four-pairs",
+      "label": "開啟回憶 memo-four-pairs",
+      "type": "event",
+      "event": "read",
+      "target": "diary-d01",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "memo-four-pairs",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "備忘錄｜隱藏檔案「節目組整理｜四組舊友」已解鎖。"
+        }
+      ]
+    },
+    {
+      "id": "choice-early",
+      "label": "DAY 16｜提前下車還是繼續旅程？",
+      "type": "choice",
+      "next": [
+        "end-early",
+        "continue-d17"
+      ]
+    },
+    {
+      "id": "end-early",
+      "label": "提前下車：好好說清楚",
       "type": "ending",
       "actions": [
         {
           "type": "ending",
           "key": "",
-          "value": "第一章完成：決定先保留沉默（待續）"
+          "value": "提前下車｜把沒有說完的話說清楚，珍惜彼此，也尊重今天的生活。"
+        }
+      ]
+    },
+    {
+      "id": "continue-d17",
+      "label": "不急著結束，走到最後",
+      "type": "action",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "task-d17",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "已選擇完成18天旅行。DAY 17 已開放。"
+        }
+      ]
+    },
+    {
+      "id": "choice-final",
+      "label": "DAY 18｜下一站要怎麼走？",
+      "type": "choice",
+      "next": [
+        "end-partners",
+        "end-goodbye",
+        "end-horizon"
+      ]
+    },
+    {
+      "id": "end-partners",
+      "label": "以新方式成為最懂彼此的夥伴",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "DAY 18｜仍是最懂彼此的夥伴，願意用新的界線慢慢同行。"
+        }
+      ]
+    },
+    {
+      "id": "end-goodbye",
+      "label": "好好告別往日的戀愛",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "DAY 18｜正式告別那段戀愛，把祝福留給彼此的不同人生。"
+        }
+      ]
+    },
+    {
+      "id": "end-horizon",
+      "label": "尊重現有責任，不替未來作保證",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "DAY 18｜不跨越婚姻與責任，將不確定的可能留給遙遠未來。"
         }
       ]
     }
   ],
   "tests": [
     {
-      "name": "chapter-one-talk",
+      "name": "18-days-early-exit",
       "steps": [
         {
           "event": "read",
@@ -565,36 +5901,146 @@
         },
         {
           "event": "read",
-          "target": "note-day1"
+          "target": "task-d01"
         },
         {
           "event": "read",
-          "target": "photo-old"
+          "target": "diary-d01"
         },
         {
           "event": "read",
-          "target": "note-draft"
+          "target": "task-d02"
         },
         {
-          "advanceMs": 1500
+          "event": "read",
+          "target": "diary-d02"
         },
         {
-          "event": "callAnswered",
-          "target": "call-ayi"
+          "event": "read",
+          "target": "task-d03"
         },
         {
-          "choose": "ending-talk"
+          "event": "read",
+          "target": "diary-d03"
+        },
+        {
+          "event": "read",
+          "target": "task-d04"
+        },
+        {
+          "event": "read",
+          "target": "diary-d04"
+        },
+        {
+          "event": "read",
+          "target": "task-d05"
+        },
+        {
+          "event": "read",
+          "target": "diary-d05"
+        },
+        {
+          "event": "read",
+          "target": "task-d06"
+        },
+        {
+          "event": "read",
+          "target": "diary-d06"
+        },
+        {
+          "event": "read",
+          "target": "task-d07"
+        },
+        {
+          "event": "read",
+          "target": "diary-d07"
+        },
+        {
+          "event": "read",
+          "target": "task-d08"
+        },
+        {
+          "event": "read",
+          "target": "diary-d08"
+        },
+        {
+          "event": "read",
+          "target": "task-d09"
+        },
+        {
+          "event": "read",
+          "target": "diary-d09"
+        },
+        {
+          "event": "read",
+          "target": "task-d10"
+        },
+        {
+          "event": "read",
+          "target": "diary-d10"
+        },
+        {
+          "event": "read",
+          "target": "task-d11"
+        },
+        {
+          "event": "read",
+          "target": "diary-d11"
+        },
+        {
+          "event": "read",
+          "target": "task-d12"
+        },
+        {
+          "event": "read",
+          "target": "diary-d12"
+        },
+        {
+          "event": "read",
+          "target": "task-d13"
+        },
+        {
+          "event": "read",
+          "target": "diary-d13"
+        },
+        {
+          "event": "read",
+          "target": "task-d14"
+        },
+        {
+          "event": "read",
+          "target": "diary-d14"
+        },
+        {
+          "event": "read",
+          "target": "task-d15"
+        },
+        {
+          "event": "read",
+          "target": "diary-d15"
+        },
+        {
+          "event": "read",
+          "target": "task-d16"
+        },
+        {
+          "event": "read",
+          "target": "diary-d16"
+        },
+        {
+          "choose": "end-early"
         }
       ],
-      "ending": "第一章完成：決定在旅途中好好說話（待續）",
+      "ending": "提前下車｜把沒有說完的話說清楚，珍惜彼此，也尊重今天的生活。",
       "expectUnlocked": [
-        "note-day1",
-        "photo-old",
-        "note-draft"
+        "diary-d01",
+        "memo-wedding",
+        "memo-boundary",
+        "diary-d16"
       ]
     },
     {
-      "name": "chapter-one-space",
+      "name": "18-days-finale-partners",
       "steps": [
         {
           "event": "read",
@@ -602,27 +6048,493 @@
         },
         {
           "event": "read",
-          "target": "note-day1"
+          "target": "task-d01"
         },
         {
           "event": "read",
-          "target": "note-draft"
+          "target": "diary-d01"
         },
         {
-          "advanceMs": 1500
+          "event": "read",
+          "target": "task-d02"
         },
         {
-          "event": "callDeclined",
-          "target": "call-ayi"
+          "event": "read",
+          "target": "diary-d02"
         },
         {
-          "choose": "ending-space"
+          "event": "read",
+          "target": "task-d03"
+        },
+        {
+          "event": "read",
+          "target": "diary-d03"
+        },
+        {
+          "event": "read",
+          "target": "task-d04"
+        },
+        {
+          "event": "read",
+          "target": "diary-d04"
+        },
+        {
+          "event": "read",
+          "target": "task-d05"
+        },
+        {
+          "event": "read",
+          "target": "diary-d05"
+        },
+        {
+          "event": "read",
+          "target": "task-d06"
+        },
+        {
+          "event": "read",
+          "target": "diary-d06"
+        },
+        {
+          "event": "read",
+          "target": "task-d07"
+        },
+        {
+          "event": "read",
+          "target": "diary-d07"
+        },
+        {
+          "event": "read",
+          "target": "task-d08"
+        },
+        {
+          "event": "read",
+          "target": "diary-d08"
+        },
+        {
+          "event": "read",
+          "target": "task-d09"
+        },
+        {
+          "event": "read",
+          "target": "diary-d09"
+        },
+        {
+          "event": "read",
+          "target": "task-d10"
+        },
+        {
+          "event": "read",
+          "target": "diary-d10"
+        },
+        {
+          "event": "read",
+          "target": "task-d11"
+        },
+        {
+          "event": "read",
+          "target": "diary-d11"
+        },
+        {
+          "event": "read",
+          "target": "task-d12"
+        },
+        {
+          "event": "read",
+          "target": "diary-d12"
+        },
+        {
+          "event": "read",
+          "target": "task-d13"
+        },
+        {
+          "event": "read",
+          "target": "diary-d13"
+        },
+        {
+          "event": "read",
+          "target": "task-d14"
+        },
+        {
+          "event": "read",
+          "target": "diary-d14"
+        },
+        {
+          "event": "read",
+          "target": "task-d15"
+        },
+        {
+          "event": "read",
+          "target": "diary-d15"
+        },
+        {
+          "event": "read",
+          "target": "task-d16"
+        },
+        {
+          "event": "read",
+          "target": "diary-d16"
+        },
+        {
+          "choose": "continue-d17"
+        },
+        {
+          "event": "read",
+          "target": "task-d17"
+        },
+        {
+          "event": "read",
+          "target": "diary-d17"
+        },
+        {
+          "event": "read",
+          "target": "task-d18"
+        },
+        {
+          "event": "read",
+          "target": "diary-d18"
+        },
+        {
+          "choose": "end-partners"
         }
       ],
-      "ending": "第一章完成：決定先保留沉默（待續）",
+      "ending": "DAY 18｜仍是最懂彼此的夥伴，願意用新的界線慢慢同行。",
       "expectUnlocked": [
-        "note-day1",
-        "note-draft"
+        "diary-d01",
+        "diary-d18",
+        "memo-finale",
+        "memo-four-pairs"
+      ]
+    },
+    {
+      "name": "18-days-finale-goodbye",
+      "steps": [
+        {
+          "event": "read",
+          "target": "invite-letter"
+        },
+        {
+          "event": "read",
+          "target": "task-d01"
+        },
+        {
+          "event": "read",
+          "target": "diary-d01"
+        },
+        {
+          "event": "read",
+          "target": "task-d02"
+        },
+        {
+          "event": "read",
+          "target": "diary-d02"
+        },
+        {
+          "event": "read",
+          "target": "task-d03"
+        },
+        {
+          "event": "read",
+          "target": "diary-d03"
+        },
+        {
+          "event": "read",
+          "target": "task-d04"
+        },
+        {
+          "event": "read",
+          "target": "diary-d04"
+        },
+        {
+          "event": "read",
+          "target": "task-d05"
+        },
+        {
+          "event": "read",
+          "target": "diary-d05"
+        },
+        {
+          "event": "read",
+          "target": "task-d06"
+        },
+        {
+          "event": "read",
+          "target": "diary-d06"
+        },
+        {
+          "event": "read",
+          "target": "task-d07"
+        },
+        {
+          "event": "read",
+          "target": "diary-d07"
+        },
+        {
+          "event": "read",
+          "target": "task-d08"
+        },
+        {
+          "event": "read",
+          "target": "diary-d08"
+        },
+        {
+          "event": "read",
+          "target": "task-d09"
+        },
+        {
+          "event": "read",
+          "target": "diary-d09"
+        },
+        {
+          "event": "read",
+          "target": "task-d10"
+        },
+        {
+          "event": "read",
+          "target": "diary-d10"
+        },
+        {
+          "event": "read",
+          "target": "task-d11"
+        },
+        {
+          "event": "read",
+          "target": "diary-d11"
+        },
+        {
+          "event": "read",
+          "target": "task-d12"
+        },
+        {
+          "event": "read",
+          "target": "diary-d12"
+        },
+        {
+          "event": "read",
+          "target": "task-d13"
+        },
+        {
+          "event": "read",
+          "target": "diary-d13"
+        },
+        {
+          "event": "read",
+          "target": "task-d14"
+        },
+        {
+          "event": "read",
+          "target": "diary-d14"
+        },
+        {
+          "event": "read",
+          "target": "task-d15"
+        },
+        {
+          "event": "read",
+          "target": "diary-d15"
+        },
+        {
+          "event": "read",
+          "target": "task-d16"
+        },
+        {
+          "event": "read",
+          "target": "diary-d16"
+        },
+        {
+          "choose": "continue-d17"
+        },
+        {
+          "event": "read",
+          "target": "task-d17"
+        },
+        {
+          "event": "read",
+          "target": "diary-d17"
+        },
+        {
+          "event": "read",
+          "target": "task-d18"
+        },
+        {
+          "event": "read",
+          "target": "diary-d18"
+        },
+        {
+          "choose": "end-goodbye"
+        }
+      ],
+      "ending": "DAY 18｜正式告別那段戀愛，把祝福留給彼此的不同人生。",
+      "expectUnlocked": [
+        "diary-d01",
+        "diary-d18",
+        "memo-finale",
+        "memo-four-pairs"
+      ]
+    },
+    {
+      "name": "18-days-finale-horizon",
+      "steps": [
+        {
+          "event": "read",
+          "target": "invite-letter"
+        },
+        {
+          "event": "read",
+          "target": "task-d01"
+        },
+        {
+          "event": "read",
+          "target": "diary-d01"
+        },
+        {
+          "event": "read",
+          "target": "task-d02"
+        },
+        {
+          "event": "read",
+          "target": "diary-d02"
+        },
+        {
+          "event": "read",
+          "target": "task-d03"
+        },
+        {
+          "event": "read",
+          "target": "diary-d03"
+        },
+        {
+          "event": "read",
+          "target": "task-d04"
+        },
+        {
+          "event": "read",
+          "target": "diary-d04"
+        },
+        {
+          "event": "read",
+          "target": "task-d05"
+        },
+        {
+          "event": "read",
+          "target": "diary-d05"
+        },
+        {
+          "event": "read",
+          "target": "task-d06"
+        },
+        {
+          "event": "read",
+          "target": "diary-d06"
+        },
+        {
+          "event": "read",
+          "target": "task-d07"
+        },
+        {
+          "event": "read",
+          "target": "diary-d07"
+        },
+        {
+          "event": "read",
+          "target": "task-d08"
+        },
+        {
+          "event": "read",
+          "target": "diary-d08"
+        },
+        {
+          "event": "read",
+          "target": "task-d09"
+        },
+        {
+          "event": "read",
+          "target": "diary-d09"
+        },
+        {
+          "event": "read",
+          "target": "task-d10"
+        },
+        {
+          "event": "read",
+          "target": "diary-d10"
+        },
+        {
+          "event": "read",
+          "target": "task-d11"
+        },
+        {
+          "event": "read",
+          "target": "diary-d11"
+        },
+        {
+          "event": "read",
+          "target": "task-d12"
+        },
+        {
+          "event": "read",
+          "target": "diary-d12"
+        },
+        {
+          "event": "read",
+          "target": "task-d13"
+        },
+        {
+          "event": "read",
+          "target": "diary-d13"
+        },
+        {
+          "event": "read",
+          "target": "task-d14"
+        },
+        {
+          "event": "read",
+          "target": "diary-d14"
+        },
+        {
+          "event": "read",
+          "target": "task-d15"
+        },
+        {
+          "event": "read",
+          "target": "diary-d15"
+        },
+        {
+          "event": "read",
+          "target": "task-d16"
+        },
+        {
+          "event": "read",
+          "target": "diary-d16"
+        },
+        {
+          "choose": "continue-d17"
+        },
+        {
+          "event": "read",
+          "target": "task-d17"
+        },
+        {
+          "event": "read",
+          "target": "diary-d17"
+        },
+        {
+          "event": "read",
+          "target": "task-d18"
+        },
+        {
+          "event": "read",
+          "target": "diary-d18"
+        },
+        {
+          "choose": "end-horizon"
+        }
+      ],
+      "ending": "DAY 18｜不跨越婚姻與責任，將不確定的可能留給遙遠未來。",
+      "expectUnlocked": [
+        "diary-d01",
+        "diary-d18",
+        "memo-finale",
+        "memo-four-pairs"
       ]
     }
   ]
