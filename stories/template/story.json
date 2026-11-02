@@ -3,16 +3,17 @@
   "id": "mayday-after-we-meet",
   "title": "後會友期：我們沒有好好告別",
   "description": "【平行世界虛構故事】陳信宏與溫尚翊自高中相戀，後因人生選擇及婚姻而分開，仍是彼此最熟悉的人。在十八天的舊友旅行裡，一支遺失的手機留下了他們未說出口的話。本作非真實人物私生活記錄，亦非節目官方作品。第一章試玩版。",
-  "revision": 3,
+  "revision": 4,
   "phone": {
     "owner": "陳信宏",
     "date": "2026-11-02",
     "time": "22:19",
     "battery": 76,
     "network": "5G",
-    "wallpaper": "sage",
+    "wallpaper": "story-0531",
     "theme": "light",
-    "notifications": true
+    "notifications": true,
+    "passcode": "0531"
   },
   "installedApps": [
     {
