@@ -8,26 +8,42 @@ describe("full-friends game group", () => {
   const compiled = compileStory(fixture).work;
   const lobby = compiled.data.wechat.find(i=>i.id==="full-friends-group-lobby");
   const rules = compiled.data.files.find(i=>i.id==="full-friends-game-rules");
-  it("has a truly empty group with all original guests, later replacements and the program coordinator", () => {
+  it("includes the authored day-two game and all original guests, later replacements and the coordinator", () => {
     const group = fixture.chats.find(c=>c.id==="chat-perfect-friends-wx");
-    expect(group?.messages).toEqual([]);
+    expect(group?.messages).toHaveLength(13);
+    expect(group?.messages[0]?.body).toBe("你覺得滿分朋友應該是什麼樣？");
+    expect(group?.messages.at(-1)?.body).toBe("你居然……");
     expect(group?.participants).toHaveLength(11);
     expect(lobby?.meta.groupLobby).toBe("fullFriends");
     expect(lobby?.meta.memberNames.split("|")).toHaveLength(11);
   });
-  it("unlocks the lobby and rule card only after day two's diary is completed", () => {
+  it("unlocks day two KKT at diary completion, but delays the group until the player replies", () => {
     expect(lobby).toBeDefined();
     expect(rules).toBeDefined();
-    const start = dispatch(compiled, initialRuntime(compiled), "start");
-    expect(visible(lobby!, start)).toBe(false);
-    expect(visible(rules!, start)).toBe(false);
-    const first = dispatch(compiled, start,"read","diary-d01");
-    expect(visible(lobby!,first)).toBe(false);
+    const initial = initialRuntime(compiled);
+    const start = dispatch(compiled,initial,"start");
+    const day2Kkt=compiled.data.kakao.find(i=>i.id==="ayi-day02-01");
+    const groupMessage=compiled.data.wechat.find(i=>i.id==="full-friends-day02-01");
+    expect(day2Kkt).toBeDefined();
+    expect(groupMessage).toBeDefined();
+    expect(visible(day2Kkt!,start)).toBe(false);
+    expect(visible(lobby!,start)).toBe(false);
+    const first = dispatch(compiled,start,"read","diary-d01");
     const second = dispatch(compiled,first,"read","diary-d02");
-    expect(second.variables.fullFriendsStarted).toBe(true);
-    expect(visible(lobby!,second)).toBe(true);
-    expect(visible(rules!,second)).toBe(true);
-    expect(second.notifications.some(x=>x.includes("滿分朋友"))).toBe(true);
+    expect(second.variables.kktDay2Ready).toBe(true);
+    expect(visible(day2Kkt!,second)).toBe(true);
+    expect(second.variables.fullFriendsStarted).toBe(false);
+    expect(visible(lobby!,second)).toBe(false);
+    expect(visible(groupMessage!,second)).toBe(false);
+    const replied={...second,ui:{...second.ui,kakao:{fullFriendsGameStarted:true}}};
+    const started=dispatch(compiled,replied,"variable","ui:kakao:fullFriendsGameStarted");
+    expect(started.variables.fullFriendsStarted).toBe(true);
+    expect(visible(lobby!,started)).toBe(true);
+    expect(visible(rules!,started)).toBe(true);
+    expect(visible(groupMessage!,started)).toBe(true);
+    expect(started.notifications.some(x=>x.includes("遊戲開始"))).toBe(true);
+    const again=dispatch(compiled,started,"variable","ui:kakao:fullFriendsGameStarted");
+    expect(again.notifications).toEqual(started.notifications);
   });
   it("future authored group messages inherit the same day two gate", () => {
     const copy=structuredClone(fixture) as unknown as Story;
@@ -40,6 +56,9 @@ describe("full-friends game group", () => {
     expect(message.unlock).toBe("fullFriendsStarted");
     const initial=initialRuntime(work);
     expect(visible(message,initial)).toBe(false);
-    expect(visible(message,dispatch(work,initial,"read","diary-d02"))).toBe(true);
+    const afterDiary=dispatch(work,initial,"read","diary-d02");
+    expect(visible(message,afterDiary)).toBe(false);
+    const marked={...afterDiary,ui:{...afterDiary.ui,kakao:{fullFriendsGameStarted:true}}};
+    expect(visible(message,dispatch(work,marked,"variable","ui:kakao:fullFriendsGameStarted"))).toBe(true);
   });
 });

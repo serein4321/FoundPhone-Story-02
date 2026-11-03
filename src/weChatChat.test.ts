@@ -24,6 +24,19 @@ describe("one-reply post-show interview on WeChat",()=>{
   expect(threadWeChatMessages(items,[answer],"節目組｜後採","陳信宏").map(x=>x.body))
    .toEqual(["第一句","玩家請回覆","我的形容","和你一樣"]);
  });
+ it("keeps full-friends dialogue behind the player's one free reply",()=>{
+  const group=[
+    makeItem({id:"q",title:"滿分朋友｜遊戲群",body:"你覺得滿分朋友應該是什麼樣？",time:"2026-11-04 22:51",sender:"周可",meta:{wechatReplyPhase:"0"}}),
+    makeItem({id:"answer",title:"滿分朋友｜遊戲群",body:"我的四個團員啊",time:"2026-11-04 22:52",sender:"阿翊",meta:{wechatReplyPhase:"0",wechatReplyAt:"2026-11-04 22:55"}}),
+    makeItem({id:"question2",title:"滿分朋友｜遊戲群",body:"阿信哥來說一下",time:"2026-11-04 22:58",sender:"陸景",meta:{wechatReplyPhase:"1",wechatReplyLimit:"1"}}),
+  ];
+  const playerReply=JSON.stringify(["滿分朋友｜遊戲群","我自己說一句","2026-11-04 22:55"]);
+  expect(visibleWeChatScript(group,[]).map(x=>x.id)).toEqual(["q","answer"]);
+  expect(weChatReplyTime(group,[],"滿分朋友｜遊戲群","09:41")).toBe("2026-11-04 22:55");
+  expect(threadWeChatMessages(group,[playerReply],"滿分朋友｜遊戲群","陳信宏").map(x=>x.body))
+    .toEqual(["你覺得滿分朋友應該是什麼樣？","我的四個團員啊","我自己說一句","阿信哥來說一下"]);
+  expect(weChatReplyCount([playerReply],"節目組｜後採")).toBe(0);
+ });
  it("ignores malformed saved values",()=>{
   expect(weChatReplyCount(["bad json",JSON.stringify(["only two","values"])],"節目組｜後採")).toBe(0);
   expect(hasWeChatReplyGate(items,"節目組｜小周")).toBe(false);

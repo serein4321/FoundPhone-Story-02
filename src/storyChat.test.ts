@@ -36,6 +36,24 @@ describe("KKT staged free-form replies", () => {
       .toEqual(["要去喔？","隨時回來","我會啦","照顧好自己"]);
     expect(kktReplyCount([reply],"瑪莎")).toBe(kktReplyLimit(masaMessages,"瑪莎"));
   });
+  it("reveals day two only after both first-day replies and timestamps the third reply in day two", () => {
+    const previous=[
+      makeItem({id:"first",title:"阿翊",body:"行前",time:"2026-11-02 22:07",meta:{kktReplyPhase:"1",kktReplyAt:"2026-11-02 22:09"}}),
+      makeItem({id:"new",title:"阿翊",body:"晚上怎麼了？",time:"2026-11-04 22:27",meta:{kktReplyPhase:"2"}}),
+      makeItem({id:"last",title:"阿翊",body:"你居然記得喔",time:"2026-11-04 22:44",meta:{kktReplyPhase:"2",kktReplyAt:"2026-11-04 22:47",kktReplyLimit:"3",kktReplyTrigger:"fullFriendsGame"}}),
+    ];
+    const two=[
+      JSON.stringify(["阿翊","第一次","2026-11-02 22:01"]),
+      JSON.stringify(["阿翊","第二次","2026-11-02 22:09"])
+    ];
+    expect(kktReplyLimit(previous,"阿翊")).toBe(3);
+    expect(visibleKktMessages(previous,[]).map(x=>x.id)).toEqual([]);
+    expect(visibleKktMessages(previous,two).map(x=>x.id)).toEqual(["first","new","last"]);
+    expect(storyReplyTime(previous,two,"阿翊","09:41")).toBe("2026-11-04 22:47");
+    const third=JSON.stringify(["阿翊","玩家第三次回覆","2026-11-04 22:47"]);
+    expect(kktReplyCount([...two,third],"阿翊")).toBe(3);
+    expect(threadKktMessages(previous,[...two,third],"阿翊","陳信宏").at(-1)?.body).toBe("玩家第三次回覆");
+  });
   it("does not advance from another thread or malformed stored messages", () => {
     expect(kktReplyCount([JSON.stringify(["瑪莎","測試","22:00"]),"invalid"],"阿翊")).toBe(0);
     expect(threadKktMessages(items, [], "瑪莎","陳信宏").map(x=>x.body)).toEqual(["其他對話"]);

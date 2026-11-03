@@ -166,7 +166,7 @@ function Compose({
     </div>
   );
 }
-function WeChatInterviewComposer({
+function WeChatInteractiveComposer({
   onSend,
   disabled,
   completed,
@@ -189,8 +189,8 @@ function WeChatInterviewComposer({
     >
       <Mic size={19} />
       <input
-        aria-label="微信後採回覆"
-        placeholder={completed ? "後採對話已結束" : disabled ? "等待對方輸入…" : "輸入訊息"}
+        aria-label="微信互動回覆"
+        placeholder={completed ? "這段對話已結束" : disabled ? "等待對方輸入…" : "輸入訊息"}
         value={draft}
         onChange={(e) => setDraft(e.target.value)}
         disabled={disabled || completed}
@@ -349,7 +349,7 @@ export function WeChatSkin(p: SkinProps) {
             />
           )}
           {stagedChat && !p.creator ? (
-            <WeChatInterviewComposer
+            <WeChatInteractiveComposer
               disabled={!readyForInterview}
               completed={chatCompleted}
               onSend={(body) => {

@@ -3,7 +3,7 @@
   "id": "mayday-after-we-meet",
   "title": "後會友期：我們沒有好好告別｜18天完整劇情",
   "description": "【虛構平行世界・非官方改編】陳信宏與溫尚翊在高中相遇相戀，後來溫尚翊走入婚姻，兩人的舊戀情沒有被正式告別。在一趟四組舊友共同參與的十八天旅行裡，翻閱陳信宏的手機，讀取每日任務、KakaoTalk（首日雙次自由回覆）、微信、照片文字、備忘錄與隱藏回憶，選擇 DAY 16 提早下車或走完 DAY 18，觸發四種結局。不代表真實私人聊天、婚姻或節目錄製。",
-  "revision": 12,
+  "revision": 13,
   "phone": {
     "owner": "陳信宏",
     "date": "2026-11-02",
@@ -238,6 +238,89 @@
           "meta": {
             "kktReplyPhase": "1",
             "kktReplyAt": "2026-11-02 22:09"
+          }
+        },
+        {
+          "id": "ayi-day02-01",
+          "senderId": "ayi",
+          "body": "晚上怎麼了？飯只吃了那麼一點",
+          "time": "2026-11-04 22:27",
+          "unlock": "kktDay2Ready",
+          "meta": {
+            "kktReplyPhase": "2"
+          }
+        },
+        {
+          "id": "ayi-day02-02",
+          "senderId": "owner",
+          "body": "那個桌子隔得那麼遠……我都不好夾菜",
+          "time": "2026-11-04 22:29",
+          "unlock": "kktDay2Ready",
+          "meta": {
+            "kktReplyPhase": "2"
+          }
+        },
+        {
+          "id": "ayi-day02-03",
+          "senderId": "ayi",
+          "body": "怎麼不跟我說一聲餒",
+          "time": "2026-11-04 22:31",
+          "unlock": "kktDay2Ready",
+          "meta": {
+            "kktReplyPhase": "2"
+          }
+        },
+        {
+          "id": "ayi-day02-04",
+          "senderId": "owner",
+          "body": "錄節目呢……",
+          "time": "2026-11-04 22:32",
+          "unlock": "kktDay2Ready",
+          "meta": {
+            "kktReplyPhase": "2"
+          }
+        },
+        {
+          "id": "ayi-day02-05",
+          "senderId": "ayi",
+          "body": "餓不餓，我帶了泡麵",
+          "time": "2026-11-04 22:35",
+          "unlock": "kktDay2Ready",
+          "meta": {
+            "kktReplyPhase": "2"
+          }
+        },
+        {
+          "id": "ayi-day02-06",
+          "senderId": "owner",
+          "body": "我就知道怪獸哥最有先見之明😗",
+          "time": "2026-11-04 22:37",
+          "unlock": "kktDay2Ready",
+          "meta": {
+            "kktReplyPhase": "2"
+          }
+        },
+        {
+          "id": "ayi-day02-07",
+          "senderId": "ayi",
+          "body": "那你等我一會",
+          "time": "2026-11-04 22:39",
+          "unlock": "kktDay2Ready",
+          "meta": {
+            "kktReplyPhase": "2"
+          }
+        },
+        {
+          "id": "ayi-day02-08",
+          "senderId": "ayi",
+          "body": "那個滿分朋友……你居然都記那麼清楚喔",
+          "time": "2026-11-04 22:44",
+          "unlock": "kktDay2Ready",
+          "meta": {
+            "kktReplyPhase": "2",
+            "kktReplyAt": "2026-11-04 22:47",
+            "kktReplyLimit": "3",
+            "kktReplyTrigger": "fullFriendsGame"
           }
         }
       ]
@@ -1340,7 +1423,127 @@
         "producer"
       ],
       "unlock": "fullFriendsStarted",
-      "messages": []
+      "messages": [
+        {
+          "id": "full-friends-day02-01",
+          "senderId": "zhouke",
+          "body": "你覺得滿分朋友應該是什麼樣？",
+          "time": "2026-11-04 22:51",
+          "meta": {
+            "wechatReplyPhase": "0"
+          }
+        },
+        {
+          "id": "full-friends-day02-02",
+          "senderId": "ayi",
+          "body": "就……就我的四個團員啊",
+          "time": "2026-11-04 22:52",
+          "meta": {
+            "wechatReplyPhase": "0",
+            "wechatReplyAt": "2026-11-04 22:55"
+          }
+        },
+        {
+          "id": "full-friends-day02-03",
+          "senderId": "lijing",
+          "body": "那阿信哥已經抽完牌了，阿信哥描述一下",
+          "time": "2026-11-04 22:58",
+          "meta": {
+            "wechatReplyPhase": "1"
+          }
+        },
+        {
+          "id": "full-friends-day02-04",
+          "senderId": "owner",
+          "body": "就大概很早以前？反正那個時候我們也都還蠻年輕的，當時為了趕歌詞啊每天晝夜顛倒的，反正有天寫歌詞的時候寫著寫著我就那樣趴桌上直接睡著了，醒的時候發現身上蓋了一件毛毯",
+          "time": "2026-11-04 23:01",
+          "meta": {
+            "wechatReplyPhase": "1"
+          }
+        },
+        {
+          "id": "full-friends-day02-05",
+          "senderId": "yangnan",
+          "body": "那怎麼確認是怪獸哥幫你蓋的？",
+          "time": "2026-11-04 23:04",
+          "meta": {
+            "wechatReplyPhase": "1"
+          }
+        },
+        {
+          "id": "full-friends-day02-06",
+          "senderId": "ayi",
+          "body": "主唱不可以感冒啊",
+          "time": "2026-11-04 23:05",
+          "meta": {
+            "wechatReplyPhase": "1"
+          }
+        },
+        {
+          "id": "full-friends-day02-07",
+          "senderId": "owner",
+          "body": "我記得當時只有我們兩個待在一起吧",
+          "time": "2026-11-04 23:07",
+          "meta": {
+            "wechatReplyPhase": "1"
+          }
+        },
+        {
+          "id": "full-friends-day02-08",
+          "senderId": "xucheng",
+          "body": "只是因為他作為主唱嗎哈哈哈",
+          "time": "2026-11-04 23:09",
+          "meta": {
+            "wechatReplyPhase": "1"
+          }
+        },
+        {
+          "id": "full-friends-day02-09",
+          "senderId": "ayi",
+          "body": "他作為陳信宏也不可以感冒😷雖然這傢伙一直在感冒",
+          "time": "2026-11-04 23:10",
+          "meta": {
+            "wechatReplyPhase": "1"
+          }
+        },
+        {
+          "id": "full-friends-day02-10",
+          "senderId": "owner",
+          "body": "喂！我最近沒有喔",
+          "time": "2026-11-04 23:12",
+          "meta": {
+            "wechatReplyPhase": "1"
+          }
+        },
+        {
+          "id": "full-friends-day02-11",
+          "senderId": "linchuan",
+          "body": "所以這個是幾分？",
+          "time": "2026-11-04 23:14",
+          "meta": {
+            "wechatReplyPhase": "1"
+          }
+        },
+        {
+          "id": "full-friends-day02-12",
+          "senderId": "owner",
+          "body": "9分🫣",
+          "time": "2026-11-04 23:15",
+          "meta": {
+            "wechatReplyPhase": "1"
+          }
+        },
+        {
+          "id": "full-friends-day02-13",
+          "senderId": "ayi",
+          "body": "你居然……",
+          "time": "2026-11-04 23:17",
+          "meta": {
+            "wechatReplyPhase": "1",
+            "wechatReplyLimit": "1"
+          }
+        }
+      ]
     },
     {
       "id": "chat-mayday-home-kkt",
@@ -2395,10 +2598,10 @@
       {
         "id": "full-friends-game-rules",
         "title": "DAY 02 支線｜滿分朋友遊戲規則",
-        "time": "2026-11-04 22:26",
+        "time": "2026-11-04 22:49",
         "folder": "節目任務",
         "hidden": true,
-        "body": "《後會友期》｜滿分朋友（遊戲支線）\n\n【節目可核實的核心】\n1. 先各自思考：什麼樣的人是你心中的「滿分朋友」？什麼樣的相處會讓人覺得像「零分朋友」？每個人的標準可以不同\n2. 輪流表達自己的標準、對友誼的期待，以及想起的相處經驗\n3. 其他人認真聽完，不急著反駁、不代替對方解釋，也不強迫任何人當場原諒或和好\n4. 「友情天秤」以砝碼象徵關係中的傷害與快樂：分享讓友誼變重或變輕的往事，並思考當關係傾斜時是否願意伸手扶住\n\n【本手機版改編的進行方式】\n群內所有參加旅程的人都可參與。由你自行編寫每個人的說話、出牌、回覆與停頓；不預先設定誰得到幾分，也不自動判定誰是滿分或零分朋友。等你提供聊天台詞時，再按你指定的順序逐條呈現\n\n注意：節目公開資料可以確認主題與友情天秤環節，但無法確認完整固定牌組與計分規則。群聊順序和觸發方式屬本故事改編，不冒充節目官方規則。",
+        "body": "《後會友期》｜滿分朋友（遊戲支線）\n\n【節目可核實的核心】\n1. 先各自思考：什麼樣的人是你心中的「滿分朋友」？什麼樣的相處會讓人覺得像「零分朋友」？每個人的標準可以不同\n2. 輪流表達自己的標準、對友誼的期待，以及想起的相處經驗\n3. 其他人認真聽完，不急著反駁、不代替對方解釋，也不強迫任何人當場原諒或和好\n4. 「友情天秤」以砝碼象徵關係中的傷害與快樂：分享讓友誼變重或變輕的往事，並思考當關係傾斜時是否願意伸手扶住\n\n【本手機版改編的進行方式】\n群內所有參加旅程的人都可參與。按劇情先播放群內已編寫的聊天；阿翊回答滿分朋友是四位團員後，玩家自行傳送一句話，才接著播放阿信回憶毛毯與九分的故事。不額外設定誰得幾分，也不自動判定誰是滿分或零分朋友。\n\n注意：節目公開資料可以確認主題與友情天秤環節，但無法確認完整固定牌組與計分規則。群聊順序和觸發方式屬本故事改編，不冒充節目官方規則。",
         "meta": {
           "game": "fullFriends",
           "date": "DAY 02"
@@ -2565,12 +2768,12 @@
         "kind": "event",
         "folder": "群聊",
         "hidden": true,
-        "time": "2026-11-04 22:26",
+        "time": "2026-11-04 22:49",
         "meta": {
           "groupLobby": "fullFriends",
           "memberNames": "陳信宏|阿翊|陸景|楊楠|許澄|林川|周可|羅予|夏禾|程遠|節目組｜小周",
           "conversationId": "chat-perfect-friends-wx",
-          "description": "DAY 02 完成後開啟的空白互動群，玩家提供正式聊天內容後再加入"
+          "description": "DAY 02 日記完成後，玩家在阿翊 KKT 自行回覆，再收到遊戲開始通知；群聊由玩家選擇是否進入"
         }
       }
     ]
@@ -2580,7 +2783,8 @@
     "truthSpoken": false,
     "relationshipRepaired": false,
     "fullFriendsStarted": false,
-    "interviewDay1Ready": false
+    "interviewDay1Ready": false,
+    "kktDay2Ready": false
   },
   "events": [
     {
@@ -2884,23 +3088,13 @@
         },
         {
           "type": "variable",
-          "key": "fullFriendsStarted",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "full-friends-group-lobby",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "full-friends-game-rules",
+          "key": "kktDay2Ready",
           "value": true
         },
         {
           "type": "notification",
           "key": "",
-          "value": "微信新群聊：滿分朋友｜遊戲群已解鎖，所有旅伴已在群內；遊戲規則已存入檔案。"
+          "value": "KakaoTalk｜阿翊：有新訊息，先聊完第二天的晚上再繼續"
         }
       ],
       "next": []
@@ -4910,6 +5104,47 @@
           "type": "ending",
           "key": "",
           "value": "DAY 18｜不跨越婚姻與責任，將不確定的可能留給遙遠未來。"
+        }
+      ]
+    },
+    {
+      "id": "start-full-friends-after-kkt",
+      "label": "DAY 02｜回覆怪獸後啟動滿分朋友",
+      "type": "event",
+      "event": "variable",
+      "target": "ui:kakao:fullFriendsGameStarted",
+      "conditions": [
+        {
+          "key": "clue:day-02-complete",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "ui:kakao:fullFriendsGameStarted",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "variable",
+          "key": "fullFriendsStarted",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "full-friends-group-lobby",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "full-friends-game-rules",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "微信｜滿分朋友：遊戲開始！進入「滿分朋友｜遊戲群」參加"
         }
       ]
     }

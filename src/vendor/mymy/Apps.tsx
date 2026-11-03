@@ -148,6 +148,7 @@ export function MymyKakao(p: SkinProps) {
             onSubmit={(e) => {
               e.preventDefault();
               if (draft.trim() && !completed && (!staged || readyForReply)) {
+                const nextReplyCount = kktReplyCount(sent, p.thread) + 1;
                 setSent([
                   ...sent,
                   JSON.stringify([
@@ -156,6 +157,13 @@ export function MymyKakao(p: SkinProps) {
                     storyReplyTime(p.items, sent, p.thread, p.virtualTime || "09:41"),
                   ]),
                 ]);
+                // The second-day final response starts the game, without opening WeChat for the player.
+                if (
+                  nextReplyCount >= kktReplyLimit(p.items, p.thread) &&
+                  p.items.some(i => i.title === p.thread && i.meta.kktReplyTrigger === "fullFriendsGame")
+                ) {
+                  p.onUi?.("fullFriendsGameStarted", true);
+                }
                 setDraft("");
               }
             }}

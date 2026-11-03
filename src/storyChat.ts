@@ -30,12 +30,12 @@ export function kktReplyLimit(items: Item[], thread: string): number {
 
 export function visibleKktMessages(items: Item[], saved: string[]): Item[] {
   return items.filter(i => i.meta.kktReplyPhase === undefined ||
-    Number(i.meta.kktReplyPhase) <= Math.min(2, kktReplyCount(saved, i.title)));
+    Number(i.meta.kktReplyPhase) <= kktReplyCount(saved, i.title));
 }
 
 export function storyReplyTime(items: Item[], saved: string[], thread: string, fallback: string): string {
   if (!isStagedKkt(items, thread)) return fallback;
-  const stage = String(Math.min(1, kktReplyCount(saved, thread)));
+  const stage = String(kktReplyCount(saved, thread));
   return items.filter(i => i.title === thread && i.meta.kktReplyPhase === stage)
     .at(-1)?.meta.kktReplyAt || fallback;
 }
