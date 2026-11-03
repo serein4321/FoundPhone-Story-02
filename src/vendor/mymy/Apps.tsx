@@ -28,6 +28,7 @@ import {
 import type { SkinProps } from "../../AppSkins";
 import { Avatar, Media } from "../../skins/shared";
 import { useSkinState } from "../../skinState";
+import { usePacedThread } from "../../paceChat";
 import type { Item } from "../../schema";
 import {
   isStagedKkt, kktReplyCount, storyReplyTime, threadKktMessages, visibleKktMessages,
@@ -71,9 +72,12 @@ export function MymyKakao(p: SkinProps) {
     [query, setQuery] = useState(""),
     [menu, setMenu] = useState(false);
   const staged = isStagedKkt(p.items, p.thread);
+  const scripted = threadKktMessages(p.items, sent, p.thread, p.owner || "機主");
+  const paced = usePacedThread(p, scripted);
+  const readyForReply = !paced.pending;
   const completed = staged && kktReplyCount(sent, p.thread) >= 2;
   const list = grouped(visibleKktMessages(p.items, sent)),
-    messages = threadKktMessages(p.items, sent, p.thread, p.owner || "機主"),
+    messages = paced.items,
     scroll = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const node = scroll.current;
@@ -132,12 +136,18 @@ export function MymyKakao(p: SkinProps) {
               );
             })}
             {!messages.length && <Blank />}
+            {paced.pending && (
+              <div className="chat-typing" role="status">
+                {paced.next?.outgoing ? "訊息正在傳送…" : (paced.next?.sender || "對方") + "正在輸入…"}
+                <span className="chat-typing-dots" aria-hidden="true"><i /><i /><i /></span>
+              </div>
+            )}
           </div>
           <form
             className="kzinp"
             onSubmit={(e) => {
               e.preventDefault();
-              if (draft.trim() && !completed) {
+              if (draft.trim() && !completed && (!staged || readyForReply)) {
                 setSent([
                   ...sent,
                   JSON.stringify([
@@ -159,9 +169,9 @@ export function MymyKakao(p: SkinProps) {
             </button>
             <input
               aria-label="KKT消息"
-              placeholder={completed ? "今天的對話已結束" : "輸入訊息"}
+              placeholder={completed ? "今天的對話已結束" : staged && !readyForReply ? "對方還在輸入…" : "輸入訊息"}
               value={draft}
-              disabled={completed}
+              disabled={completed || (staged && !readyForReply)}
               maxLength={2000}
               onChange={(e) => setDraft(e.target.value)}
             />
@@ -169,7 +179,7 @@ export function MymyKakao(p: SkinProps) {
             <button
               className={draft.trim() ? "go" : ""}
               aria-label="发送KKT消息"
-              disabled={!draft.trim() || completed}
+              disabled={!draft.trim() || completed || (staged && !readyForReply)}
             >
               ↑
             </button>

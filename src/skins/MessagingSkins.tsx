@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import type { Item } from "../schema";
+import { usePacedThread } from "../paceChat";
 import {
   Add,
   Avatar,
@@ -110,6 +111,7 @@ function ChatRows({
 export function MessagesSkin(p: Props) {
   const { q, setQ, items } = useContent(p, "信息");
   const [unread, setUnread] = useState(false);
+  const paced = usePacedThread(p, items);
   return (
     <div className="catalog-skin native-messages">
       <Header
@@ -127,7 +129,7 @@ export function MessagesSkin(p: Props) {
         <>
           <Bubbles
             p={p}
-            items={items.filter((i) => i.title === p.thread)}
+            items={paced.items.filter((i) => i.title === p.thread)}
             className="sms-bubbles"
           />
           <Composer p={p} />

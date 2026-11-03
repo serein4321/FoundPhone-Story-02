@@ -1,6 +1,7 @@
 import { NativeComposer } from "./DeviceSystem";
 import { useSkinState } from "./skinState";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { usePacedThread } from "./paceChat";
 import {
   ChevronLeft,
   Plus,
@@ -89,15 +90,21 @@ function MessageList({
   onItem,
   onRead,
   whatsapp = false,
+  typing = "",
 }: {
   items: Item[];
   creator: boolean;
   onItem: (i: Item) => void;
   onRead: (id: string) => void;
   whatsapp?: boolean;
+  typing?: string;
 }) {
+  const scroll = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (scroll.current) scroll.current.scrollTop = scroll.current.scrollHeight;
+  }, [items.length, typing]);
   return (
-    <div className={`skin-messages ${whatsapp ? "wa-wallpaper" : ""}`}>
+    <div className={`skin-messages ${whatsapp ? "wa-wallpaper" : ""}`} ref={scroll}>
       <div className="skin-date">{items[0]?.time.slice(0, 10)}</div>
       {items.map((i) => (
         <div
@@ -129,6 +136,10 @@ function MessageList({
           {!whatsapp && i.outgoing && <Avatar name={i.sender} src={i.avatar} />}
         </div>
       ))}
+      {typing && <div className="chat-typing" role="status">
+        {typing}
+        <span className="chat-typing-dots" aria-hidden="true"><i /><i /><i /></span>
+      </div>}
     </div>
   );
 }
@@ -163,6 +174,8 @@ export function WeChatSkin(p: SkinProps) {
     "readThreads",
     [],
   );
+  const paced = usePacedThread(p, p.items);
+  const deliveredIds = new Set(paced.delivered);
   const conversations = [
     ...new Set(
       p.items
@@ -278,10 +291,11 @@ export function WeChatSkin(p: SkinProps) {
       ) : p.thread ? (
         <>
           <MessageList
-            items={p.items.filter((i) => i.title === p.thread)}
+            items={paced.items.filter((i) => i.title === p.thread)}
             creator={p.creator}
             onItem={p.onItem}
             onRead={p.onRead}
+            typing={paced.pending ? (paced.next?.outgoing ? "訊息正在傳送…" : (paced.next?.sender || "對方") + "正在輸入…") : ""}
           />
           <Compose creator={p.creator} onAdd={p.onAdd} />
         </>
@@ -337,8 +351,9 @@ export function WeChatSkin(p: SkinProps) {
                     ),
                 )
                 .map((t) => {
-                  const list = p.items.filter((i) => i.title === t),
-                    last = list.at(-1)!;
+                  const list = p.items.filter((i) => i.title === t);
+                  const latestDay = list.at(-1)?.time.slice(0, 10) || "";
+                  const last = list.filter(i => i.time.slice(0, 10) < latestDay || deliveredIds.has(i.id)).at(-1) || list[0];
                   return (
                     <button
                       className="wx-chat-row"
