@@ -4967,3 +4967,23 @@ label {
 @media (prefers-reduced-motion: reduce) {
   .skin-message, .catalog-message, .mymy-ui .kzm, .chat-typing-dots i { animation: none; }
 }
+
+/* Empty program group: distinct from an authored chat message. */
+.wx-empty-full-friends {
+  flex: 1;
+  min-height: 0;
+  background: #ededed;
+  padding: 92px 16px 24px;
+  text-align: center;
+  color: #686868;
+}
+.wx-empty-full-friends > span {
+  display: inline-block;
+  border-radius: 999px;
+  background: rgba(7,193,96,.13);
+  color: #159553;
+  padding: 5px 15px;
+  font-size: 12px;
+}
+.wx-empty-full-friends p { font-size: 14px; margin: 20px 0 7px; }
+.wx-empty-full-friends small { font-size: 12px; }

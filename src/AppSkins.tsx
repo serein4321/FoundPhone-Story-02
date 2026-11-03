@@ -176,6 +176,9 @@ export function WeChatSkin(p: SkinProps) {
   );
   const paced = usePacedThread(p, p.items);
   const deliveredIds = new Set(paced.delivered);
+  const groupLobby = p.items.find(i => i.title === p.thread && i.meta.groupLobby === "fullFriends");
+  const groupMembers = groupLobby?.meta.memberNames?.split("|").filter(Boolean);
+  const threadMessages = p.items.filter(i => i.title === p.thread && i.meta.groupLobby !== "fullFriends");
   const conversations = [
     ...new Set(
       p.items
@@ -256,13 +259,9 @@ export function WeChatSkin(p: SkinProps) {
         <div className="skin-scroll wx-utility">
           {utility === "聊天信息" && (
             <div className="wx-members">
-              {[
-                ...new Set(
-                  p.items
+              {[...new Set(groupMembers || p.items
                     .filter((i) => i.title === p.thread)
-                    .map((i) => i.sender),
-                ),
-              ].map((name) => (
+                    .map((i) => i.sender))].map((name) => (
                 <div key={name}>
                   <Avatar
                     name={name}
@@ -290,13 +289,21 @@ export function WeChatSkin(p: SkinProps) {
         </div>
       ) : p.thread ? (
         <>
-          <MessageList
-            items={paced.items.filter((i) => i.title === p.thread)}
-            creator={p.creator}
-            onItem={p.onItem}
-            onRead={p.onRead}
-            typing={paced.pending ? (paced.next?.outgoing ? "訊息正在傳送…" : (paced.next?.sender || "對方") + "正在輸入…") : ""}
-          />
+          {groupLobby && !threadMessages.length ? (
+            <div className="wx-empty-full-friends">
+              <span>滿分朋友</span>
+              <p>群聊已建立，還沒有聊天訊息</p>
+              <small>參與者名單已加入，待你編寫遊戲內容</small>
+            </div>
+          ) : (
+            <MessageList
+              items={paced.items.filter(i => i.title === p.thread && i.meta.groupLobby !== "fullFriends")}
+              creator={p.creator}
+              onItem={p.onItem}
+              onRead={p.onRead}
+              typing={paced.pending ? (paced.next?.outgoing ? "訊息正在傳送…" : (paced.next?.sender || "對方") + "正在輸入…") : ""}
+            />
+          )}
           <Compose creator={p.creator} onAdd={p.onAdd} />
         </>
       ) : moments ? (
@@ -367,15 +374,15 @@ export function WeChatSkin(p: SkinProps) {
                       <span className="wx-chat-avatar">
                         <Avatar name={t} src={last.avatar} />
                         {!readThreads.includes(t) &&
-                          list.some((i) => !i.read) && (
+                          list.some((i) => !i.read && i.meta.groupLobby !== "fullFriends") && (
                             <b className="wx-unread">
-                              {list.filter((i) => !i.read).length}
+                              {list.filter((i) => !i.read && i.meta.groupLobby !== "fullFriends").length}
                             </b>
                           )}
                       </span>
                       <div>
                         <strong>{t}</strong>
-                        <p>{last.body}</p>
+                        <p>{last.meta.groupLobby === "fullFriends" ? "群聊已建立｜尚無聊天內容" : last.body}</p>
                       </div>
                       <time>{last.time.slice(-5)}</time>
                     </button>

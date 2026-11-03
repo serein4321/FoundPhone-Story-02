@@ -3,7 +3,7 @@
   "id": "mayday-after-we-meet",
   "title": "後會友期：我們沒有好好告別｜18天完整劇情",
   "description": "【虛構平行世界・非官方改編】陳信宏與溫尚翊在高中相遇相戀，後來溫尚翊走入婚姻，兩人的舊戀情沒有被正式告別。在一趟四組舊友共同參與的十八天旅行裡，翻閱陳信宏的手機，讀取每日任務、KakaoTalk（首日雙次自由回覆）、微信、照片文字、備忘錄與隱藏回憶，選擇 DAY 16 提早下車或走完 DAY 18，觸發四種結局。不代表真實私人聊天、婚姻或節目錄製。",
-  "revision": 7,
+  "revision": 8,
   "phone": {
     "owner": "陳信宏",
     "date": "2026-11-02",
@@ -1291,6 +1291,26 @@
           "hidden": true
         }
       ]
+    },
+    {
+      "id": "chat-perfect-friends-wx",
+      "app": "wechat",
+      "title": "滿分朋友｜遊戲群",
+      "participants": [
+        "owner",
+        "ayi",
+        "lijing",
+        "yangnan",
+        "xucheng",
+        "linchuan",
+        "zhouke",
+        "luoyu",
+        "xiahe",
+        "chengyuan",
+        "producer"
+      ],
+      "unlock": "fullFriendsStarted",
+      "messages": []
     }
   ],
   "content": {
@@ -1985,7 +2005,7 @@
       {
         "id": "file-timeline",
         "title": "18天章節規劃｜待解鎖",
-        "body": "DAY 01–04：我們真的走散了嗎？\nDAY 05–09：原來你還記得\nDAY 10–14：你結婚的那一天\nDAY 15–18：後會有期\n\n目前僅製作第一章開篇；此清單為後續故事大綱，不代表所有章節已可遊玩。",
+        "body": "DAY 01–04：我們真的走散了嗎？\nDAY 05–09：原來你還記得\nDAY 10–14：你結婚的那一天\nDAY 15–18：後會有期\n\n目前僅製作第一章開篇；此清單為後續故事大綱，不代表所有章節已可遊玩。\n\n新增支線：DAY 02 完成後可在微信打開「滿分朋友｜遊戲群」。群聊為空白，等待玩家自行編寫內容。",
         "time": "2026-11-02 18:00",
         "folder": "節目任務"
       },
@@ -2132,6 +2152,18 @@
         "folder": "18天任務",
         "time": "2026-11-20 07:30",
         "hidden": true
+      },
+      {
+        "id": "full-friends-game-rules",
+        "title": "DAY 02 支線｜滿分朋友遊戲規則",
+        "time": "2026-11-04 22:26",
+        "folder": "節目任務",
+        "hidden": true,
+        "body": "《後會友期》｜滿分朋友（遊戲支線）\n\n【節目可核實的核心】\n1. 先各自思考：什麼樣的人是你心中的「滿分朋友」？什麼樣的相處會讓人覺得像「零分朋友」？每個人的標準可以不同\n2. 輪流表達自己的標準、對友誼的期待，以及想起的相處經驗\n3. 其他人認真聽完，不急著反駁、不代替對方解釋，也不強迫任何人當場原諒或和好\n4. 「友情天秤」以砝碼象徵關係中的傷害與快樂：分享讓友誼變重或變輕的往事，並思考當關係傾斜時是否願意伸手扶住\n\n【本手機版改編的進行方式】\n群內所有參加旅程的人都可參與。由你自行編寫每個人的說話、出牌、回覆與停頓；不預先設定誰得到幾分，也不自動判定誰是滿分或零分朋友。等你提供聊天台詞時，再按你指定的順序逐條呈現\n\n注意：節目公開資料可以確認主題與友情天秤環節，但無法確認完整固定牌組與計分規則。群聊順序和觸發方式屬本故事改編，不冒充節目官方規則。",
+        "meta": {
+          "game": "fullFriends",
+          "date": "DAY 02"
+        }
       }
     ],
     "phone": [
@@ -2284,12 +2316,31 @@
         "time": "2026-11-20 22:10",
         "hidden": true
       }
+    ],
+    "wechat": [
+      {
+        "id": "full-friends-group-lobby",
+        "title": "滿分朋友｜遊戲群",
+        "body": "",
+        "sender": "系統",
+        "kind": "event",
+        "folder": "群聊",
+        "hidden": true,
+        "time": "2026-11-04 22:26",
+        "meta": {
+          "groupLobby": "fullFriends",
+          "memberNames": "陳信宏|阿翊|陸景|楊楠|許澄|林川|周可|羅予|夏禾|程遠|節目組｜小周",
+          "conversationId": "chat-perfect-friends-wx",
+          "description": "DAY 02 完成後開啟的空白互動群，玩家提供正式聊天內容後再加入"
+        }
+      }
     ]
   },
   "variables": {
     "chapter": 0,
     "truthSpoken": false,
-    "relationshipRepaired": false
+    "relationshipRepaired": false,
+    "fullFriendsStarted": false
   },
   "events": [
     {
@@ -2599,6 +2650,26 @@
           "type": "notification",
           "key": "",
           "value": "DAY 02 完成。DAY 03 任務已開放。"
+        },
+        {
+          "type": "variable",
+          "key": "fullFriendsStarted",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "full-friends-group-lobby",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "full-friends-game-rules",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "微信新群聊：滿分朋友｜遊戲群已解鎖，所有旅伴已在群內；遊戲規則已存入檔案。"
         }
       ],
       "next": []

@@ -68,6 +68,7 @@ export const storySchema = z
           app: z.string().default("messages"),
           title: z.string(),
           participants: z.array(z.string()),
+          unlock: z.string().default(""),
           messages: z.array(
             content.extend({ senderId: z.string().optional() }),
           ),
@@ -197,6 +198,8 @@ export function compileStory(raw: unknown): { story: Story; work: Work } {
         chat.app,
         {
           ...item,
+          // A chat-wide unlock gates future author-added messages without rewriting day events.
+          unlock: item.unlock || chat.unlock,
           title: chat.title,
           sender:
             senderId === "owner"
