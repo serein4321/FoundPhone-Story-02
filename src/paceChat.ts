@@ -71,7 +71,6 @@ export function usePacedThread(p: SkinProps, allItems: Item[]) {
     },delay);
     return ()=>window.clearTimeout(timer);
     // The scheduled message's ID is the stable playback key; parent UI callbacks are recreated every render.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   },[p.creator,p.thread,nextId,delay]);
   return {
     items: visiblePacedMessages(allItems,delivered,p.thread,p.creator),
