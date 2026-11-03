@@ -33,7 +33,7 @@ describe("full-friends game group", () => {
     const copy=structuredClone(fixture) as unknown as Story;
     const group=copy.chats.find(c=>c.id==="chat-perfect-friends-wx");
     if (!group) throw Error("No group");
-    group.messages.push({id:"future-user-message",senderId:"owner",body:"新填寫內容",time:"2026-11-04 22:31"});
+    group.messages.push({id:"future-user-message",title:"",senderId:"owner",body:"新填寫內容",time:"2026-11-04 22:31"});
     const work=compileStory(copy).work;
     const message=work.data.wechat.find(x=>x.id==="future-user-message");
     if(!message)throw Error("No message");
