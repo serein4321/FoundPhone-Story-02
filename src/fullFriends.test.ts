@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import fixture from "../stories/template/story.json";
-import { compileStory } from "./story-engine/compiler";
+import { compileStory, type Story } from "./story-engine/compiler";
 import { dispatch, visible } from "./engine";
 import { initialRuntime } from "./schema";
 
@@ -30,7 +30,7 @@ describe("full-friends game group", () => {
     expect(second.notifications.some(x=>x.includes("滿分朋友"))).toBe(true);
   });
   it("future authored group messages inherit the same day two gate", () => {
-    const copy=structuredClone(fixture);
+    const copy=structuredClone(fixture) as unknown as Story;
     const group=copy.chats.find(c=>c.id==="chat-perfect-friends-wx");
     if (!group) throw Error("No group");
     group.messages.push({id:"future-user-message",senderId:"owner",body:"新填寫內容",time:"2026-11-04 22:31"});
