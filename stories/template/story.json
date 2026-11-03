@@ -3,7 +3,7 @@
   "id": "mayday-after-we-meet",
   "title": "後會友期：我們沒有好好告別｜18天完整劇情",
   "description": "【虛構平行世界・非官方改編】陳信宏與溫尚翊在高中相遇相戀，後來溫尚翊走入婚姻，兩人的舊戀情沒有被正式告別。在一趟四組舊友共同參與的十八天旅行裡，翻閱陳信宏的手機，讀取每日任務、KakaoTalk（首日雙次自由回覆）、微信、照片文字、備忘錄與隱藏回憶，選擇 DAY 16 提早下車或走完 DAY 18，觸發四種結局。不代表真實私人聊天、婚姻或節目錄製。",
-  "revision": 8,
+  "revision": 9,
   "phone": {
     "owner": "陳信宏",
     "date": "2026-11-02",
@@ -834,28 +834,51 @@
       ],
       "messages": [
         {
-          "id": "masa-001",
-          "body": "欸，真的要去喔",
+          "id": "masa-day01-new-01",
+          "body": "你們真要去喔？",
           "senderId": "masa",
-          "time": "2026-11-02 22:02"
+          "time": "2026-11-02 20:48",
+          "meta": {
+            "kktReplyPhase": "0"
+          }
         },
         {
-          "id": "masa-002",
-          "body": "你們兩個不是不知道怎麼說話，是太知道要怎麼假裝沒事了",
-          "senderId": "masa",
-          "time": "2026-11-02 22:03"
-        },
-        {
-          "id": "masa-003",
-          "body": "蔡昇晏你今天很會講欸",
+          "id": "masa-day01-new-02",
+          "body": "行李都收好了啦",
           "senderId": "owner",
-          "time": "2026-11-02 22:05"
+          "time": "2026-11-02 20:50",
+          "meta": {
+            "kktReplyPhase": "0"
+          }
         },
         {
-          "id": "masa-004",
-          "body": "少來。去把那封信讀完啦",
+          "id": "masa-day01-new-03",
+          "body": "好吧覺得不行了隨時回來",
           "senderId": "masa",
-          "time": "2026-11-02 22:06"
+          "time": "2026-11-02 20:52",
+          "meta": {
+            "kktReplyPhase": "0"
+          }
+        },
+        {
+          "id": "masa-day01-new-04",
+          "body": "我可不想提前退休",
+          "senderId": "masa",
+          "time": "2026-11-02 20:53",
+          "meta": {
+            "kktReplyPhase": "0",
+            "kktReplyAt": "2026-11-02 20:56"
+          }
+        },
+        {
+          "id": "masa-day01-new-05",
+          "body": "照顧好自己，算了，那個傢伙肯定會照顧好你的",
+          "senderId": "masa",
+          "time": "2026-11-02 20:59",
+          "meta": {
+            "kktReplyPhase": "1",
+            "kktReplyLimit": "1"
+          }
         },
         {
           "id": "day04-masa-note",

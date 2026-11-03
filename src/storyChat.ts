@@ -19,6 +19,15 @@ export function kktReplyCount(saved: string[], thread: string): number {
   return saved.filter(raw => parseSavedReply(raw)?.thread === thread).length;
 }
 
+/** Individual scripted conversations may end after one reply, while older stories keep their two-reply flow. */
+export function kktReplyLimit(items: Item[], thread: string): number {
+  const configured=items
+    .filter(i=>i.title===thread && i.meta.kktReplyLimit)
+    .at(-1)?.meta.kktReplyLimit;
+  const parsed=Number(configured);
+  return configured && Number.isInteger(parsed) && parsed>=1 && parsed<=20 ? parsed : 2;
+}
+
 export function visibleKktMessages(items: Item[], saved: string[]): Item[] {
   return items.filter(i => i.meta.kktReplyPhase === undefined ||
     Number(i.meta.kktReplyPhase) <= Math.min(2, kktReplyCount(saved, i.title)));

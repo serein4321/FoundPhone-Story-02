@@ -31,7 +31,7 @@ import { useSkinState } from "../../skinState";
 import { usePacedThread } from "../../paceChat";
 import type { Item } from "../../schema";
 import {
-  isStagedKkt, kktReplyCount, storyReplyTime, threadKktMessages, visibleKktMessages,
+  isStagedKkt, kktReplyCount, kktReplyLimit, storyReplyTime, threadKktMessages, visibleKktMessages,
 } from "../../storyChat";
 import "./ui.css";
 import "./adapter.css";
@@ -75,7 +75,7 @@ export function MymyKakao(p: SkinProps) {
   const scripted = threadKktMessages(p.items, sent, p.thread, p.owner || "機主");
   const paced = usePacedThread(p, scripted);
   const readyForReply = !paced.pending;
-  const completed = staged && kktReplyCount(sent, p.thread) >= 2;
+  const completed = staged && kktReplyCount(sent, p.thread) >= kktReplyLimit(p.items, p.thread);
   const list = grouped(visibleKktMessages(p.items, sent)),
     messages = paced.items,
     scroll = useRef<HTMLDivElement>(null);
