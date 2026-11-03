@@ -3,7 +3,7 @@
   "id": "mayday-after-we-meet",
   "title": "後會友期：我們沒有好好告別｜18天完整劇情",
   "description": "【虛構平行世界・非官方改編】陳信宏與溫尚翊在高中相遇相戀，後來溫尚翊走入婚姻，兩人的舊戀情沒有被正式告別。在一趟四組舊友共同參與的十八天旅行裡，翻閱陳信宏的手機，讀取每日任務、KakaoTalk（首日雙次自由回覆）、微信、照片文字、備忘錄與隱藏回憶，選擇 DAY 16 提早下車或走完 DAY 18，觸發四種結局。不代表真實私人聊天、婚姻或節目錄製。",
-  "revision": 11,
+  "revision": 12,
   "phone": {
     "owner": "陳信宏",
     "date": "2026-11-02",
@@ -1742,14 +1742,6 @@
         "hidden": true
       },
       {
-        "id": "note-draft",
-        "title": "沒有寄出去的話",
-        "body": "阿翊：\n\n我知道你現在有自己的生活，也知道有些話不應該再用從前的身份說。\n\n可是每次你提醒我吃飯，我還是會想起高中那個陪我走回家的人。\n\n我沒有在等你回頭。我只是一直不知道，該怎麼好好跟那個時候的我們說再見。\n\n這趟旅程，我想試著說一次實話。",
-        "time": "2026-11-02 22:17",
-        "folder": "私人",
-        "hidden": true
-      },
-      {
         "id": "note-bag",
         "title": "行李清單",
         "body": "保暖衣物、耳機、護唇膏、手帳、小藥盒。\n別把工作帶上車。\n\n阿翊不喜歡太甜的飲料，我卻總是忘了自己不愛喝熱水。",
@@ -2638,11 +2630,6 @@
           "type": "unlock",
           "key": "photo-old",
           "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "note-draft",
-          "value": true
         }
       ]
     },
@@ -2656,20 +2643,6 @@
         {
           "type": "clue",
           "key": "old-photo",
-          "value": true
-        }
-      ]
-    },
-    {
-      "id": "complete-old-draft",
-      "label": "舊訊息草稿",
-      "type": "event",
-      "event": "read",
-      "target": "note-draft",
-      "actions": [
-        {
-          "type": "clue",
-          "key": "draft-kept",
           "value": true
         }
       ]
