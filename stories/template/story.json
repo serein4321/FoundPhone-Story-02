@@ -3,7 +3,7 @@
   "id": "mayday-after-we-meet",
   "title": "後會友期：我們沒有好好告別｜18天完整劇情",
   "description": "【虛構平行世界・非官方改編】陳信宏與溫尚翊在高中相遇相戀，後來溫尚翊走入婚姻，兩人的舊戀情沒有被正式告別。在一趟四組舊友共同參與的十八天旅行裡，翻閱陳信宏的手機，讀取每日任務、KakaoTalk（首日雙次自由回覆）、微信、照片文字、備忘錄與隱藏回憶，選擇 DAY 16 提早下車或走完 DAY 18，觸發四種結局。不代表真實私人聊天、婚姻或節目錄製。",
-  "revision": 9,
+  "revision": 10,
   "phone": {
     "owner": "陳信宏",
     "date": "2026-11-02",
@@ -1334,6 +1334,146 @@
       ],
       "unlock": "fullFriendsStarted",
       "messages": []
+    },
+    {
+      "id": "chat-mayday-home-kkt",
+      "app": "kakao",
+      "title": "我愛我家",
+      "participants": [
+        "owner",
+        "masa",
+        "stone",
+        "guanyou",
+        "ayi"
+      ],
+      "messages": [
+        {
+          "id": "mayday-home-20261102-01",
+          "body": "明天就要出發了，大家東西都整理好了嗎",
+          "senderId": "stone",
+          "time": "2026-11-02 17:41"
+        },
+        {
+          "id": "mayday-home-20261102-02",
+          "body": "石頭哥怎麼有種要去畢業旅行的感覺😂",
+          "senderId": "owner",
+          "time": "2026-11-02 17:43"
+        },
+        {
+          "id": "mayday-home-20261102-03",
+          "body": "我只想知道有人是不是又把錄音器材塞進行李箱",
+          "senderId": "masa",
+          "time": "2026-11-02 17:44"
+        },
+        {
+          "id": "mayday-home-20261102-04",
+          "body": "欸！這次真的沒有啦",
+          "senderId": "owner",
+          "time": "2026-11-02 17:46"
+        },
+        {
+          "id": "mayday-home-20261102-05",
+          "body": "好啦我先問，充電器有帶嗎",
+          "senderId": "guanyou",
+          "time": "2026-11-02 17:47"
+        },
+        {
+          "id": "mayday-home-20261102-06",
+          "body": "他昨天就找過三次充電線了",
+          "senderId": "ayi",
+          "time": "2026-11-02 17:48"
+        },
+        {
+          "id": "mayday-home-20261102-07",
+          "body": "怪獸哥你這是在監視我喔👀",
+          "senderId": "owner",
+          "time": "2026-11-02 17:49"
+        },
+        {
+          "id": "mayday-home-20261102-08",
+          "body": "不用監視也猜得到啦",
+          "senderId": "masa",
+          "time": "2026-11-02 17:51"
+        },
+        {
+          "id": "mayday-home-20261102-09",
+          "body": "那邊早晚會冷，外套記得多帶一件",
+          "senderId": "stone",
+          "time": "2026-11-02 17:53"
+        },
+        {
+          "id": "mayday-home-20261102-10",
+          "body": "收到～石頭媽媽🤓",
+          "senderId": "owner",
+          "time": "2026-11-02 17:54"
+        },
+        {
+          "id": "mayday-home-20261102-11",
+          "body": "我只是提醒一下啦哈哈",
+          "senderId": "stone",
+          "time": "2026-11-02 17:56"
+        },
+        {
+          "id": "mayday-home-20261102-12",
+          "body": "話說這群名是誰改的啊，我愛我家🤣",
+          "senderId": "guanyou",
+          "time": "2026-11-02 17:59"
+        },
+        {
+          "id": "mayday-home-20261102-13",
+          "body": "我怎麼記得是阿信改的",
+          "senderId": "masa",
+          "time": "2026-11-02 18:01"
+        },
+        {
+          "id": "mayday-home-20261102-14",
+          "body": "這名字不是很溫馨嗎，我們是相親相愛一家人欸",
+          "senderId": "owner",
+          "time": "2026-11-02 18:03"
+        },
+        {
+          "id": "mayday-home-20261102-15",
+          "body": "你上次也這樣講，結果半夜兩點還在群裡吵",
+          "senderId": "ayi",
+          "time": "2026-11-02 18:04"
+        },
+        {
+          "id": "mayday-home-20261102-16",
+          "body": "那叫討論，主唱大人",
+          "senderId": "masa",
+          "time": "2026-11-02 18:06"
+        },
+        {
+          "id": "mayday-home-20261102-17",
+          "body": "哈哈哈好啦，你們旅行順利，平安回來最重要",
+          "senderId": "guanyou",
+          "time": "2026-11-02 18:08"
+        },
+        {
+          "id": "mayday-home-20261102-18",
+          "body": "放心啦，回來請大家吃飯",
+          "senderId": "owner",
+          "time": "2026-11-02 18:10"
+        },
+        {
+          "id": "mayday-home-20261102-19",
+          "body": "截圖存證，這次不能耍賴喔",
+          "senderId": "masa",
+          "time": "2026-11-02 18:11"
+        },
+        {
+          "id": "mayday-home-20261102-20",
+          "body": "先讓他去睡覺再說",
+          "senderId": "ayi",
+          "time": "2026-11-02 18:13"
+        },
+        {
+          "id": "mayday-home-20261102-21",
+          "body": "怪獸哥！！！",
+          "senderId": "owner",
+          "time": "2026-11-02 18:14"
+        }
+      ]
     }
   ],
   "content": {
