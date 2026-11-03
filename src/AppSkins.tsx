@@ -3,6 +3,10 @@ import { useSkinState } from "./skinState";
 import { useEffect, useRef, useState } from "react";
 import { usePacedThread } from "./paceChat";
 import {
+  hasWeChatReplyGate, weChatReplyCount, weChatReplyLimit, weChatReplyTime,
+  visibleWeChatScript, threadWeChatMessages,
+} from "./weChatChat";
+import {
   ChevronLeft,
   Plus,
   CirclePlus,
@@ -162,6 +166,41 @@ function Compose({
     </div>
   );
 }
+function WeChatInterviewComposer({
+  onSend,
+  disabled,
+  completed,
+}: {
+  onSend: (body: string) => void;
+  disabled: boolean;
+  completed: boolean;
+}) {
+  const [draft, setDraft] = useState("");
+  return (
+    <form
+      className="skin-compose wx-interview-compose"
+      onSubmit={(e) => {
+        e.preventDefault();
+        if (!disabled && !completed && draft.trim()) {
+          onSend(draft.trim());
+          setDraft("");
+        }
+      }}
+    >
+      <Mic size={19} />
+      <input
+        aria-label="微信後採回覆"
+        placeholder={completed ? "後採對話已結束" : disabled ? "等待對方輸入…" : "輸入訊息"}
+        value={draft}
+        onChange={(e) => setDraft(e.target.value)}
+        disabled={disabled || completed}
+        maxLength={2000}
+      />
+      <Smile size={19} />
+      <button type="submit" disabled={disabled || completed || !draft.trim()}>發送</button>
+    </form>
+  );
+}
 export function WeChatSkin(p: SkinProps) {
   const [tab, setTab] = useState("微信"),
     [query, setQuery] = useState(""),
@@ -174,8 +213,13 @@ export function WeChatSkin(p: SkinProps) {
     "readThreads",
     [],
   );
-  const paced = usePacedThread(p, p.items);
+  const [wechatSent, setWechatSent] = useSkinState<string[]>(p,"wechatInterviewReplies",[]);
+  const stagedChat = hasWeChatReplyGate(p.items, p.thread);
+  const scripted = p.thread ? threadWeChatMessages(p.items, wechatSent, p.thread, p.owner || "機主") : p.items;
+  const paced = usePacedThread(p, scripted);
   const deliveredIds = new Set(paced.delivered);
+  const chatCompleted = stagedChat && weChatReplyCount(wechatSent, p.thread) >= weChatReplyLimit(p.items, p.thread);
+  const readyForInterview = !paced.pending;
   const groupLobby = p.items.find(i => i.title === p.thread && i.meta.groupLobby === "fullFriends");
   const groupMembers = groupLobby?.meta.memberNames?.split("|").filter(Boolean);
   const threadMessages = p.items.filter(i => i.title === p.thread && i.meta.groupLobby !== "fullFriends");
@@ -304,7 +348,21 @@ export function WeChatSkin(p: SkinProps) {
               typing={paced.pending ? (paced.next?.outgoing ? "訊息正在傳送…" : (paced.next?.sender || "對方") + "正在輸入…") : ""}
             />
           )}
-          <Compose creator={p.creator} onAdd={p.onAdd} />
+          {stagedChat && !p.creator ? (
+            <WeChatInterviewComposer
+              disabled={!readyForInterview}
+              completed={chatCompleted}
+              onSend={(body) => {
+                if (chatCompleted || !readyForInterview) return;
+                setWechatSent(current => [...current, JSON.stringify([
+                  p.thread, body,
+                  weChatReplyTime(p.items, current, p.thread, p.virtualTime || "21:45"),
+                ])]);
+              }}
+            />
+          ) : (
+            <Compose creator={p.creator} onAdd={p.onAdd} />
+          )}
         </>
       ) : moments ? (
         <div className="wx-moments">
@@ -358,7 +416,7 @@ export function WeChatSkin(p: SkinProps) {
                     ),
                 )
                 .map((t) => {
-                  const list = p.items.filter((i) => i.title === t);
+                  const list = visibleWeChatScript(p.items, wechatSent).filter((i) => i.title === t);
                   const latestDay = list.at(-1)?.time.slice(0, 10) || "";
                   const last = list.filter(i => i.time.slice(0, 10) < latestDay || deliveredIds.has(i.id)).at(-1) || list[0];
                   return (

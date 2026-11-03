@@ -4987,3 +4987,33 @@ label {
 }
 .wx-empty-full-friends p { font-size: 14px; margin: 20px 0 7px; }
 .wx-empty-full-friends small { font-size: 12px; }
+
+/* Single free-form response in the post-show WeChat interview. */
+.wx-interview-compose {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 10px;
+}
+.wx-interview-compose input {
+  min-width: 0;
+  flex: 1;
+  border: 0;
+  border-radius: 7px;
+  background: #fff;
+  padding: 10px 9px;
+  color: #242424;
+  font: inherit;
+  font-size: 14px;
+}
+.wx-interview-compose input:disabled { opacity: .58; }
+.wx-interview-compose button {
+  flex: none;
+  border: 0;
+  border-radius: 7px;
+  padding: 9px 11px;
+  background: #07c160;
+  color: #fff;
+  font-size: 13px;
+}
+.wx-interview-compose button:disabled { background: #b4c2ba; }

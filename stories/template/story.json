@@ -3,7 +3,7 @@
   "id": "mayday-after-we-meet",
   "title": "後會友期：我們沒有好好告別｜18天完整劇情",
   "description": "【虛構平行世界・非官方改編】陳信宏與溫尚翊在高中相遇相戀，後來溫尚翊走入婚姻，兩人的舊戀情沒有被正式告別。在一趟四組舊友共同參與的十八天旅行裡，翻閱陳信宏的手機，讀取每日任務、KakaoTalk（首日雙次自由回覆）、微信、照片文字、備忘錄與隱藏回憶，選擇 DAY 16 提早下車或走完 DAY 18，觸發四種結局。不代表真實私人聊天、婚姻或節目錄製。",
-  "revision": 10,
+  "revision": 11,
   "phone": {
     "owner": "陳信宏",
     "date": "2026-11-02",
@@ -156,6 +156,13 @@
       "phone": "",
       "avatar": "",
       "bio": "虛構嘉賓；曾與周可因信任問題疏遠。"
+    },
+    {
+      "id": "interview",
+      "name": "節目組｜後採",
+      "phone": "",
+      "avatar": "",
+      "bio": "《後會友期》架空節目後採工作人員，負責旅程結束後的訪談與回顧"
     }
   ],
   "chats": [
@@ -1474,6 +1481,83 @@
           "time": "2026-11-02 18:14"
         }
       ]
+    },
+    {
+      "id": "chat-interview-wx",
+      "app": "wechat",
+      "title": "節目組｜後採",
+      "participants": [
+        "owner",
+        "interview"
+      ],
+      "unlock": "interviewDay1Ready",
+      "messages": [
+        {
+          "id": "interview-day01-01",
+          "senderId": "interview",
+          "body": "為什麼會想和溫尚翊來呢？",
+          "time": "2026-11-03 22:22",
+          "meta": {
+            "wechatReplyPhase": "0"
+          }
+        },
+        {
+          "id": "interview-day01-02",
+          "senderId": "owner",
+          "body": "怎麼所有人都覺得特別難以置信😮",
+          "time": "2026-11-03 22:24",
+          "meta": {
+            "wechatReplyPhase": "0"
+          }
+        },
+        {
+          "id": "interview-day01-03",
+          "senderId": "interview",
+          "body": "天團主唱和吉他手，任誰看都是一對摯友",
+          "time": "2026-11-03 22:26",
+          "meta": {
+            "wechatReplyPhase": "0"
+          }
+        },
+        {
+          "id": "interview-day01-04",
+          "senderId": "interview",
+          "body": "還是說你們已經不是摯友？",
+          "time": "2026-11-03 22:27",
+          "meta": {
+            "wechatReplyPhase": "0"
+          }
+        },
+        {
+          "id": "interview-day01-05",
+          "senderId": "owner",
+          "body": "……不只是摯友",
+          "time": "2026-11-03 22:29",
+          "meta": {
+            "wechatReplyPhase": "0"
+          }
+        },
+        {
+          "id": "interview-day01-06",
+          "senderId": "interview",
+          "body": "如果讓你用一句話形容他，你會怎麼形容？",
+          "time": "2026-11-03 22:31",
+          "meta": {
+            "wechatReplyPhase": "0",
+            "wechatReplyAt": "2026-11-03 22:34"
+          }
+        },
+        {
+          "id": "interview-day01-07",
+          "senderId": "interview",
+          "body": "真神奇，他也是這麼形容你的",
+          "time": "2026-11-03 22:36",
+          "meta": {
+            "wechatReplyPhase": "1",
+            "wechatReplyLimit": "1"
+          }
+        }
+      ]
     }
   ],
   "content": {
@@ -2503,7 +2587,8 @@
     "chapter": 0,
     "truthSpoken": false,
     "relationshipRepaired": false,
-    "fullFriendsStarted": false
+    "fullFriendsStarted": false,
+    "interviewDay1Ready": false
   },
   "events": [
     {
@@ -2699,6 +2784,16 @@
           "type": "notification",
           "key": "",
           "value": "DAY 01 完成。DAY 02 任務已開放。"
+        },
+        {
+          "type": "variable",
+          "key": "interviewDay1Ready",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "微信｜節目組｜後採：第一天的後採問題已送達"
         }
       ],
       "next": []
