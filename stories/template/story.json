@@ -2,8 +2,8 @@
   "scriptVersion": 1,
   "id": "mayday-after-we-meet",
   "title": "後會友期：我們沒有好好告別｜18天完整劇情",
-  "description": "【虛構平行世界・非官方改編】陳信宏與溫尚翊在高中相遇相戀，後來溫尚翊走入婚姻，兩人的舊戀情沒有被正式告別。在一趟四組舊友共同參與的十八天旅行裡，翻閱陳信宏的手機，讀取每日任務、KakaoTalk、微信、照片文字、備忘錄與隱藏回憶，選擇 DAY 16 提早下車或走完 DAY 18，觸發四種結局。不代表真實私人聊天、婚姻或節目錄製。",
-  "revision": 5,
+  "description": "【虛構平行世界・非官方改編】陳信宏與溫尚翊在高中相遇相戀，後來溫尚翊走入婚姻，兩人的舊戀情沒有被正式告別。在一趟四組舊友共同參與的十八天旅行裡，翻閱陳信宏的手機，讀取每日任務、KakaoTalk（首日雙次自由回覆）、微信、照片文字、備忘錄與隱藏回憶，選擇 DAY 16 提早下車或走完 DAY 18，觸發四種結局。不代表真實私人聊天、婚姻或節目錄製。",
+  "revision": 6,
   "phone": {
     "owner": "陳信宏",
     "date": "2026-11-02",
@@ -169,808 +169,69 @@
       ],
       "messages": [
         {
-          "id": "ayi-001",
-          "body": "你真的有答應去錄那個節目喔？",
+          "id": "ayi-new-day01-01",
+          "body": "真的要去這個節目？",
           "senderId": "ayi",
-          "time": "2026-11-02 18:31"
+          "time": "2026-11-02 21:55",
+          "meta": {
+            "kktReplyPhase": "0"
+          }
         },
         {
-          "id": "ayi-002",
-          "body": "我們不是每天都見面嗎",
-          "senderId": "ayi",
-          "time": "2026-11-02 18:32"
-        },
-        {
-          "id": "ayi-003",
-          "body": "每天見面，跟有沒有好好說話，是兩回事吧。",
+          "id": "ayi-new-day01-02",
+          "body": "邀請函已經都接受了，怪獸哥現在不能反悔喔",
           "senderId": "owner",
-          "time": "2026-11-02 18:34"
+          "time": "2026-11-02 21:57",
+          "meta": {
+            "kktReplyPhase": "0"
+          }
         },
         {
-          "id": "ayi-004",
-          "body": "……",
+          "id": "ayi-new-day01-03",
+          "body": "沒說反悔，只是覺得我們也沒必要",
           "senderId": "ayi",
-          "time": "2026-11-02 18:37"
+          "time": "2026-11-02 21:59",
+          "meta": {
+            "kktReplyPhase": "0",
+            "kktReplyAt": "2026-11-02 22:01"
+          }
         },
         {
-          "id": "ayi-005",
-          "body": "你又沒吃晚餐？今天彩排就看你在喝咖啡。",
+          "id": "ayi-new-day01-04",
+          "body": "今晚早點睡吧，明天見",
           "senderId": "ayi",
-          "time": "2026-11-02 21:48"
+          "time": "2026-11-02 22:03",
+          "meta": {
+            "kktReplyPhase": "1"
+          }
         },
         {
-          "id": "ayi-006",
-          "body": "怪獸哥，節目還沒開始你就要管我喔 😗",
+          "id": "ayi-new-day01-05",
+          "body": "不要再喝咖啡改歌詞了",
+          "senderId": "ayi",
+          "time": "2026-11-02 22:04",
+          "meta": {
+            "kktReplyPhase": "1"
+          }
+        },
+        {
+          "id": "ayi-new-day01-06",
+          "body": "你怎麼知道我在做什麼👀",
           "senderId": "owner",
-          "time": "2026-11-02 21:50"
+          "time": "2026-11-02 22:06",
+          "meta": {
+            "kktReplyPhase": "1"
+          }
         },
         {
-          "id": "ayi-007",
-          "body": "我只是怕你胃痛。明天車站見。",
+          "id": "ayi-new-day01-07",
+          "body": "你什麼我不知道啊",
           "senderId": "ayi",
-          "time": "2026-11-02 21:52"
-        },
-        {
-          "id": "ayi-008",
-          "body": "嗯。明天見，阿翊。",
-          "senderId": "owner",
-          "time": "2026-11-02 21:54"
-        },
-        {
-          "id": "day01-ayi-01",
-          "body": "行李不要放在那邊，會滑。",
-          "senderId": "ayi",
-          "time": "2026-11-03 20:10",
-          "hidden": true
-        },
-        {
-          "id": "day01-ayi-02",
-          "body": "溫同學，你是來旅行還是來當糾察隊？",
-          "senderId": "owner",
-          "time": "2026-11-03 20:18",
-          "hidden": true
-        },
-        {
-          "id": "day01-ayi-03",
-          "body": "我從高中就知道你不會聽。",
-          "senderId": "ayi",
-          "time": "2026-11-03 20:26",
-          "hidden": true
-        },
-        {
-          "id": "day01-ayi-04",
-          "body": "那你還是很會管馁。",
-          "senderId": "owner",
-          "time": "2026-11-03 21:10",
-          "hidden": true
-        },
-        {
-          "id": "day01-ayi-05",
-          "body": "保溫杯在我這裡。",
-          "senderId": "ayi",
-          "time": "2026-11-03 21:18",
-          "hidden": true
-        },
-        {
-          "id": "day01-ayi-06",
-          "body": "知道啦，謝謝你。",
-          "senderId": "owner",
-          "time": "2026-11-03 21:26",
-          "hidden": true
-        },
-        {
-          "id": "day02-ayi-01",
-          "body": "我有買熱的給你。",
-          "senderId": "ayi",
-          "time": "2026-11-04 20:10",
-          "hidden": true
-        },
-        {
-          "id": "day02-ayi-02",
-          "body": "你怎麼都不用問？",
-          "senderId": "owner",
-          "time": "2026-11-04 20:18",
-          "hidden": true
-        },
-        {
-          "id": "day02-ayi-03",
-          "body": "這個我記得。",
-          "senderId": "ayi",
-          "time": "2026-11-04 20:26",
-          "hidden": true
-        },
-        {
-          "id": "day02-ayi-04",
-          "body": "那你最近最想做什麼？",
-          "senderId": "owner",
-          "time": "2026-11-04 21:10",
-          "hidden": true
-        },
-        {
-          "id": "day02-ayi-05",
-          "body": "先睡一個好覺吧。",
-          "senderId": "ayi",
-          "time": "2026-11-04 21:18",
-          "hidden": true
-        },
-        {
-          "id": "day02-ayi-06",
-          "body": "那我今晚不傳工作給你。",
-          "senderId": "owner",
-          "time": "2026-11-04 21:26",
-          "hidden": true
-        },
-        {
-          "id": "day03-ayi-01",
-          "body": "你以前最愛拿我的筆。",
-          "senderId": "ayi",
-          "time": "2026-11-05 20:10",
-          "hidden": true
-        },
-        {
-          "id": "day03-ayi-02",
-          "body": "你這種事都記得喔。",
-          "senderId": "owner",
-          "time": "2026-11-05 20:18",
-          "hidden": true
-        },
-        {
-          "id": "day03-ayi-03",
-          "body": "怎麼可能忘。",
-          "senderId": "ayi",
-          "time": "2026-11-05 20:26",
-          "hidden": true
-        },
-        {
-          "id": "day03-ayi-04",
-          "body": "那有沒有現在的你，是我不知道的？",
-          "senderId": "owner",
-          "time": "2026-11-05 21:10",
-          "hidden": true
-        },
-        {
-          "id": "day03-ayi-05",
-          "body": "有啊。很多。",
-          "senderId": "ayi",
-          "time": "2026-11-05 21:18",
-          "hidden": true
-        },
-        {
-          "id": "day03-ayi-06",
-          "body": "那有天你想說的時候，記得告訴我。",
-          "senderId": "owner",
-          "time": "2026-11-05 21:26",
-          "hidden": true
-        },
-        {
-          "id": "day04-ayi-01",
-          "body": "最後那題你怎麼沒答？",
-          "senderId": "ayi",
-          "time": "2026-11-06 20:10",
-          "hidden": true
-        },
-        {
-          "id": "day04-ayi-02",
-          "body": "你不也一樣。",
-          "senderId": "owner",
-          "time": "2026-11-06 20:18",
-          "hidden": true
-        },
-        {
-          "id": "day04-ayi-03",
-          "body": "我怕說出來讓你覺得我很自私。",
-          "senderId": "ayi",
-          "time": "2026-11-06 20:26",
-          "hidden": true
-        },
-        {
-          "id": "day04-ayi-04",
-          "body": "你可以先說一點點啊。",
-          "senderId": "owner",
-          "time": "2026-11-06 21:10",
-          "hidden": true
-        },
-        {
-          "id": "day04-ayi-05",
-          "body": "我怕你一直以為我什麼都沒感覺。",
-          "senderId": "ayi",
-          "time": "2026-11-06 21:18",
-          "hidden": true
-        },
-        {
-          "id": "day04-ayi-06",
-          "body": "我沒有那樣想，只是我也沒問。",
-          "senderId": "owner",
-          "time": "2026-11-06 21:26",
-          "hidden": true
-        },
-        {
-          "id": "day05-ayi-01",
-          "body": "那張票你還留著？",
-          "senderId": "ayi",
-          "time": "2026-11-07 20:10",
-          "hidden": true
-        },
-        {
-          "id": "day05-ayi-02",
-          "body": "我以為早就不見了欸。",
-          "senderId": "owner",
-          "time": "2026-11-07 20:18",
-          "hidden": true
-        },
-        {
-          "id": "day05-ayi-03",
-          "body": "放吉他盒裡，忘了拿出來。",
-          "senderId": "ayi",
-          "time": "2026-11-07 20:26",
-          "hidden": true
-        },
-        {
-          "id": "day05-ayi-04",
-          "body": "你真的很奇怪，有些東西偏偏不丟。",
-          "senderId": "owner",
-          "time": "2026-11-07 21:10",
-          "hidden": true
-        },
-        {
-          "id": "day05-ayi-05",
-          "body": "那時候我很喜歡跟你一起等車。",
-          "senderId": "ayi",
-          "time": "2026-11-07 21:18",
-          "hidden": true
-        },
-        {
-          "id": "day05-ayi-06",
-          "body": "我也是。",
-          "senderId": "owner",
-          "time": "2026-11-07 21:26",
-          "hidden": true
-        },
-        {
-          "id": "day06-ayi-01",
-          "body": "他們真的下車了。",
-          "senderId": "ayi",
-          "time": "2026-11-08 20:10",
-          "hidden": true
-        },
-        {
-          "id": "day06-ayi-02",
-          "body": "看起來好輕鬆喔。",
-          "senderId": "owner",
-          "time": "2026-11-08 20:18",
-          "hidden": true
-        },
-        {
-          "id": "day06-ayi-03",
-          "body": "我們是不是也可以早點走？",
-          "senderId": "ayi",
-          "time": "2026-11-08 20:26",
-          "hidden": true
-        },
-        {
-          "id": "day06-ayi-04",
-          "body": "你想走嗎，還是你怕我累？",
-          "senderId": "owner",
-          "time": "2026-11-08 21:10",
-          "hidden": true
-        },
-        {
-          "id": "day06-ayi-05",
-          "body": "我不知道我們到底在修補什麼。",
-          "senderId": "ayi",
-          "time": "2026-11-08 21:18",
-          "hidden": true
-        },
-        {
-          "id": "day06-ayi-06",
-          "body": "那就先不要替彼此決定。",
-          "senderId": "owner",
-          "time": "2026-11-08 21:26",
-          "hidden": true
-        },
-        {
-          "id": "day07-ayi-01",
-          "body": "新來的兩個人好會說話喔。",
-          "senderId": "ayi",
-          "time": "2026-11-09 20:10",
-          "hidden": true
-        },
-        {
-          "id": "day07-ayi-02",
-          "body": "至少他們不會把話講到一半就收回去。",
-          "senderId": "owner",
-          "time": "2026-11-09 20:18",
-          "hidden": true
-        },
-        {
-          "id": "day07-ayi-03",
-          "body": "怪獸哥是在暗示誰？",
-          "senderId": "ayi",
-          "time": "2026-11-09 20:26",
-          "hidden": true
-        },
-        {
-          "id": "day07-ayi-04",
-          "body": "我在說我自己。",
-          "senderId": "owner",
-          "time": "2026-11-09 21:10",
-          "hidden": true
-        },
-        {
-          "id": "day07-ayi-05",
-          "body": "……喔。",
-          "senderId": "ayi",
-          "time": "2026-11-09 21:18",
-          "hidden": true
-        },
-        {
-          "id": "day07-ayi-06",
-          "body": "你那張匿名卡，如果你願意，我想讀。",
-          "senderId": "owner",
-          "time": "2026-11-09 21:26",
-          "hidden": true
-        },
-        {
-          "id": "day08-ayi-01",
-          "body": "你信寫好了嗎？",
-          "senderId": "ayi",
-          "time": "2026-11-10 20:10",
-          "hidden": true
-        },
-        {
-          "id": "day08-ayi-02",
-          "body": "快了。你呢？",
-          "senderId": "owner",
-          "time": "2026-11-10 20:18",
-          "hidden": true
-        },
-        {
-          "id": "day08-ayi-03",
-          "body": "寫不下去。",
-          "senderId": "ayi",
-          "time": "2026-11-10 20:26",
-          "hidden": true
-        },
-        {
-          "id": "day08-ayi-04",
-          "body": "是因為字太多？",
-          "senderId": "owner",
-          "time": "2026-11-10 21:10",
-          "hidden": true
-        },
-        {
-          "id": "day08-ayi-05",
-          "body": "因為不知道怎麼跟那時候的自己解釋。",
-          "senderId": "ayi",
-          "time": "2026-11-10 21:18",
-          "hidden": true
-        },
-        {
-          "id": "day08-ayi-06",
-          "body": "那先不要解釋，你只要告訴他你有認真愛過。",
-          "senderId": "owner",
-          "time": "2026-11-10 21:26",
-          "hidden": true
-        },
-        {
-          "id": "day09-ayi-01",
-          "body": "我可以問你一個問題嗎？",
-          "senderId": "ayi",
-          "time": "2026-11-11 20:10",
-          "hidden": true
-        },
-        {
-          "id": "day09-ayi-02",
-          "body": "嗯，你問。",
-          "senderId": "owner",
-          "time": "2026-11-11 20:18",
-          "hidden": true
-        },
-        {
-          "id": "day09-ayi-03",
-          "body": "你是不是一直以為我早就沒事了？",
-          "senderId": "ayi",
-          "time": "2026-11-11 20:26",
-          "hidden": true
-        },
-        {
-          "id": "day09-ayi-04",
-          "body": "我在大家面前看起來都很正常。",
-          "senderId": "owner",
-          "time": "2026-11-11 21:10",
-          "hidden": true
-        },
-        {
-          "id": "day09-ayi-05",
-          "body": "正常不等於不難過。",
-          "senderId": "ayi",
-          "time": "2026-11-11 21:18",
-          "hidden": true
-        },
-        {
-          "id": "day09-ayi-06",
-          "body": "對不起，我不應該靠猜的。",
-          "senderId": "owner",
-          "time": "2026-11-11 21:26",
-          "hidden": true
-        },
-        {
-          "id": "day10-ayi-01",
-          "body": "今天那個題目，你會不會不舒服？",
-          "senderId": "ayi",
-          "time": "2026-11-12 20:10",
-          "hidden": true
-        },
-        {
-          "id": "day10-ayi-02",
-          "body": "不會，我們總得面對。",
-          "senderId": "owner",
-          "time": "2026-11-12 20:18",
-          "hidden": true
-        },
-        {
-          "id": "day10-ayi-03",
-          "body": "你如果不想講，我可以跟小周說。",
-          "senderId": "ayi",
-          "time": "2026-11-12 20:26",
-          "hidden": true
-        },
-        {
-          "id": "day10-ayi-04",
-          "body": "阿翊，我不想再讓你替我擋掉所有話。",
-          "senderId": "owner",
-          "time": "2026-11-12 21:10",
-          "hidden": true
-        },
-        {
-          "id": "day10-ayi-05",
-          "body": "我只是怕你難過。",
-          "senderId": "ayi",
-          "time": "2026-11-12 21:18",
-          "hidden": true
-        },
-        {
-          "id": "day10-ayi-06",
-          "body": "我那時候確實難過。現在可以說了。",
-          "senderId": "owner",
-          "time": "2026-11-12 21:26",
-          "hidden": true
-        },
-        {
-          "id": "day11-ayi-01",
-          "body": "你那時候跟我說恭喜。",
-          "senderId": "ayi",
-          "time": "2026-11-13 20:10",
-          "hidden": true
-        },
-        {
-          "id": "day11-ayi-02",
-          "body": "我是真心的。",
-          "senderId": "owner",
-          "time": "2026-11-13 20:18",
-          "hidden": true
-        },
-        {
-          "id": "day11-ayi-03",
-          "body": "我以為你已經不需要我了。",
-          "senderId": "ayi",
-          "time": "2026-11-13 20:26",
-          "hidden": true
-        },
-        {
-          "id": "day11-ayi-04",
-          "body": "你怎麼會那樣想？",
-          "senderId": "owner",
-          "time": "2026-11-13 21:10",
-          "hidden": true
-        },
-        {
-          "id": "day11-ayi-05",
-          "body": "因為你從沒問能不能別走。",
-          "senderId": "ayi",
-          "time": "2026-11-13 21:18",
-          "hidden": true
-        },
-        {
-          "id": "day11-ayi-06",
-          "body": "我不想讓你為難，可是我也很難過。",
-          "senderId": "owner",
-          "time": "2026-11-13 21:26",
-          "hidden": true
-        },
-        {
-          "id": "day12-ayi-01",
-          "body": "對不起，阿信。",
-          "senderId": "ayi",
-          "time": "2026-11-14 20:10",
-          "hidden": true
-        },
-        {
-          "id": "day12-ayi-02",
-          "body": "你是為了什麼道歉？",
-          "senderId": "owner",
-          "time": "2026-11-14 20:18",
-          "hidden": true
-        },
-        {
-          "id": "day12-ayi-03",
-          "body": "因為我只問你吃了沒，沒有問你過得好不好。",
-          "senderId": "ayi",
-          "time": "2026-11-14 20:26",
-          "hidden": true
-        },
-        {
-          "id": "day12-ayi-04",
-          "body": "我也有錯，我一直拿笑話帶過。",
-          "senderId": "owner",
-          "time": "2026-11-14 21:10",
-          "hidden": true
-        },
-        {
-          "id": "day12-ayi-05",
-          "body": "我們今天先不要急著說沒關係。",
-          "senderId": "ayi",
-          "time": "2026-11-14 21:18",
-          "hidden": true
-        },
-        {
-          "id": "day12-ayi-06",
-          "body": "好。我們先把話聽完。",
-          "senderId": "owner",
-          "time": "2026-11-14 21:26",
-          "hidden": true
-        },
-        {
-          "id": "day13-ayi-01",
-          "body": "我寫了兩句字，還沒有曲。",
-          "senderId": "ayi",
-          "time": "2026-11-15 20:10",
-          "hidden": true
-        },
-        {
-          "id": "day13-ayi-02",
-          "body": "可以給我看嗎？",
-          "senderId": "owner",
-          "time": "2026-11-15 20:18",
-          "hidden": true
-        },
-        {
-          "id": "day13-ayi-03",
-          "body": "有些人不能再用從前的方式迎接。",
-          "senderId": "ayi",
-          "time": "2026-11-15 20:26",
-          "hidden": true
-        },
-        {
-          "id": "day13-ayi-04",
-          "body": "……我聽懂了。",
-          "senderId": "owner",
-          "time": "2026-11-15 21:10",
-          "hidden": true
-        },
-        {
-          "id": "day13-ayi-05",
-          "body": "你能不能彈一小段給我？",
-          "senderId": "ayi",
-          "time": "2026-11-15 21:18",
-          "hidden": true
-        },
-        {
-          "id": "day13-ayi-06",
-          "body": "好。不是演出用的，就留在這裡。",
-          "senderId": "owner",
-          "time": "2026-11-15 21:26",
-          "hidden": true
-        },
-        {
-          "id": "day14-ayi-01",
-          "body": "我那封信，你現在想看嗎？",
-          "senderId": "ayi",
-          "time": "2026-11-16 20:10",
-          "hidden": true
-        },
-        {
-          "id": "day14-ayi-02",
-          "body": "你真的準備好了？",
-          "senderId": "owner",
-          "time": "2026-11-16 20:18",
-          "hidden": true
-        },
-        {
-          "id": "day14-ayi-03",
-          "body": "嗯，裡面沒有要你等我。",
-          "senderId": "ayi",
-          "time": "2026-11-16 20:26",
-          "hidden": true
-        },
-        {
-          "id": "day14-ayi-04",
-          "body": "我也不打算要你改變現在的生活。",
-          "senderId": "owner",
-          "time": "2026-11-16 21:10",
-          "hidden": true
-        },
-        {
-          "id": "day14-ayi-05",
-          "body": "我知道，所以才想給你。",
-          "senderId": "ayi",
-          "time": "2026-11-16 21:18",
-          "hidden": true
-        },
-        {
-          "id": "day14-ayi-06",
-          "body": "謝謝你願意讓我看。",
-          "senderId": "owner",
-          "time": "2026-11-16 21:26",
-          "hidden": true
-        },
-        {
-          "id": "day15-ayi-01",
-          "body": "如果以後不舒服，我就說。",
-          "senderId": "ayi",
-          "time": "2026-11-17 20:10",
-          "hidden": true
-        },
-        {
-          "id": "day15-ayi-02",
-          "body": "我也是。",
-          "senderId": "owner",
-          "time": "2026-11-17 20:18",
-          "hidden": true
-        },
-        {
-          "id": "day15-ayi-03",
-          "body": "你現在的責任不是我的考題。",
-          "senderId": "ayi",
-          "time": "2026-11-17 20:26",
-          "hidden": true
-        },
-        {
-          "id": "day15-ayi-04",
-          "body": "我知道，我會自己負責。",
-          "senderId": "owner",
-          "time": "2026-11-17 21:10",
-          "hidden": true
-        },
-        {
-          "id": "day15-ayi-05",
-          "body": "我們也不要用做不到的承諾換安心。",
-          "senderId": "ayi",
-          "time": "2026-11-17 21:18",
-          "hidden": true
-        },
-        {
-          "id": "day15-ayi-06",
-          "body": "好，只答應做得到的事。",
-          "senderId": "owner",
-          "time": "2026-11-17 21:26",
-          "hidden": true
-        },
-        {
-          "id": "day16-ayi-01",
-          "body": "我們可以現在下車。",
-          "senderId": "ayi",
-          "time": "2026-11-18 20:10",
-          "hidden": true
-        },
-        {
-          "id": "day16-ayi-02",
-          "body": "你想走嗎，還是怕我累？",
-          "senderId": "owner",
-          "time": "2026-11-18 20:18",
-          "hidden": true
-        },
-        {
-          "id": "day16-ayi-03",
-          "body": "都有。",
-          "senderId": "ayi",
-          "time": "2026-11-18 20:26",
-          "hidden": true
-        },
-        {
-          "id": "day16-ayi-04",
-          "body": "那你先不要替我回答。",
-          "senderId": "owner",
-          "time": "2026-11-18 21:10",
-          "hidden": true
-        },
-        {
-          "id": "day16-ayi-05",
-          "body": "好，你自己想，我也自己想。",
-          "senderId": "ayi",
-          "time": "2026-11-18 21:18",
-          "hidden": true
-        },
-        {
-          "id": "day16-ayi-06",
-          "body": "不管選哪張，這次我們都自己簽名。",
-          "senderId": "owner",
-          "time": "2026-11-18 21:26",
-          "hidden": true
-        },
-        {
-          "id": "day17-ayi-01",
-          "body": "想喝熱的還是常溫？",
-          "senderId": "ayi",
-          "time": "2026-11-19 20:10",
-          "hidden": true
-        },
-        {
-          "id": "day17-ayi-02",
-          "body": "常溫。你居然會先問喔。",
-          "senderId": "owner",
-          "time": "2026-11-19 20:18",
-          "hidden": true
-        },
-        {
-          "id": "day17-ayi-03",
-          "body": "在練習啦。",
-          "senderId": "ayi",
-          "time": "2026-11-19 20:26",
-          "hidden": true
-        },
-        {
-          "id": "day17-ayi-04",
-          "body": "那我也問你，今天心情好嗎？",
-          "senderId": "owner",
-          "time": "2026-11-19 21:10",
-          "hidden": true
-        },
-        {
-          "id": "day17-ayi-05",
-          "body": "還好，只有一點捨不得。",
-          "senderId": "ayi",
-          "time": "2026-11-19 21:18",
-          "hidden": true
-        },
-        {
-          "id": "day17-ayi-06",
-          "body": "我也是。但我不覺得這是壞事。",
-          "senderId": "owner",
-          "time": "2026-11-19 21:26",
-          "hidden": true
-        },
-        {
-          "id": "day18-ayi-01",
-          "body": "到站了。",
-          "senderId": "ayi",
-          "time": "2026-11-20 20:10",
-          "hidden": true
-        },
-        {
-          "id": "day18-ayi-02",
-          "body": "真的，十八天這麼快。",
-          "senderId": "owner",
-          "time": "2026-11-20 20:18",
-          "hidden": true
-        },
-        {
-          "id": "day18-ayi-03",
-          "body": "你有覺得比較好一點嗎？",
-          "senderId": "ayi",
-          "time": "2026-11-20 20:26",
-          "hidden": true
-        },
-        {
-          "id": "day18-ayi-04",
-          "body": "有，終於不用假裝沒發生。",
-          "senderId": "owner",
-          "time": "2026-11-20 21:10",
-          "hidden": true
-        },
-        {
-          "id": "day18-ayi-05",
-          "body": "我也是。",
-          "senderId": "ayi",
-          "time": "2026-11-20 21:18",
-          "hidden": true
-        },
-        {
-          "id": "day18-ayi-06",
-          "body": "那以後我們各自好好生活，也好好說話。",
-          "senderId": "owner",
-          "time": "2026-11-20 21:26",
-          "hidden": true
+          "time": "2026-11-02 22:07",
+          "meta": {
+            "kktReplyPhase": "1",
+            "kktReplyAt": "2026-11-02 22:09"
+          }
         }
       ]
     },
@@ -2231,7 +1492,7 @@
       {
         "id": "note-world",
         "title": "故事說明｜平行世界",
-        "body": "這是一部架空的互動手機小說，包含虛構的戀愛、婚姻與節目旅程，並非真實人物的聊天紀錄或私人生活。\n\n第一章可探索節目邀請函、KakaoTalk、微信、備忘錄與照片記錄。完成第一章的選擇後，後續 17 天劇情將逐步加入。",
+        "body": "這是架空的互動手機小說，不是真實人物的聊天、婚姻或私生活。\n\n十八天旅行、四個結局均可探索。阿翊與阿信的 KakaoTalk 目前只保留出發前夜的指定對話；玩家需要自行傳送兩次訊息，才會完整看到這段聊天。",
         "time": "2026-11-02 09:00",
         "folder": "說明"
       },
@@ -2731,7 +1992,7 @@
       {
         "id": "task-d01",
         "title": "DAY 01｜任務卡：重新見面",
-        "body": "《後會友期》虛構節目任務\n日期：2026-11-03\n\n四組舊友上車。用不提工作與頭銜的方式，為彼此寫介紹信。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 01 的錄製日記，才會開啟下一天。",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-03\n\n四組舊友上車。用不提工作與頭銜的方式，為彼此寫介紹信。\n\n操作：閱讀這張任務卡，微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 01 的錄製日記，才會開啟下一天。",
         "folder": "18天任務",
         "time": "2026-11-03 07:30",
         "hidden": true
@@ -2739,7 +2000,7 @@
       {
         "id": "task-d02",
         "title": "DAY 02｜任務卡：比陌生人還熟悉",
-        "body": "《後會友期》虛構節目任務\n日期：2026-11-04\n\n交換一日生活表；替彼此安排一小時不談工作、不看手機的時間。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 02 的錄製日記，才會開啟下一天。",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-04\n\n交換一日生活表；替彼此安排一小時不談工作、不看手機的時間。\n\n操作：閱讀這張任務卡，微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 02 的錄製日記，才會開啟下一天。",
         "folder": "18天任務",
         "time": "2026-11-04 07:30",
         "hidden": true
@@ -2747,7 +2008,7 @@
       {
         "id": "task-d03",
         "title": "DAY 03｜任務卡：不能說的習慣",
-        "body": "《後會友期》虛構節目任務\n日期：2026-11-05\n\n各說一個對方延續至今的習慣，再說一個不再確定的習慣。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 03 的錄製日記，才會開啟下一天。",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-05\n\n各說一個對方延續至今的習慣，再說一個不再確定的習慣。\n\n操作：閱讀這張任務卡，微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 03 的錄製日記，才會開啟下一天。",
         "folder": "18天任務",
         "time": "2026-11-05 07:30",
         "hidden": true
@@ -2755,7 +2016,7 @@
       {
         "id": "task-d04",
         "title": "DAY 04｜任務卡：你現在最怕什麼",
-        "body": "《後會友期》虛構節目任務\n日期：2026-11-06\n\n默契問答十題，最後一題不設標準答案：你知道他現在最害怕什麼嗎？\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 04 的錄製日記，才會開啟下一天。",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-06\n\n默契問答十題，最後一題不設標準答案：你知道他現在最害怕什麼嗎？\n\n操作：閱讀這張任務卡，微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 04 的錄製日記，才會開啟下一天。",
         "folder": "18天任務",
         "time": "2026-11-06 07:30",
         "hidden": true
@@ -2763,7 +2024,7 @@
       {
         "id": "task-d05",
         "title": "DAY 05｜任務卡：放學一起走",
-        "body": "《後會友期》虛構節目任務\n日期：2026-11-07\n\n兩人各帶一件與對方有關的舊物，只講一個故事，不必交代結局。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 05 的錄製日記，才會開啟下一天。",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-07\n\n兩人各帶一件與對方有關的舊物，只講一個故事，不必交代結局。\n\n操作：閱讀這張任務卡，微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 05 的錄製日記，才會開啟下一天。",
         "folder": "18天任務",
         "time": "2026-11-07 07:30",
         "hidden": true
@@ -2771,7 +2032,7 @@
       {
         "id": "task-d06",
         "title": "DAY 06｜任務卡：第一組提前下車",
-        "body": "《後會友期》虛構節目任務\n日期：2026-11-08\n\n陸景與楊楠達成共識，提前下車；剩下的人寫下對『和解』的理解。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 06 的錄製日記，才會開啟下一天。",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-08\n\n陸景與楊楠達成共識，提前下車；剩下的人寫下對『和解』的理解。\n\n操作：閱讀這張任務卡，微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 06 的錄製日記，才會開啟下一天。",
         "folder": "18天任務",
         "time": "2026-11-08 07:30",
         "hidden": true
@@ -2779,7 +2040,7 @@
       {
         "id": "task-d07",
         "title": "DAY 07｜任務卡：新旅伴上車",
-        "body": "《後會友期》虛構節目任務\n日期：2026-11-09\n\n夏禾與程遠補位；匿名寫下最怕被對方誤解的一件事。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 07 的錄製日記，才會開啟下一天。",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-09\n\n夏禾與程遠補位；匿名寫下最怕被對方誤解的一件事。\n\n操作：閱讀這張任務卡，微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 07 的錄製日記，才會開啟下一天。",
         "folder": "18天任務",
         "time": "2026-11-09 07:30",
         "hidden": true
@@ -2787,7 +2048,7 @@
       {
         "id": "task-d08",
         "title": "DAY 08｜任務卡：寫給高中的我們",
-        "body": "《後會友期》虛構節目任務\n日期：2026-11-10\n\n寫給剛認識對方時的自己一封信，不許寫『如果早知道』。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 08 的錄製日記，才會開啟下一天。",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-10\n\n寫給剛認識對方時的自己一封信，不許寫『如果早知道』。\n\n操作：閱讀這張任務卡，微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 08 的錄製日記，才會開啟下一天。",
         "folder": "18天任務",
         "time": "2026-11-10 07:30",
         "hidden": true
@@ -2795,7 +2056,7 @@
       {
         "id": "task-d09",
         "title": "DAY 09｜任務卡：沒問出口的問題",
-        "body": "《後會友期》虛構節目任務\n日期：2026-11-11\n\n只問一個埋藏多年的問題；對方可以回答『我還沒準備好』。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 09 的錄製日記，才會開啟下一天。",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-11\n\n只問一個埋藏多年的問題；對方可以回答『我還沒準備好』。\n\n操作：閱讀這張任務卡，微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 09 的錄製日記，才會開啟下一天。",
         "folder": "18天任務",
         "time": "2026-11-11 07:30",
         "hidden": true
@@ -2803,7 +2064,7 @@
       {
         "id": "task-d10",
         "title": "DAY 10｜任務卡：喜帖背面的字",
-        "body": "《後會友期》虛構節目任務\n日期：2026-11-12\n\n回顧一個改變關係的人生決定，不公開家人的私事，也不要求誰背負歉意。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 10 的錄製日記，才會開啟下一天。",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-12\n\n回顧一個改變關係的人生決定，不公開家人的私事，也不要求誰背負歉意。\n\n操作：閱讀這張任務卡，微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 10 的錄製日記，才會開啟下一天。",
         "folder": "18天任務",
         "time": "2026-11-12 07:30",
         "hidden": true
@@ -2811,7 +2072,7 @@
       {
         "id": "task-d11",
         "title": "DAY 11｜任務卡：同一天的兩個版本",
-        "body": "《後會友期》虛構節目任務\n日期：2026-11-13\n\n各自寫下當年那一天的記憶，不急著替對方更正。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 11 的錄製日記，才會開啟下一天。",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-13\n\n各自寫下當年那一天的記憶，不急著替對方更正。\n\n操作：閱讀這張任務卡，微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 11 的錄製日記，才會開啟下一天。",
         "folder": "18天任務",
         "time": "2026-11-13 07:30",
         "hidden": true
@@ -2819,7 +2080,7 @@
       {
         "id": "task-d12",
         "title": "DAY 12｜任務卡：歉意不等於答案",
-        "body": "《後會友期》虛構節目任務\n日期：2026-11-14\n\n各說一件需要道歉的事，再各說一件道歉也無法恢復的事。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 12 的錄製日記，才會開啟下一天。",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-14\n\n各說一件需要道歉的事，再各說一件道歉也無法恢復的事。\n\n操作：閱讀這張任務卡，微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 12 的錄製日記，才會開啟下一天。",
         "folder": "18天任務",
         "time": "2026-11-14 07:30",
         "hidden": true
@@ -2827,7 +2088,7 @@
       {
         "id": "task-d13",
         "title": "DAY 13｜任務卡：只有我們聽懂的旋律",
-        "body": "《後會友期》虛構節目任務\n日期：2026-11-15\n\n寫一句完全原創的短句，交換一段不作公開演出的聲音紀錄。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 13 的錄製日記，才會開啟下一天。",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-15\n\n寫一句完全原創的短句，交換一段不作公開演出的聲音紀錄。\n\n操作：閱讀這張任務卡，微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 13 的錄製日記，才會開啟下一天。",
         "folder": "18天任務",
         "time": "2026-11-15 07:30",
         "hidden": true
@@ -2835,7 +2096,7 @@
       {
         "id": "task-d14",
         "title": "DAY 14｜任務卡：沒有寫完的那封信",
-        "body": "《後會友期》虛構節目任務\n日期：2026-11-16\n\n把從前沒寄出的信讀給對方聽，允許停頓與拒絕。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 14 的錄製日記，才會開啟下一天。",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-16\n\n把從前沒寄出的信讀給對方聽，允許停頓與拒絕。\n\n操作：閱讀這張任務卡，微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 14 的錄製日記，才會開啟下一天。",
         "folder": "18天任務",
         "time": "2026-11-16 07:30",
         "hidden": true
@@ -2843,7 +2104,7 @@
       {
         "id": "task-d15",
         "title": "DAY 15｜任務卡：界線不是遺忘",
-        "body": "《後會友期》虛構節目任務\n日期：2026-11-17\n\n一起寫下三條可以真正做到、不傷害其他人的相處界線。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 15 的錄製日記，才會開啟下一天。",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-17\n\n一起寫下三條可以真正做到、不傷害其他人的相處界線。\n\n操作：閱讀這張任務卡，微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 15 的錄製日記，才會開啟下一天。",
         "folder": "18天任務",
         "time": "2026-11-17 07:30",
         "hidden": true
@@ -2851,7 +2112,7 @@
       {
         "id": "task-d16",
         "title": "DAY 16｜任務卡：提前下車的申請",
-        "body": "《後會友期》虛構節目任務\n日期：2026-11-18\n\n節目組提供兩張申請：達成共識可提前離開，或繼續走完18天。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 16 的錄製日記，才會開啟下一天。",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-18\n\n節目組提供兩張申請：達成共識可提前離開，或繼續走完18天。\n\n操作：閱讀這張任務卡，微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 16 的錄製日記，才會開啟下一天。",
         "folder": "18天任務",
         "time": "2026-11-18 07:30",
         "hidden": true
@@ -2859,7 +2120,7 @@
       {
         "id": "task-d17",
         "title": "DAY 17｜任務卡：重新學會問候",
-        "body": "《後會友期》虛構節目任務\n日期：2026-11-19\n\n決定留下的人練習直接提問，不再靠過去的默契猜測當下的答案。\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 17 的錄製日記，才會開啟下一天。",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-19\n\n決定留下的人練習直接提問，不再靠過去的默契猜測當下的答案。\n\n操作：閱讀這張任務卡，微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 17 的錄製日記，才會開啟下一天。",
         "folder": "18天任務",
         "time": "2026-11-19 07:30",
         "hidden": true
@@ -2867,7 +2128,7 @@
       {
         "id": "task-d18",
         "title": "DAY 18｜任務卡：後會有期",
-        "body": "《後會友期》虛構節目任務\n日期：2026-11-20\n\n最後回答：希望對方以什麼方式繼續出現在自己的人生裡？\n\n操作：閱讀這張任務卡，KakaoTalk、微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 18 的錄製日記，才會開啟下一天。",
+        "body": "《後會友期》虛構節目任務\n日期：2026-11-20\n\n最後回答：希望對方以什麼方式繼續出現在自己的人生裡？\n\n操作：閱讀這張任務卡，微信、郵件、照片和當日備忘錄將解鎖。然後請去「備忘錄」讀 DAY 18 的錄製日記，才會開啟下一天。",
         "folder": "18天任務",
         "time": "2026-11-20 07:30",
         "hidden": true
@@ -3158,36 +2419,6 @@
         },
         {
           "type": "unlock",
-          "key": "day01-ayi-01",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day01-ayi-02",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day01-ayi-03",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day01-ayi-04",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day01-ayi-05",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day01-ayi-06",
-          "value": true
-        },
-        {
-          "type": "unlock",
           "key": "day01-prod-1",
           "value": true
         },
@@ -3224,7 +2455,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "DAY 01：KKT、微信、郵件、照片、錄製日記已解鎖。"
+          "value": "DAY 01：微信、郵件、照片、錄製日記已解鎖。"
         }
       ]
     },
@@ -3302,36 +2533,6 @@
         },
         {
           "type": "unlock",
-          "key": "day02-ayi-01",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day02-ayi-02",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day02-ayi-03",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day02-ayi-04",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day02-ayi-05",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day02-ayi-06",
-          "value": true
-        },
-        {
-          "type": "unlock",
           "key": "day02-prod-1",
           "value": true
         },
@@ -3368,7 +2569,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "DAY 02：KKT、微信、郵件、照片、錄製日記已解鎖。"
+          "value": "DAY 02：微信、郵件、照片、錄製日記已解鎖。"
         }
       ]
     },
@@ -3446,36 +2647,6 @@
         },
         {
           "type": "unlock",
-          "key": "day03-ayi-01",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day03-ayi-02",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day03-ayi-03",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day03-ayi-04",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day03-ayi-05",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day03-ayi-06",
-          "value": true
-        },
-        {
-          "type": "unlock",
           "key": "day03-prod-1",
           "value": true
         },
@@ -3512,7 +2683,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "DAY 03：KKT、微信、郵件、照片、錄製日記已解鎖。"
+          "value": "DAY 03：微信、郵件、照片、錄製日記已解鎖。"
         }
       ]
     },
@@ -3590,36 +2761,6 @@
         },
         {
           "type": "unlock",
-          "key": "day04-ayi-01",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day04-ayi-02",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day04-ayi-03",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day04-ayi-04",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day04-ayi-05",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day04-ayi-06",
-          "value": true
-        },
-        {
-          "type": "unlock",
           "key": "day04-prod-1",
           "value": true
         },
@@ -3661,7 +2802,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "DAY 04：KKT、微信、郵件、照片、錄製日記已解鎖。"
+          "value": "DAY 04：微信、郵件、照片、錄製日記已解鎖。"
         }
       ]
     },
@@ -3739,36 +2880,6 @@
         },
         {
           "type": "unlock",
-          "key": "day05-ayi-01",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day05-ayi-02",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day05-ayi-03",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day05-ayi-04",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day05-ayi-05",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day05-ayi-06",
-          "value": true
-        },
-        {
-          "type": "unlock",
           "key": "day05-prod-1",
           "value": true
         },
@@ -3805,7 +2916,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "DAY 05：KKT、微信、郵件、照片、錄製日記已解鎖。"
+          "value": "DAY 05：微信、郵件、照片、錄製日記已解鎖。"
         }
       ]
     },
@@ -3888,36 +2999,6 @@
         },
         {
           "type": "unlock",
-          "key": "day06-ayi-01",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day06-ayi-02",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day06-ayi-03",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day06-ayi-04",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day06-ayi-05",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day06-ayi-06",
-          "value": true
-        },
-        {
-          "type": "unlock",
           "key": "day06-prod-1",
           "value": true
         },
@@ -3954,7 +3035,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "DAY 06：KKT、微信、郵件、照片、錄製日記已解鎖。"
+          "value": "DAY 06：微信、郵件、照片、錄製日記已解鎖。"
         }
       ]
     },
@@ -4032,36 +3113,6 @@
         },
         {
           "type": "unlock",
-          "key": "day07-ayi-01",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day07-ayi-02",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day07-ayi-03",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day07-ayi-04",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day07-ayi-05",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day07-ayi-06",
-          "value": true
-        },
-        {
-          "type": "unlock",
           "key": "day07-prod-1",
           "value": true
         },
@@ -4098,7 +3149,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "DAY 07：KKT、微信、郵件、照片、錄製日記已解鎖。"
+          "value": "DAY 07：微信、郵件、照片、錄製日記已解鎖。"
         }
       ]
     },
@@ -4176,36 +3227,6 @@
         },
         {
           "type": "unlock",
-          "key": "day08-ayi-01",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day08-ayi-02",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day08-ayi-03",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day08-ayi-04",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day08-ayi-05",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day08-ayi-06",
-          "value": true
-        },
-        {
-          "type": "unlock",
           "key": "day08-prod-1",
           "value": true
         },
@@ -4247,7 +3268,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "DAY 08：KKT、微信、郵件、照片、錄製日記已解鎖。"
+          "value": "DAY 08：微信、郵件、照片、錄製日記已解鎖。"
         }
       ]
     },
@@ -4325,36 +3346,6 @@
         },
         {
           "type": "unlock",
-          "key": "day09-ayi-01",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day09-ayi-02",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day09-ayi-03",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day09-ayi-04",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day09-ayi-05",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day09-ayi-06",
-          "value": true
-        },
-        {
-          "type": "unlock",
           "key": "day09-prod-1",
           "value": true
         },
@@ -4391,7 +3382,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "DAY 09：KKT、微信、郵件、照片、錄製日記已解鎖。"
+          "value": "DAY 09：微信、郵件、照片、錄製日記已解鎖。"
         }
       ]
     },
@@ -4469,36 +3460,6 @@
         },
         {
           "type": "unlock",
-          "key": "day10-ayi-01",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day10-ayi-02",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day10-ayi-03",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day10-ayi-04",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day10-ayi-05",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day10-ayi-06",
-          "value": true
-        },
-        {
-          "type": "unlock",
           "key": "day10-prod-1",
           "value": true
         },
@@ -4535,7 +3496,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "DAY 10：KKT、微信、郵件、照片、錄製日記已解鎖。"
+          "value": "DAY 10：微信、郵件、照片、錄製日記已解鎖。"
         }
       ]
     },
@@ -4613,36 +3574,6 @@
         },
         {
           "type": "unlock",
-          "key": "day11-ayi-01",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day11-ayi-02",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day11-ayi-03",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day11-ayi-04",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day11-ayi-05",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day11-ayi-06",
-          "value": true
-        },
-        {
-          "type": "unlock",
           "key": "day11-prod-1",
           "value": true
         },
@@ -4684,7 +3615,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "DAY 11：KKT、微信、郵件、照片、錄製日記已解鎖。"
+          "value": "DAY 11：微信、郵件、照片、錄製日記已解鎖。"
         }
       ]
     },
@@ -4767,36 +3698,6 @@
         },
         {
           "type": "unlock",
-          "key": "day12-ayi-01",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day12-ayi-02",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day12-ayi-03",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day12-ayi-04",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day12-ayi-05",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day12-ayi-06",
-          "value": true
-        },
-        {
-          "type": "unlock",
           "key": "day12-prod-1",
           "value": true
         },
@@ -4833,7 +3734,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "DAY 12：KKT、微信、郵件、照片、錄製日記已解鎖。"
+          "value": "DAY 12：微信、郵件、照片、錄製日記已解鎖。"
         }
       ]
     },
@@ -4911,36 +3812,6 @@
         },
         {
           "type": "unlock",
-          "key": "day13-ayi-01",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day13-ayi-02",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day13-ayi-03",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day13-ayi-04",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day13-ayi-05",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day13-ayi-06",
-          "value": true
-        },
-        {
-          "type": "unlock",
           "key": "day13-prod-1",
           "value": true
         },
@@ -4977,7 +3848,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "DAY 13：KKT、微信、郵件、照片、錄製日記已解鎖。"
+          "value": "DAY 13：微信、郵件、照片、錄製日記已解鎖。"
         }
       ]
     },
@@ -5055,36 +3926,6 @@
         },
         {
           "type": "unlock",
-          "key": "day14-ayi-01",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day14-ayi-02",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day14-ayi-03",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day14-ayi-04",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day14-ayi-05",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day14-ayi-06",
-          "value": true
-        },
-        {
-          "type": "unlock",
           "key": "day14-prod-1",
           "value": true
         },
@@ -5126,7 +3967,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "DAY 14：KKT、微信、郵件、照片、錄製日記已解鎖。"
+          "value": "DAY 14：微信、郵件、照片、錄製日記已解鎖。"
         }
       ]
     },
@@ -5204,36 +4045,6 @@
         },
         {
           "type": "unlock",
-          "key": "day15-ayi-01",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day15-ayi-02",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day15-ayi-03",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day15-ayi-04",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day15-ayi-05",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day15-ayi-06",
-          "value": true
-        },
-        {
-          "type": "unlock",
           "key": "day15-prod-1",
           "value": true
         },
@@ -5270,7 +4081,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "DAY 15：KKT、微信、郵件、照片、錄製日記已解鎖。"
+          "value": "DAY 15：微信、郵件、照片、錄製日記已解鎖。"
         }
       ]
     },
@@ -5353,36 +4164,6 @@
         },
         {
           "type": "unlock",
-          "key": "day16-ayi-01",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day16-ayi-02",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day16-ayi-03",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day16-ayi-04",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day16-ayi-05",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day16-ayi-06",
-          "value": true
-        },
-        {
-          "type": "unlock",
           "key": "day16-prod-1",
           "value": true
         },
@@ -5419,7 +4200,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "DAY 16：KKT、微信、郵件、照片、錄製日記已解鎖。"
+          "value": "DAY 16：微信、郵件、照片、錄製日記已解鎖。"
         }
       ]
     },
@@ -5489,36 +4270,6 @@
         },
         {
           "type": "unlock",
-          "key": "day17-ayi-01",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day17-ayi-02",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day17-ayi-03",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day17-ayi-04",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day17-ayi-05",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day17-ayi-06",
-          "value": true
-        },
-        {
-          "type": "unlock",
           "key": "day17-prod-1",
           "value": true
         },
@@ -5555,7 +4306,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "DAY 17：KKT、微信、郵件、照片、錄製日記已解鎖。"
+          "value": "DAY 17：微信、郵件、照片、錄製日記已解鎖。"
         }
       ]
     },
@@ -5633,36 +4384,6 @@
         },
         {
           "type": "unlock",
-          "key": "day18-ayi-01",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day18-ayi-02",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day18-ayi-03",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day18-ayi-04",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day18-ayi-05",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "day18-ayi-06",
-          "value": true
-        },
-        {
-          "type": "unlock",
           "key": "day18-prod-1",
           "value": true
         },
@@ -5704,7 +4425,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "DAY 18：KKT、微信、郵件、照片、錄製日記已解鎖。"
+          "value": "DAY 18：微信、郵件、照片、錄製日記已解鎖。"
         }
       ]
     },

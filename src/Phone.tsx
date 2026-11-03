@@ -163,6 +163,29 @@ function PhoneRuntime({
   const [panel, setPanel] = useState("");
   const [own, setOwn] = useState(() => initialRuntime(work));
   const [ready, setReady] = useState(creator || !!external);
+  // Physical iPhone clock is independent of the narrative's virtual event time.
+  const [systemNow, setSystemNow] = useState(() => new Date());
+  useEffect(() => {
+    if (creator) return;
+    const syncNow = () => {
+      const now = new Date();
+      setSystemNow(previous =>
+        previous.getFullYear() === now.getFullYear() &&
+        previous.getMonth() === now.getMonth() &&
+        previous.getDate() === now.getDate() &&
+        previous.getHours() === now.getHours() &&
+        previous.getMinutes() === now.getMinutes() ? previous : now
+      );
+    };
+    const id = window.setInterval(syncNow, 1000);
+    window.addEventListener("focus", syncNow);
+    document.addEventListener("visibilitychange", syncNow);
+    return () => {
+      window.clearInterval(id);
+      window.removeEventListener("focus", syncNow);
+      document.removeEventListener("visibilitychange", syncNow);
+    };
+  }, [creator]);
   const [loadError, setLoadError] = useState("");
   useEffect(() => {
     const el = shell.current;
@@ -290,7 +313,14 @@ function PhoneRuntime({
   useEffect(() => {
     if (app && !work.apps.some((a) => a.id === app && a.installed)) setApp("");
   }, [app, work.apps]);
-  const displayTime = creator ? work.phone.time : s.time || work.phone.time;
+  const systemDate = [
+    systemNow.getFullYear(),
+    String(systemNow.getMonth() + 1).padStart(2, "0"),
+    String(systemNow.getDate()).padStart(2, "0"),
+  ].join("-");
+  const displayTime = creator ? work.phone.time :
+    String(systemNow.getHours()).padStart(2, "0") + ":" +
+    String(systemNow.getMinutes()).padStart(2, "0");
   const plugin = getApp(app);
   useEffect(() => {
     const count = s.notifications.length;
@@ -417,9 +447,11 @@ function PhoneRuntime({
             {locked && !(quickCamera && app === "camera") ? (
               <DeviceLock
                 work={
-                  s.date
-                    ? { ...work, phone: { ...work.phone, date: s.date } }
-                    : work
+                  creator
+                    ? s.date
+                      ? { ...work, phone: { ...work.phone, date: s.date } }
+                      : work
+                    : { ...work, phone: { ...work.phone, date: systemDate } }
                 }
                 time={displayTime}
                 notices={s.notifications}
@@ -500,8 +532,8 @@ function PhoneRuntime({
                     name={small ? undefined : a.name}
                     small={small}
                     custom={a.icon}
-                    date={s.date || work.phone.date}
-                    time={s.time}
+                    date={creator ? s.date || work.phone.date : systemDate}
+                    time={displayTime}
                   />
                 )}
                 clearApp={(id) =>

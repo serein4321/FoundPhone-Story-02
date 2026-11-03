@@ -28,7 +28,10 @@ import {
 import type { SkinProps } from "../../AppSkins";
 import { Avatar, Media } from "../../skins/shared";
 import { useSkinState } from "../../skinState";
-import { makeItem, type Item } from "../../schema";
+import type { Item } from "../../schema";
+import {
+  isStagedKkt, kktReplyCount, storyReplyTime, threadKktMessages, visibleKktMessages,
+} from "../../storyChat";
 import "./ui.css";
 import "./adapter.css";
 function grouped(items: Item[]) {
@@ -67,35 +70,10 @@ export function MymyKakao(p: SkinProps) {
     [draft, setDraft] = useState(""),
     [query, setQuery] = useState(""),
     [menu, setMenu] = useState(false);
-  const list = grouped(p.items),
-    messages = [
-      ...p.items.filter((i) => i.title === p.thread),
-      ...sent.flatMap((raw, index) => {
-        try {
-          const entry: unknown = JSON.parse(raw);
-          if (
-            !Array.isArray(entry) ||
-            entry.length !== 3 ||
-            !entry.every((v) => typeof v === "string") ||
-            entry[0] !== p.thread
-          )
-            return [];
-          return [
-            makeItem({
-              id: "local-kkt-" + index,
-              title: entry[0],
-              body: entry[1],
-              time: entry[2],
-              sender: p.owner || "机主",
-              outgoing: true,
-              meta: { local: "true" },
-            }),
-          ];
-        } catch {
-          return [];
-        }
-      }),
-    ],
+  const staged = isStagedKkt(p.items, p.thread);
+  const completed = staged && kktReplyCount(sent, p.thread) >= 2;
+  const list = grouped(visibleKktMessages(p.items, sent)),
+    messages = threadKktMessages(p.items, sent, p.thread, p.owner || "機主"),
     scroll = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const node = scroll.current;
@@ -159,13 +137,13 @@ export function MymyKakao(p: SkinProps) {
             className="kzinp"
             onSubmit={(e) => {
               e.preventDefault();
-              if (draft.trim()) {
+              if (draft.trim() && !completed) {
                 setSent([
                   ...sent,
                   JSON.stringify([
                     p.thread,
                     draft.trim(),
-                    p.virtualTime || "09:41",
+                    storyReplyTime(p.items, sent, p.thread, p.virtualTime || "09:41"),
                   ]),
                 ]);
                 setDraft("");
@@ -181,8 +159,9 @@ export function MymyKakao(p: SkinProps) {
             </button>
             <input
               aria-label="KKT消息"
-              placeholder="输入消息"
+              placeholder={completed ? "今天的對話已結束" : "輸入訊息"}
               value={draft}
+              disabled={completed}
               maxLength={2000}
               onChange={(e) => setDraft(e.target.value)}
             />
@@ -190,7 +169,7 @@ export function MymyKakao(p: SkinProps) {
             <button
               className={draft.trim() ? "go" : ""}
               aria-label="发送KKT消息"
-              disabled={!draft.trim()}
+              disabled={!draft.trim() || completed}
             >
               ↑
             </button>
@@ -262,7 +241,7 @@ export function MymyKakao(p: SkinProps) {
             {list
               .filter((g) => g.title.includes(query.trim()))
               .map((g) => {
-                const last = g.items.at(-1)!;
+                const last = threadKktMessages(p.items, sent, g.title, p.owner || "機主").at(-1) || g.items.at(-1)!;
                 return (
                   <button
                     className="kzkr kzkcr"
