@@ -724,16 +724,15 @@ svg {
     #b5c0aa 100%
   );
 }
-/* Dedicated lock-screen photo for the fictional After We Meet story; keep the home screen unchanged. */
+/* The same user-supplied photograph appears on lock screen and home screen. */
 .wallpaper-story-0531 {
-  background: linear-gradient(155deg, #d7ddbc 0%, #a0b79b 33%, #526f62 66%, #b5c0aa 100%);
-}
-.wallpaper-story-0531.is-locked {
-  background-image: url("./assets/wallpapers/lock-0531.webp");
+  background-color: #63754f;
+  background-image: url("./assets/wallpapers/forest-window.webp");
   background-size: cover;
   background-position: center center;
+  background-repeat: no-repeat;
 }
-.wallpaper-story-0531.is-locked .wallpaper-orb {
+.wallpaper-story-0531 .wallpaper-orb {
   display: none;
 }
 .wallpaper-sand {
