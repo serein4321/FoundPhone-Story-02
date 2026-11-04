@@ -724,10 +724,10 @@ svg {
     #b5c0aa 100%
   );
 }
-/* The same user-supplied photograph appears on lock screen and home screen. */
+/* One user-supplied photograph on both lock screen and home screen. */
 .wallpaper-story-0531 {
   background-color: #63754f;
-  background-image: url("./assets/wallpapers/forest-window.webp");
+  background-image: url("./assets/wallpapers/marina-bay-photo.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
